@@ -1,0 +1,25 @@
+{
+  "name": "workspace",
+  "sources": [],
+  "package-specs": [
+    {
+      "module": "esmodule",
+      "in-source": true
+    }
+  ],
+  "bs-dev-dependencies": [
+  ],
+  "bs-dependencies": [
+    "advent-of-code",
+    "@dsiu/rescript-stdlib-fp",
+    "@dsiu/rescript-graphology",
+    "@dsiu/rescript-bag"
+  ],
+  "pinned-dependencies": [
+    "advent-of-code",
+    "@dsiu/rescript-stdlib-fp",
+    "@dsiu/rescript-graphology",
+    "@dsiu/rescript-bag"
+  ],
+  "suffix": ".mjs"
+}
