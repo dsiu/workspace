@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WorkspaceSettings">
+    <project name="advent-of-code" path="$PROJECT_DIR$/projects/advent-of-code">
+      <vcs id="Git" remoteUrl="https://github.com/dsiu/advent-of-code" />
+    </project>
+    <project name="rescript-stdlib-fp" path="$PROJECT_DIR$/packages/rescript-stdlib-fp">
+      <vcs id="Git" remoteUrl="https://github.com/dsiu/rescript-stdlib-fp" />
+    </project>
+    <project name="rescript-graphology" path="$PROJECT_DIR$/packages/rescript-graphology">
+      <vcs id="Git" remoteUrl="https://github.com/dsiu/rescript-graphology" />
+    </project>
+    <project name="rescript-bag" path="$PROJECT_DIR$/packages/rescript-bag">
+      <vcs id="Git" remoteUrl="https://github.com/dsiu/rescript-bag" />
+    </project>
+    <option name="workspace" value="true" />
+  </component>
+</project>
