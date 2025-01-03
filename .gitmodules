@@ -14,3 +14,11 @@
 	path = packages/rescript-bag
 	url = https://github.com/dsiu/rescript-bag
 	branch = rescript-v12
+[submodule "packages/rescript-extras"]
+	path = packages/rescript-extras
+	url = https://github.com/dsiu/rescript-extras
+	branch = rescript-v12
+[submodule "packages/rescript-seq"]
+	path = packages/rescript-seq
+	url = https://github.com/dsiu/rescript-seq
+	branch = rescript-v12
