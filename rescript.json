@@ -13,13 +13,17 @@
     "advent-of-code",
     "@dsiu/rescript-stdlib-fp",
     "@dsiu/rescript-graphology",
-    "@dsiu/rescript-bag"
+    "@dsiu/rescript-bag",
+    "@jmagaram/rescript-extras",
+    "@jmagaram/rescript-seq"
   ],
   "pinned-dependencies": [
     "advent-of-code",
     "@dsiu/rescript-stdlib-fp",
     "@dsiu/rescript-graphology",
-    "@dsiu/rescript-bag"
+    "@dsiu/rescript-bag",
+    "@jmagaram/rescript-extras",
+    "@jmagaram/rescript-seq"
   ],
   "suffix": ".mjs"
 }
