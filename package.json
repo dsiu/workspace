@@ -1,10 +1,15 @@
 {
   "name": "workspace",
   "private": true,
-  "workspaces": [
-    "packages/*",
-    "projects/*"
-  ],
+  "workspaces": {
+    "packages": [
+      "packages/**",
+      "projects/**"
+    ],
+    "nohoist": [
+      "**/rescript"
+    ]
+  },
   "packageManager": "yarn@4.6.0",
   "scripts": {
     "build": "rewatch build .",
