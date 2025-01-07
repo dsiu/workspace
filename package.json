@@ -18,6 +18,6 @@
   },
   "devDdependencies": {
     "@rolandpeelen/rewatch": "^1.0.9",
-    "rescript": "^12.0.0-alpha.6"
+    "rescript": "^12.0.0-alpha.7"
   }
 }
