@@ -8,5 +8,6 @@
     <mapping directory="$PROJECT_DIR$/packages/rescript-seq" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/packages/rescript-stdlib-fp" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/projects/advent-of-code" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/projects/rescript-snippets" vcs="Git" />
   </component>
 </project>
