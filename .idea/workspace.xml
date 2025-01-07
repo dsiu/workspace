@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3f27c057-c3e0-4e44-ae0c-7d06c8289dc6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/packages/rescript-extras/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/rescript-extras/.idea/git_toolbox_blame.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/rescript-extras/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/rescript-extras/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/rescript-extras/.idea/rescript-extras.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/rescript-extras/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/rescript-seq/.idea/git_toolbox_blame.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/rescript-seq/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/rescript-seq/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/rescript-seq/.idea/rescript-seq.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/rescript-seq/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/rescript-snippets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jb-workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jb-workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/reason.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rescript-bag.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rescript-extras.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rescript-graphology.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rescript-seq.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-bag" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-bag/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-bag/.idea/git_toolbox_prj.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-bag/.idea/libraries/Bucklescript.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-bag/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bag/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-bag/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bag/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-bag/.idea/reason.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-bag/.idea/rescript-bag.iml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bag/.idea/rescript-bag.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-bag/bag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-bag/rescript-bag.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-extras" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-extras" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-graphology" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/.idea/git_toolbox_prj.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-graphology/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/.idea/reason.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/.idea/rescript-graphology.iml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-graphology/.idea/rescript-graphology.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/rescript-graphology.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-seq" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-seq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/.idea/git_toolbox_prj.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/.idea/libraries/Bucklescript.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/rescript-stdlib-fp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/.idea/rescript-stdlib-fp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/advent-of-code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/.idea/advent-of-code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/.idea/copyright/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/.idea/git_toolbox_prj.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/.idea/libraries/Bucklescript.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/.idea/markdown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/.idea/reason.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/.idea/rescript-snippets.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Dictionaries_As_Functions.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/Dictionaries_As_Functions.mjs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dsiu&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dsiu/workspace.git&quot;,
+    &quot;accountId&quot;: &quot;0397fa2e-db31-4c92-b0f6-0795ff33dcef&quot;
+  }
+}</component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2rIxIFWPzEMp3t1oyNyYpJScp1d" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.22753906&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="workspace" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="workspace" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f27c057-c3e0-4e44-ae0c-7d06c8289dc6" name="Changes" comment="" />
+      <created>1736260308266</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736260308266</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
