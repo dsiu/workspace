@@ -1,0 +1,43 @@
+{
+	"folders": [
+		{
+			"name": "workspace",
+			"path": "../"
+		},
+		{
+			"name": "advent-of-code",
+			"path": "../projects/advent-of-code"
+		},
+		{
+			"name": "rescript-snippets",
+			"path": "../projects/rescript-snippets"
+		},
+		{
+			"name": "rescript-bag",
+			"path": "../packages/rescript-bag"
+		},
+		{
+			"name": "rescript-extras",
+			"path": "../packages/rescript-extras"
+		},
+		{
+			"name": "rescript-graphology",
+			"path": "../packages/rescript-graphology"
+		},
+		{
+			"name": "rescript-seq",
+			"path": "../packages/rescript-seq"
+		},
+		{
+			"name": "rescript-stdlib-fp",
+			"path": "../packages/rescript-stdlib-fp"
+		}
+	],
+	"settings": {
+		"jest.disabledWorkspaceFolders": [
+			"rescript-extras",
+			"rescript-graphology",
+			"rescript-seq"
+		]
+	}
+}

@@ -4,7 +4,6 @@ lib/ocaml
 rewatch.lock
 
 npm-debug.log
-.vscode
 
 .merlin
 .bsb.lock
