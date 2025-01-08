@@ -10,6 +10,8 @@
   "bs-dev-dependencies": [
   ],
   "bs-dependencies": [
+    "advent-of-code",
+    "rescript-snippets",
     "@dsiu/rescript-stdlib-fp",
     "@dsiu/rescript-graphology",
     "@dsiu/rescript-bag",
@@ -17,6 +19,8 @@
     "@jmagaram/rescript-seq"
   ],
   "pinned-dependencies": [
+    "advent-of-code",
+    "rescript-snippets",
     "@dsiu/rescript-stdlib-fp",
     "@dsiu/rescript-graphology",
     "@dsiu/rescript-bag",

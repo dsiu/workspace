@@ -19,7 +19,9 @@
     <project name="rescript-seq" path="$PROJECT_DIR$/packages/rescript-seq">
       <vcs id="Git" remoteUrl="https://github.com/dsiu/rescript-seq" />
     </project>
-    <project name="rescript-stdlib-fp" path="$PROJECT_DIR$/packages/rescript-stdlib-fp" />
+    <project name="rescript-stdlib-fp" path="$PROJECT_DIR$/packages/rescript-stdlib-fp">
+      <vcs id="Git" remoteUrl="https://github.com/dsiu/rescript-stdlib-fp" />
+    </project>
     <option name="workspace" value="true" />
   </component>
 </project>
