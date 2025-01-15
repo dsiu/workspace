@@ -10,6 +10,10 @@
 	path = projects/advent-of-code
 	url = https://github.com/dsiu/advent-of-code
 	branch = rescript-v12
+[submodule "projects/rescript-snippets"]
+	path = projects/rescript-snippets~
+	url = https://github.com/dsiu/rescript-snippets
+	branch = master
 [submodule "packages/rescript-bag"]
 	path = packages/rescript-bag
 	url = https://github.com/dsiu/rescript-bag
@@ -21,4 +25,16 @@
 [submodule "packages/rescript-seq"]
 	path = packages/rescript-seq
 	url = https://github.com/dsiu/rescript-seq
+	branch = rescript-v12
+[submodule "packages/rescript-bastet"]
+	path = packages/rescript-bastet
+	url = https://github.com/dsiu/rescript-bastet
+	branch = rescript-v12
+[submodule "packages/rescript-relude"]
+	path = packages/rescript-relude
+	url = https://github.com/dsiu/rescript-relude
+	branch = rescript-v12
+[submodule "packages/rescript-relude-parse"]
+	path = packages/rescript-relude-parse
+	url = https://github.com/dsiu/rescript-relude-parse
 	branch = rescript-v12
