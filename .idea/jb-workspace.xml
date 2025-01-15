@@ -22,6 +22,15 @@
     <project name="rescript-stdlib-fp" path="$PROJECT_DIR$/packages/rescript-stdlib-fp">
       <vcs id="Git" remoteUrl="https://github.com/dsiu/rescript-stdlib-fp" />
     </project>
+    <project name="rescript-bastet" path="$PROJECT_DIR$/packages/rescript-bastet">
+      <vcs id="Git" remoteUrl="https://github.com/dsiu/rescript-bastet" />
+    </project>
+    <project name="rescript-relude" path="$PROJECT_DIR$/packages/rescript-relude">
+      <vcs id="Git" remoteUrl="https://github.com/dsiu/rescript-relude" />
+    </project>
+    <project name="rescript-relude-parse" path="$PROJECT_DIR$/packages/rescript-relude-parse">
+      <vcs id="Git" remoteUrl="https://github.com/dsiu/rescript-relude-parse" />
+    </project>
     <option name="workspace" value="true" />
   </component>
 </project>

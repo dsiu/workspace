@@ -4,48 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f27c057-c3e0-4e44-ae0c-7d06c8289dc6" name="Changes" comment="update vscode project files">
+    <list default="true" id="3f27c057-c3e0-4e44-ae0c-7d06c8289dc6" name="Changes" comment="updated packages">
+      <change afterPath="$PROJECT_DIR$/packages/rescript-relude-parse" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jb-workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jb-workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-bastet" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bastet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-relude" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-relude-parse/yarn.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/rescript.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/rescript.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2022/Day11/AOC2022_Day11.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day11/AOC2022_Day11.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2022/Day11/AOC2022_Day11_Data.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day11/AOC2022_Day11_Data.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2022/Day11/AOC2022_Day11_Data.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day11/AOC2022_Day11_Data.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2022/Day11/AOC2022_Day11_Data_Sample.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day11/AOC2022_Day11_Data_Sample.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2022/Day11/AOC2022_Day11_Data_Sample.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day11/AOC2022_Day11_Data_Sample.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2022/Day11/AOC2022_Day11_Run.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day11/AOC2022_Day11_Run.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2022/Day11/AOC2022_Day11_Test.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day11/AOC2022_Day11_Test.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2023/Day15/AOC2023_Day15.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day15/AOC2023_Day15.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2023/Day15/AOC2023_Day15_Data.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day15/AOC2023_Day15_Data.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2023/Day15/AOC2023_Day15_Data.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day15/AOC2023_Day15_Data.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2023/Day15/AOC2023_Day15_Data_Sample.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day15/AOC2023_Day15_Data_Sample.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2023/Day15/AOC2023_Day15_Data_Sample.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day15/AOC2023_Day15_Data_Sample.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2023/Day15/AOC2023_Day15_Run.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day15/AOC2023_Day15_Run.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2023/Day15/AOC2023_Day15_Test.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day15/AOC2023_Day15_Test.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2023/Day6/AOC2023_Day6.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day6/AOC2023_Day6.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2023/Day6/AOC2023_Day6_Data.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day6/AOC2023_Day6_Data.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2023/Day6/AOC2023_Day6_Data.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day6/AOC2023_Day6_Data.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2023/Day6/AOC2023_Day6_Data_Sample.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day6/AOC2023_Day6_Data_Sample.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2023/Day6/AOC2023_Day6_Data_Sample.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day6/AOC2023_Day6_Data_Sample.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2023/Day6/AOC2023_Day6_Run.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day6/AOC2023_Day6_Run.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2023/Day6/AOC2023_Day6_Test.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day6/AOC2023_Day6_Test.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2023/Day7/AOC2023_Day7.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day7/AOC2023_Day7.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2023/Day7/AOC2023_Day7_Data.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day7/AOC2023_Day7_Data.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2023/Day7/AOC2023_Day7_Data.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day7/AOC2023_Day7_Data.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2023/Day7/AOC2023_Day7_Data_Sample.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day7/AOC2023_Day7_Data_Sample.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2023/Day7/AOC2023_Day7_Data_Sample.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day7/AOC2023_Day7_Data_Sample.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2023/Day7/AOC2023_Day7_Run.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day7/AOC2023_Day7_Run.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2023/Day7/AOC2023_Day7_Test.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day7/AOC2023_Day7_Test.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2023/Day8/AOC2023_Day8.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day8/AOC2023_Day8.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2023/Day8/AOC2023_Day8_Data.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day8/AOC2023_Day8_Data.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2023/Day8/AOC2023_Day8_Data.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day8/AOC2023_Day8_Data.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2023/Day8/AOC2023_Day8_Data_Sample.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day8/AOC2023_Day8_Data_Sample.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2023/Day8/AOC2023_Day8_Data_Sample.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day8/AOC2023_Day8_Data_Sample.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2023/Day8/AOC2023_Day8_Run.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day8/AOC2023_Day8_Run.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src-WIP/2023/Day8/AOC2023_Day8_Test.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day8/AOC2023_Day8_Test.res" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/rescript-snippets" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Dictionaries_As_Functions.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/Dictionaries_As_Functions.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rescript.json" beforeDir="false" afterPath="$PROJECT_DIR$/rescript.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,6 +69,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Jest.All Tests in advent-of-code.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.All Tests in rescript-relude.executor&quot;: &quot;Run&quot;,
     &quot;Jest.All Tests in rescript-snippets.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
@@ -122,7 +96,7 @@
       <recent name="$PROJECT_DIR$/projects/advent-of-code/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.All Tests in rescript-snippets">
+  <component name="RunManager" selected="Jest.All Tests in rescript-relude">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -150,6 +124,14 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
+    <configuration name="All Tests in rescript-relude" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/packages/rescript-relude" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
     <configuration name="All Tests in rescript-snippets" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -160,6 +142,7 @@
     </configuration>
     <list>
       <item itemvalue="Jest.All Tests in advent-of-code" />
+      <item itemvalue="Jest.All Tests in rescript-relude" />
       <item itemvalue="Jest.All Tests in rescript-snippets" />
     </list>
   </component>
@@ -219,7 +202,31 @@
       <option name="project" value="LOCAL" />
       <updated>1736338041740</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added rescript-bastet#rescript-v1, rescript-relude#rescript-v12, and rescript-relude-parse#rescript-v12">
+      <option name="closed" value="true" />
+      <created>1736780055442</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1736780055442</updated>
+    </task>
+    <task id="LOCAL-00007" summary="WIP: renamed `bs-bastet` to `rescript-bastet`">
+      <option name="closed" value="true" />
+      <created>1736936875855</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736936875855</updated>
+    </task>
+    <task id="LOCAL-00008" summary="updated packages">
+      <option name="closed" value="true" />
+      <created>1736937814071</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1736937814071</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +247,10 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="update intellij project files" />
     <MESSAGE value="update vscode project files" />
-    <option name="LAST_COMMIT_MESSAGE" value="update vscode project files" />
+    <MESSAGE value="added rescript-bastet#rescript-v1, rescript-relude#rescript-v12, and rescript-relude-parse#rescript-v12" />
+    <MESSAGE value="WIP: renamed `bs-bastet` to `rescript-bastet`" />
+    <MESSAGE value="updated packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated packages" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

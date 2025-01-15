@@ -16,7 +16,10 @@
     "@dsiu/rescript-graphology",
     "@dsiu/rescript-bag",
     "@jmagaram/rescript-extras",
-    "@jmagaram/rescript-seq"
+    "@jmagaram/rescript-seq",
+    "bs-bastet",
+    "relude",
+    "relude-parse"
   ],
   "pinned-dependencies": [
     "advent-of-code",
@@ -25,7 +28,10 @@
     "@dsiu/rescript-graphology",
     "@dsiu/rescript-bag",
     "@jmagaram/rescript-extras",
-    "@jmagaram/rescript-seq"
+    "@jmagaram/rescript-seq",
+    "bs-bastet",
+    "relude",
+    "relude-parse"
   ],
   "suffix": ".mjs"
 }

@@ -4,8 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/projects/advent-of-code/.idea/advent-of-code.iml" filepath="$PROJECT_DIR$/projects/advent-of-code/.idea/advent-of-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/packages/rescript-bag/.idea/rescript-bag.iml" filepath="$PROJECT_DIR$/packages/rescript-bag/.idea/rescript-bag.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/rescript-bastet/.idea/rescript-bastet.iml" filepath="$PROJECT_DIR$/packages/rescript-bastet/.idea/rescript-bastet.iml" />
       <module fileurl="file://$PROJECT_DIR$/packages/rescript-extras/.idea/rescript-extras.iml" filepath="$PROJECT_DIR$/packages/rescript-extras/.idea/rescript-extras.iml" />
       <module fileurl="file://$PROJECT_DIR$/packages/rescript-graphology/.idea/rescript-graphology.iml" filepath="$PROJECT_DIR$/packages/rescript-graphology/.idea/rescript-graphology.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/rescript-relude/.idea/rescript-relude.iml" filepath="$PROJECT_DIR$/packages/rescript-relude/.idea/rescript-relude.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/rescript-relude-parse/.idea/rescript-relude-parse.iml" filepath="$PROJECT_DIR$/packages/rescript-relude-parse/.idea/rescript-relude-parse.iml" />
       <module fileurl="file://$PROJECT_DIR$/packages/rescript-seq/.idea/rescript-seq.iml" filepath="$PROJECT_DIR$/packages/rescript-seq/.idea/rescript-seq.iml" />
       <module fileurl="file://$PROJECT_DIR$/projects/rescript-snippets/.idea/rescript-snippets.iml" filepath="$PROJECT_DIR$/projects/rescript-snippets/.idea/rescript-snippets.iml" />
       <module fileurl="file://$PROJECT_DIR$/packages/rescript-stdlib-fp/.idea/rescript-stdlib-fp.iml" filepath="$PROJECT_DIR$/packages/rescript-stdlib-fp/.idea/rescript-stdlib-fp.iml" />
