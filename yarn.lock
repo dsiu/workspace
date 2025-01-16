@@ -711,7 +711,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@dsiu/rescript-bag@npm:*, @dsiu/rescript-bag@workspace:packages/rescript-bag":
+"@dsiu/rescript-bag@workspace:^, @dsiu/rescript-bag@workspace:packages/rescript-bag":
   version: 0.0.0-use.local
   resolution: "@dsiu/rescript-bag@workspace:packages/rescript-bag"
   dependencies:
@@ -724,7 +724,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@dsiu/rescript-graphology@npm:*, @dsiu/rescript-graphology@workspace:packages/rescript-graphology":
+"@dsiu/rescript-graphology@workspace:^, @dsiu/rescript-graphology@workspace:packages/rescript-graphology":
   version: 0.0.0-use.local
   resolution: "@dsiu/rescript-graphology@workspace:packages/rescript-graphology"
   dependencies:
@@ -741,7 +741,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@dsiu/rescript-stdlib-fp@npm:*, @dsiu/rescript-stdlib-fp@workspace:packages/rescript-stdlib-fp":
+"@dsiu/rescript-stdlib-fp@workspace:^, @dsiu/rescript-stdlib-fp@workspace:packages/rescript-stdlib-fp":
   version: 0.0.0-use.local
   resolution: "@dsiu/rescript-stdlib-fp@workspace:packages/rescript-stdlib-fp"
   dependencies:
@@ -1251,7 +1251,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jmagaram/rescript-extras@npm:*, @jmagaram/rescript-extras@workspace:packages/rescript-extras":
+"@jmagaram/rescript-extras@workspace:^, @jmagaram/rescript-extras@workspace:packages/rescript-extras":
   version: 0.0.0-use.local
   resolution: "@jmagaram/rescript-extras@workspace:packages/rescript-extras"
   dependencies:
@@ -1261,7 +1261,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@jmagaram/rescript-seq@npm:*, @jmagaram/rescript-seq@workspace:packages/rescript-seq":
+"@jmagaram/rescript-seq@workspace:^, @jmagaram/rescript-seq@workspace:packages/rescript-seq":
   version: 0.0.0-use.local
   resolution: "@jmagaram/rescript-seq@workspace:packages/rescript-seq"
   dependencies:
@@ -1850,12 +1850,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "advent-of-code@workspace:projects/advent-of-code"
   dependencies:
-    "@dsiu/rescript-bag": "npm:*"
-    "@dsiu/rescript-graphology": "npm:*"
-    "@dsiu/rescript-stdlib-fp": "npm:*"
+    "@dsiu/rescript-bag": "workspace:^"
+    "@dsiu/rescript-graphology": "workspace:^"
+    "@dsiu/rescript-stdlib-fp": "workspace:^"
     "@glennsl/rescript-jest": "github:dsiu/rescript-jest#rescript-v12"
-    "@jmagaram/rescript-extras": "npm:*"
-    "@jmagaram/rescript-seq": "npm:*"
+    "@jmagaram/rescript-extras": "workspace:^"
+    "@jmagaram/rescript-seq": "workspace:^"
     "@rolandpeelen/rewatch": "npm:^1.0.9"
     "@swc/core": "npm:^1.10.4"
     "@swc/jest": "npm:^0.2.37"
@@ -1865,8 +1865,8 @@ __metadata:
     nodemon: "npm:^3.1.9"
     rescript: "npm:^12.0.0-alpha.7"
     rescript-nodejs: "npm:^16.1.0"
-    rescript-relude: "npm:*"
-    rescript-relude-parse: "npm:*"
+    rescript-relude: "workspace:^"
+    rescript-relude-parse: "workspace:^"
     rescript-schema: "npm:^9.0.1"
   languageName: unknown
   linkType: soft
@@ -8388,7 +8388,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rescript-relude-parse@npm:*, rescript-relude-parse@workspace:packages/rescript-relude-parse":
+"rescript-relude-parse@workspace:^, rescript-relude-parse@workspace:packages/rescript-relude-parse":
   version: 0.0.0-use.local
   resolution: "rescript-relude-parse@workspace:packages/rescript-relude-parse"
   dependencies:
@@ -8408,7 +8408,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rescript-relude@npm:*, rescript-relude@workspace:packages/rescript-relude":
+"rescript-relude@workspace:^, rescript-relude@workspace:packages/rescript-relude":
   version: 0.0.0-use.local
   resolution: "rescript-relude@workspace:packages/rescript-relude"
   dependencies:
@@ -8434,11 +8434,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "rescript-snippets@workspace:projects/rescript-snippets"
   dependencies:
-    "@dsiu/rescript-bag": "npm:*"
-    "@dsiu/rescript-stdlib-fp": "npm:*"
+    "@dsiu/rescript-bag": "workspace:^"
+    "@dsiu/rescript-stdlib-fp": "workspace:^"
     "@glennsl/rescript-jest": "git+https://github.com/dsiu/rescript-jest#rescript-v12"
-    "@jmagaram/rescript-extras": "npm:*"
-    "@jmagaram/rescript-seq": "npm:*"
+    "@jmagaram/rescript-extras": "workspace:^"
+    "@jmagaram/rescript-seq": "workspace:^"
     "@mobily/rescript-date": "npm:^2.1.0"
     "@swc/core": "npm:^1.10.4"
     "@swc/jest": "npm:^0.2.37"
