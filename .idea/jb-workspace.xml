@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="WorkspaceSettings">
-    <project name="advent-of-code" path="$PROJECT_DIR$/projects/advent-of-code">
-      <vcs id="Git" remoteUrl="https://github.com/dsiu/advent-of-code" />
-    </project>
     <project name="rescript-bag" path="$PROJECT_DIR$/packages/rescript-bag">
       <vcs id="Git" remoteUrl="https://github.com/dsiu/rescript-bag" />
+    </project>
+    <project name="rescript-bastet" path="$PROJECT_DIR$/packages/rescript-bastet">
+      <vcs id="Git" remoteUrl="https://github.com/dsiu/rescript-bastet" />
     </project>
     <project name="rescript-extras" path="$PROJECT_DIR$/packages/rescript-extras">
       <vcs id="Git" remoteUrl="https://github.com/dsiu/rescript-extras" />
@@ -13,8 +13,11 @@
     <project name="rescript-graphology" path="$PROJECT_DIR$/packages/rescript-graphology">
       <vcs id="Git" remoteUrl="https://github.com/dsiu/rescript-graphology" />
     </project>
-    <project name="rescript-snippets" path="$PROJECT_DIR$/projects/rescript-snippets">
-      <vcs id="Git" remoteUrl="https://github.com/dsiu/rescript-snippets" />
+    <project name="rescript-relude-parse" path="$PROJECT_DIR$/packages/rescript-relude-parse">
+      <vcs id="Git" remoteUrl="https://github.com/dsiu/rescript-relude-parse" />
+    </project>
+    <project name="rescript-relude" path="$PROJECT_DIR$/packages/rescript-relude">
+      <vcs id="Git" remoteUrl="https://github.com/dsiu/rescript-relude" />
     </project>
     <project name="rescript-seq" path="$PROJECT_DIR$/packages/rescript-seq">
       <vcs id="Git" remoteUrl="https://github.com/dsiu/rescript-seq" />
@@ -22,14 +25,11 @@
     <project name="rescript-stdlib-fp" path="$PROJECT_DIR$/packages/rescript-stdlib-fp">
       <vcs id="Git" remoteUrl="https://github.com/dsiu/rescript-stdlib-fp" />
     </project>
-    <project name="rescript-bastet" path="$PROJECT_DIR$/packages/rescript-bastet">
-      <vcs id="Git" remoteUrl="https://github.com/dsiu/rescript-bastet" />
+    <project name="rescript-snippets" path="$PROJECT_DIR$/projects/rescript-snippets">
+      <vcs id="Git" remoteUrl="https://github.com/dsiu/rescript-snippets" />
     </project>
-    <project name="rescript-relude" path="$PROJECT_DIR$/packages/rescript-relude">
-      <vcs id="Git" remoteUrl="https://github.com/dsiu/rescript-relude" />
-    </project>
-    <project name="rescript-relude-parse" path="$PROJECT_DIR$/packages/rescript-relude-parse">
-      <vcs id="Git" remoteUrl="https://github.com/dsiu/rescript-relude-parse" />
+    <project name="advent-of-code" path="$PROJECT_DIR$/projects/advent-of-code">
+      <vcs id="Git" remoteUrl="https://github.com/dsiu/advent-of-code" />
     </project>
     <option name="workspace" value="true" />
   </component>

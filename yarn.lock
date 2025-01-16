@@ -1401,15 +1401,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rescript/core@npm:^1.6.1":
-  version: 1.6.1
-  resolution: "@rescript/core@npm:1.6.1"
-  peerDependencies:
-    rescript: ">=11.1.0"
-  checksum: 10c0/04e7fc14dc050de0a9da8eb0642fb0800bc80c8978ef79aada1823bc2080b47a4d40c1168c63b53642009935342a4feb833fc190a71aa45e83af5d896269b95d
-  languageName: node
-  linkType: hard
-
 "@rolandpeelen/rewatch@npm:^1.0.9":
   version: 1.0.9
   resolution: "@rolandpeelen/rewatch@npm:1.0.9"
@@ -1715,11 +1706,11 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 22.10.6
-  resolution: "@types/node@npm:22.10.6"
+  version: 22.10.7
+  resolution: "@types/node@npm:22.10.7"
   dependencies:
     undici-types: "npm:~6.20.0"
-  checksum: 10c0/8b67affc211e5f9c74f7949cda04ca669721e50b83d71b8772a7bed7a4a3c41d663b3a794413f618e763ca6c5da8c234c25ffebcb0737983fc3e7415818ab9a7
+  checksum: 10c0/c941b4689dfc4044b64a5f601306cbcb0c7210be853ba378a5dd44137898c45accedd796ee002ad9407024cac7ecaf5049304951cb1d80ce3d7cebbbae56f20e
   languageName: node
   linkType: hard
 
@@ -1868,15 +1859,15 @@ __metadata:
     "@rolandpeelen/rewatch": "npm:^1.0.9"
     "@swc/core": "npm:^1.10.4"
     "@swc/jest": "npm:^0.2.37"
-    bs-bastet: "npm:*"
     debug: "npm:^4.4.0"
     jest: "npm:^29.7.0"
     ms: "npm:^2.1.3"
     nodemon: "npm:^3.1.9"
-    relude: "npm:*"
-    relude-parse: "npm:*"
     rescript: "npm:^12.0.0-alpha.7"
+    rescript-bastet: "npm:*"
     rescript-nodejs: "npm:^16.1.0"
+    rescript-relude: "npm:*"
+    rescript-relude-parse: "npm:*"
     rescript-schema: "npm:^9.0.1"
   languageName: unknown
   linkType: soft
@@ -2282,15 +2273,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bisect_ppx@npm:^2.1.0":
-  version: 2.8.2
-  resolution: "bisect_ppx@npm:2.8.2"
-  bin:
-    bisect-ppx-report: bisect-ppx-report
-  checksum: 10c0/b10eaaf44b4cd0088021e9c54f645ea7e271b012900c00fb2a14d09f3011f88c020050b8936e4fbc98c17ecb1defbd701dc074255647c07e0001ffaa568ef7f6
-  languageName: node
-  linkType: hard
-
 "boxen@npm:^4.2.0":
   version: 4.2.0
   resolution: "boxen@npm:4.2.0"
@@ -2363,25 +2345,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bs-bastet@github:dsiu/rescript-bastet#rescript-v12":
-  version: 0.0.1
-  resolution: "bs-bastet@https://github.com/dsiu/rescript-bastet.git#commit=f600edce783b45cae1cd1f0529694aceb5ebf0f1"
-  dependencies:
-    "@rescript/core": "npm:^1.6.1"
-  checksum: 10c0/9ad7ab6dc4e98dcf31cf478245e3336df679a596779a204f5a6eb5e3bb46246d1320aabe0b636e22554d7c6431c3dd2fc7ecca0bb4f5e74942cc692aa64a7d7e
-  languageName: node
-  linkType: hard
-
-"bs-bastet@npm:*":
-  version: 2.0.0
-  resolution: "bs-bastet@npm:2.0.0"
-  dependencies:
-    bisect_ppx: "npm:^2.1.0"
-    bs-stdlib-shims: "npm:^0.1.0"
-  checksum: 10c0/9cf83dcb7e6a54058a089d4ab6a000f89859cafe1d957e3e2404a1e82faf2d3d357b58af5e729e0ff242539502cd0b6f1e81d11d5b8bb9dd6b8f106dc8e1a690
-  languageName: node
-  linkType: hard
-
 "bs-chai@github:dsiu/bs-chai#rescript-v12":
   version: 1.0.1
   resolution: "bs-chai@https://github.com/dsiu/bs-chai.git#commit=32075f301ab62c1ca59d284751141aa94759f5cf"
@@ -2398,13 +2361,6 @@ __metadata:
   dependencies:
     jsverify: "npm:^0.8.4"
   checksum: 10c0/cfd1b204d954040427ba2e7a628343c2d62d81bef764f4db1df1f948c1ddb5406fbe74c373861c7ddd4f812e77246a82e62016aa8fb12763b705e9cf5f6321a8
-  languageName: node
-  linkType: hard
-
-"bs-stdlib-shims@npm:^0.1.0":
-  version: 0.1.0
-  resolution: "bs-stdlib-shims@npm:0.1.0"
-  checksum: 10c0/686a509c2007381ad57cef66933172197b4cdd4510a492235b35b61a1eedc6fa29d317f658425278a0c49551241c51d7cf379416d9366c7680f672dd757fd792
   languageName: node
   linkType: hard
 
@@ -3720,9 +3676,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.73":
-  version: 1.5.82
-  resolution: "electron-to-chromium@npm:1.5.82"
-  checksum: 10c0/0d495077406adf4701c2b14d63a10e03128fbff0ca960c3c4132ef9b3ef36378f90618d8ca9f9f909270414b5e90b3912b65d10ea7f33418ea2e429d83593196
+  version: 1.5.83
+  resolution: "electron-to-chromium@npm:1.5.83"
+  checksum: 10c0/12380962d057c4679add1047cdddb18b909904614272da0527e505a3859eaffde2022dd0688ce7f230582de96405c3d33b667680614475cdafd3f629caa2fee1
   languageName: node
   linkType: hard
 
@@ -8362,42 +8318,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"relude-parse@npm:*, relude-parse@workspace:packages/rescript-relude-parse":
-  version: 0.0.0-use.local
-  resolution: "relude-parse@workspace:packages/rescript-relude-parse"
-  dependencies:
-    "@glennsl/rescript-jest": "github:dsiu/rescript-jest#rescript-v12"
-    "@swc/core": "npm:^1.10.4"
-    "@swc/jest": "npm:^0.2.37"
-    bs-bastet: "github:dsiu/rescript-bastet#rescript-v12"
-    relude: "github:dsiu/rescript-relude#rescript-v12"
-    rescript: "npm:^12.0.0-alpha.7"
-  languageName: unknown
-  linkType: soft
-
-"relude@github:dsiu/rescript-relude#rescript-v12":
-  version: 0.66.1
-  resolution: "relude@https://github.com/dsiu/rescript-relude.git#commit=99aff541a707cab0c256b78d1b416655ab395591"
-  dependencies:
-    "@rescript/core": "npm:^1.6.1"
-  checksum: 10c0/8069331c429e6ae85f15fc3878746e43f28fac8e70689ee7ed22f88db688b1c79b2dd51e9dfb0a410d26e5d4ff03fb1be1a078d9240a942597cf58b6bab10877
-  languageName: node
-  linkType: hard
-
-"relude@npm:*, relude@workspace:packages/rescript-relude":
-  version: 0.0.0-use.local
-  resolution: "relude@workspace:packages/rescript-relude"
-  dependencies:
-    "@glennsl/rescript-jest": "github:dsiu/rescript-jest#rescript-v12"
-    "@rescript/core": "npm:^1.6.1"
-    "@swc/core": "npm:^1.10.4"
-    "@swc/jest": "npm:^0.2.37"
-    bs-bastet: "github:dsiu/rescript-bastet#rescript-v12"
-    docsify-cli: "npm:~4.4.0"
-    rescript: "npm:^12.0.0-alpha.7"
-  languageName: unknown
-  linkType: soft
-
 "repeating@npm:^2.0.0":
   version: 2.0.1
   resolution: "repeating@npm:2.0.1"
@@ -8435,11 +8355,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rescript-bastet@workspace:packages/rescript-bastet":
+"rescript-bastet@github:dsiu/rescript-bastet#rescript-v12":
+  version: 0.0.1
+  resolution: "rescript-bastet@https://github.com/dsiu/rescript-bastet.git#commit=a313a452ae95afb1ba81062e4be932b9fa12440e"
+  checksum: 10c0/7cd72bb2188da4a37c1ac628ad45b939d7e0618bb54cea217e2ffff4a6307d82b0375c7c500fa8dd5abe46438417dbf3b89152b3cdfb9ef6e8eda74db47ab087
+  languageName: node
+  linkType: hard
+
+"rescript-bastet@npm:*, rescript-bastet@workspace:packages/rescript-bastet":
   version: 0.0.0-use.local
   resolution: "rescript-bastet@workspace:packages/rescript-bastet"
   dependencies:
-    "@rescript/core": "npm:^1.6.1"
     bs-chai: "github:dsiu/bs-chai#rescript-v12"
     bs-jsverify: "github:dsiu/bs-jsverify#rescript-v12"
     rescript: "npm:^12.0.0-alpha.7"
@@ -8462,6 +8388,39 @@ __metadata:
   checksum: 10c0/2ea271dbddebdceec79bf5ee6089c15474f2c014cb22c1cc39d43ef27fd363fcb1cd8e1244d0cb998cd6b426d7474e3055e41277951fb01ee1eeecf68bbe01ab
   languageName: node
   linkType: hard
+
+"rescript-relude-parse@npm:*, rescript-relude-parse@workspace:packages/rescript-relude-parse":
+  version: 0.0.0-use.local
+  resolution: "rescript-relude-parse@workspace:packages/rescript-relude-parse"
+  dependencies:
+    "@glennsl/rescript-jest": "github:dsiu/rescript-jest#rescript-v12"
+    "@swc/core": "npm:^1.10.4"
+    "@swc/jest": "npm:^0.2.37"
+    rescript: "npm:^12.0.0-alpha.7"
+    rescript-bastet: "github:dsiu/rescript-bastet#rescript-v12"
+    rescript-relude: "github:dsiu/rescript-relude#rescript-v12"
+  languageName: unknown
+  linkType: soft
+
+"rescript-relude@github:dsiu/rescript-relude#rescript-v12":
+  version: 0.66.1
+  resolution: "rescript-relude@https://github.com/dsiu/rescript-relude.git#commit=404efaff862afe18ec2c3ca1d79282f86ee6c6b7"
+  checksum: 10c0/8c68ca67251d5751744f5615ea242d83738c431ba32742574232bf5e3ef0cbb74ec8991996e527953924b1d8ef1fb67a60bf2e5f3e1192eb62e9c76232d92081
+  languageName: node
+  linkType: hard
+
+"rescript-relude@npm:*, rescript-relude@workspace:packages/rescript-relude":
+  version: 0.0.0-use.local
+  resolution: "rescript-relude@workspace:packages/rescript-relude"
+  dependencies:
+    "@glennsl/rescript-jest": "github:dsiu/rescript-jest#rescript-v12"
+    "@swc/core": "npm:^1.10.4"
+    "@swc/jest": "npm:^0.2.37"
+    docsify-cli: "npm:~4.4.0"
+    rescript: "npm:^12.0.0-alpha.7"
+    rescript-bastet: "github:dsiu/rescript-bastet#rescript-v12"
+  languageName: unknown
+  linkType: soft
 
 "rescript-schema@npm:^9.0.1":
   version: 9.0.1
@@ -9591,13 +9550,13 @@ __metadata:
   linkType: hard
 
 "traverse@npm:0.6.x":
-  version: 0.6.10
-  resolution: "traverse@npm:0.6.10"
+  version: 0.6.11
+  resolution: "traverse@npm:0.6.11"
   dependencies:
-    gopd: "npm:^1.0.1"
-    typedarray.prototype.slice: "npm:^1.0.3"
-    which-typed-array: "npm:^1.1.15"
-  checksum: 10c0/d37619cd650dda26fc9f8c3c55087098e702abc1a91e57a5701644f3aee67a5c61daf47ca883ebe6777ea810424317bd142b8e90ee0d9dc9171bd19df6cf6fd8
+    gopd: "npm:^1.2.0"
+    typedarray.prototype.slice: "npm:^1.0.5"
+    which-typed-array: "npm:^1.1.18"
+  checksum: 10c0/2b57662da3061ed2aa9977a6a3e315fc19f2cfdeb691700a88c12f4d460146abdb4d726740f47a9ca5fa84d3c50096b76ee50047d1a71c2afb168852ad264e36
   languageName: node
   linkType: hard
 
@@ -9714,7 +9673,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typedarray.prototype.slice@npm:^1.0.3":
+"typedarray.prototype.slice@npm:^1.0.5":
   version: 1.0.5
   resolution: "typedarray.prototype.slice@npm:1.0.5"
   dependencies:
@@ -10091,7 +10050,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"which-typed-array@npm:^1.1.15, which-typed-array@npm:^1.1.16, which-typed-array@npm:^1.1.18":
+"which-typed-array@npm:^1.1.16, which-typed-array@npm:^1.1.18":
   version: 1.1.18
   resolution: "which-typed-array@npm:1.1.18"
   dependencies:
