@@ -31,13 +31,27 @@
 		{
 			"name": "rescript-stdlib-fp",
 			"path": "../packages/rescript-stdlib-fp"
+		},
+		{
+      "name": "rescript-bastet",
+			"path": "../packages/rescript-bastet"
+		},
+		{
+      "name": "rescript-relude",
+			"path": "../packages/rescript-relude"
+		},
+		{
+      "name": "rescript-relude-parse",
+			"path": "../packages/rescript-relude-parse"
 		}
 	],
 	"settings": {
 		"jest.disabledWorkspaceFolders": [
 			"rescript-extras",
 			"rescript-graphology",
-			"rescript-seq"
+			"rescript-seq",
+			"rescript-bastet",
+			"rescript-bag",
 		]
 	}
 }
