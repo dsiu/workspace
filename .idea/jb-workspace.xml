@@ -13,12 +13,6 @@
     <project name="rescript-graphology" path="$PROJECT_DIR$/packages/rescript-graphology">
       <vcs id="Git" remoteUrl="https://github.com/dsiu/rescript-graphology" />
     </project>
-    <project name="rescript-relude-parse" path="$PROJECT_DIR$/packages/rescript-relude-parse">
-      <vcs id="Git" remoteUrl="https://github.com/dsiu/rescript-relude-parse" />
-    </project>
-    <project name="rescript-relude" path="$PROJECT_DIR$/packages/rescript-relude">
-      <vcs id="Git" remoteUrl="https://github.com/dsiu/rescript-relude" />
-    </project>
     <project name="rescript-seq" path="$PROJECT_DIR$/packages/rescript-seq">
       <vcs id="Git" remoteUrl="https://github.com/dsiu/rescript-seq" />
     </project>
@@ -30,6 +24,12 @@
     </project>
     <project name="advent-of-code" path="$PROJECT_DIR$/projects/advent-of-code">
       <vcs id="Git" remoteUrl="https://github.com/dsiu/advent-of-code" />
+    </project>
+    <project name="rescript-relude-parse" path="$PROJECT_DIR$/packages/rescript-relude-parse">
+      <vcs id="Git" remoteUrl="https://github.com/dsiu/rescript-relude-parse" />
+    </project>
+    <project name="rescript-relude" path="$PROJECT_DIR$/packages/rescript-relude">
+      <vcs id="Git" remoteUrl="https://github.com/dsiu/rescript-relude" />
     </project>
     <option name="workspace" value="true" />
   </component>
