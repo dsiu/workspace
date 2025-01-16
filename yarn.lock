@@ -8356,8 +8356,8 @@ __metadata:
 
 "rescript-bastet@github:dsiu/rescript-bastet#rescript-v12":
   version: 0.0.1
-  resolution: "rescript-bastet@https://github.com/dsiu/rescript-bastet.git#commit=a313a452ae95afb1ba81062e4be932b9fa12440e"
-  checksum: 10c0/7cd72bb2188da4a37c1ac628ad45b939d7e0618bb54cea217e2ffff4a6307d82b0375c7c500fa8dd5abe46438417dbf3b89152b3cdfb9ef6e8eda74db47ab087
+  resolution: "rescript-bastet@https://github.com/dsiu/rescript-bastet.git#commit=f49dbf9ba1ae39eef07eb15fc4ba30937a2ba094"
+  checksum: 10c0/60f8ef64155d7d9a915676c4290d944c93c7b2759086438bb5fec1af6e4b81b9d20867f0fbd03123068bc0406edc425e1e9e8e704bbf7f4b9d385b48e89391c9
   languageName: node
   linkType: hard
 
@@ -8403,8 +8403,8 @@ __metadata:
 
 "rescript-relude@github:dsiu/rescript-relude#rescript-v12":
   version: 0.66.1
-  resolution: "rescript-relude@https://github.com/dsiu/rescript-relude.git#commit=404efaff862afe18ec2c3ca1d79282f86ee6c6b7"
-  checksum: 10c0/8c68ca67251d5751744f5615ea242d83738c431ba32742574232bf5e3ef0cbb74ec8991996e527953924b1d8ef1fb67a60bf2e5f3e1192eb62e9c76232d92081
+  resolution: "rescript-relude@https://github.com/dsiu/rescript-relude.git#commit=c6f5305a92269b6d1dd47378dad81fb3191f69a4"
+  checksum: 10c0/f5389f8152de38aa0be78f46afb61c79b239dc78ab3ba98f6365f53f365177a712fa9e08101b1cac3f7ff4c773b9fc859130f7a18d6850966c85106ccfd0c8e0
   languageName: node
   linkType: hard
 
