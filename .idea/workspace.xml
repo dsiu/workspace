@@ -4,24 +4,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="updated yarn.lock">
+    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="use `.res.mjs` instead of `.mjs`">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-bag" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bag" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/rescript-bastet" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bastet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-extras" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-extras" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-extras/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras__Array.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras__Cmp.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras__CmpUtilities.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras__Literal.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras__NonEmptyArray.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras__Option.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras__Pattern.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras__Result.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras__SeqSamples.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras__Task.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras__Test.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras__Trampoline.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras__Union.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras__Unknown.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-graphology" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/rescript-relude" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/rescript-relude-parse" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude-parse" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-relude-parse/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude-parse/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-seq" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-seq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-seq/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-seq/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-seq/src/Seq.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-seq/src/Seq__Option.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-seq/src/Seq__Result.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-seq/src/Seq__SeqSamples.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-seq/src/Seq__Task.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-seq/src/Seq__Test.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rescript.json" beforeDir="false" afterPath="$PROJECT_DIR$/rescript.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="repository" />
+    </option>
+  </component>
   <component name="Git.Settings">
     <branch-grouping>
       <option value="directory" />
       <option value="repository" />
     </branch-grouping>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/packages/rescript-relude-parse" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/packages/rescript-seq" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -83,7 +120,7 @@
       <recent name="$PROJECT_DIR$/.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.All Tests in advent-of-code">
+  <component name="RunManager" selected="Jest.All Tests in rescript-snippets">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -296,7 +333,79 @@
       <option name="project" value="LOCAL" />
       <updated>1737096652948</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="updated dependencies">
+      <option name="closed" value="true" />
+      <created>1737113366063</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1737113366063</updated>
+    </task>
+    <task id="LOCAL-00010" summary="use `.res.mjs` instead of `.mjs`">
+      <option name="closed" value="true" />
+      <created>1737116277311</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1737116277311</updated>
+    </task>
+    <task id="LOCAL-00011" summary="use `.res.mjs` instead of `.mjs`">
+      <option name="closed" value="true" />
+      <created>1737116496873</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1737116496873</updated>
+    </task>
+    <task id="LOCAL-00012" summary="use `.res.mjs` instead of `.mjs`">
+      <option name="closed" value="true" />
+      <created>1737116561688</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1737116561688</updated>
+    </task>
+    <task id="LOCAL-00013" summary="use `.res.mjs` instead of `.mjs`">
+      <option name="closed" value="true" />
+      <created>1737116600137</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1737116600137</updated>
+    </task>
+    <task id="LOCAL-00014" summary="use `.res.mjs` instead of `.mjs`">
+      <option name="closed" value="true" />
+      <created>1737116786599</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1737116786599</updated>
+    </task>
+    <task id="LOCAL-00015" summary="use `.res.mjs` instead of `.mjs`">
+      <option name="closed" value="true" />
+      <created>1737116940768</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1737116940768</updated>
+    </task>
+    <task id="LOCAL-00016" summary="use `.res.mjs` instead of `.mjs`">
+      <option name="closed" value="true" />
+      <created>1737116977664</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1737116977664</updated>
+    </task>
+    <task id="LOCAL-00017" summary="use `.res.mjs` instead of `.mjs`">
+      <option name="closed" value="true" />
+      <created>1737117027432</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1737117027432</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,7 +430,9 @@
     <MESSAGE value="fixed git submodule" />
     <MESSAGE value="updated project files" />
     <MESSAGE value="updated yarn.lock" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated yarn.lock" />
+    <MESSAGE value="updated dependencies" />
+    <MESSAGE value="use `.res.mjs` instead of `.mjs`" />
+    <option name="LAST_COMMIT_MESSAGE" value="use `.res.mjs` instead of `.mjs`" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

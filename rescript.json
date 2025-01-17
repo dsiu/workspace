@@ -33,5 +33,5 @@
     "rescript-relude",
     "rescript-relude-parse"
   ],
-  "suffix": ".mjs"
+  "suffix": ".res.mjs"
 }
