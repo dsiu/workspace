@@ -2272,6 +2272,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bisect_ppx@npm:^2.7.1":
+  version: 2.8.2
+  resolution: "bisect_ppx@npm:2.8.2"
+  bin:
+    bisect-ppx-report: bisect-ppx-report
+  checksum: 10c0/b10eaaf44b4cd0088021e9c54f645ea7e271b012900c00fb2a14d09f3011f88c020050b8936e4fbc98c17ecb1defbd701dc074255647c07e0001ffaa568ef7f6
+  languageName: node
+  linkType: hard
+
 "boxen@npm:^4.2.0":
   version: 4.2.0
   resolution: "boxen@npm:4.2.0"
@@ -8356,8 +8365,10 @@ __metadata:
 
 "rescript-bastet@github:dsiu/rescript-bastet#rescript-v12":
   version: 0.0.1
-  resolution: "rescript-bastet@https://github.com/dsiu/rescript-bastet.git#commit=82b562df45024210573eb0c2968983209842c039"
-  checksum: 10c0/60f8ef64155d7d9a915676c4290d944c93c7b2759086438bb5fec1af6e4b81b9d20867f0fbd03123068bc0406edc425e1e9e8e704bbf7f4b9d385b48e89391c9
+  resolution: "rescript-bastet@https://github.com/dsiu/rescript-bastet.git#commit=fab154b92a999fbb54424c28ad610641ca0782fe"
+  peerDependencies:
+    rescript: ^12.0.0-alpha.7
+  checksum: 10c0/b2989cc74e65ef6a1b6e1a9aa8c0dbf9c707fd27de85c90a30bd011bf5752de9271398e1ccad04fce01a19b2d46b49097e9651ca46e493175b58b78bfc5c7f22
   languageName: node
   linkType: hard
 
@@ -8369,6 +8380,8 @@ __metadata:
     bs-jsverify: "github:dsiu/bs-jsverify#rescript-v12"
     rescript: "npm:^12.0.0-alpha.7"
     rescript-mocha: "github:dsiu/rescript-mocha#rescript-v12"
+  peerDependencies:
+    rescript: ^12.0.0-alpha.7
   languageName: unknown
   linkType: soft
 
@@ -8398,13 +8411,22 @@ __metadata:
     rescript: "npm:^12.0.0-alpha.7"
     rescript-bastet: "github:dsiu/rescript-bastet#rescript-v12"
     rescript-relude: "github:dsiu/rescript-relude#rescript-v12"
+  peerDependencies:
+    rescript: ^12.0.0-alpha.7
+    rescript-bastet: "*"
+    rescript-relude: "*"
   languageName: unknown
   linkType: soft
 
 "rescript-relude@github:dsiu/rescript-relude#rescript-v12":
   version: 0.66.1
-  resolution: "rescript-relude@https://github.com/dsiu/rescript-relude.git#commit=6947b70bbd9feaf293e2432614c1d4fcc8d80d5a"
-  checksum: 10c0/f5389f8152de38aa0be78f46afb61c79b239dc78ab3ba98f6365f53f365177a712fa9e08101b1cac3f7ff4c773b9fc859130f7a18d6850966c85106ccfd0c8e0
+  resolution: "rescript-relude@https://github.com/dsiu/rescript-relude.git#commit=2af2b139cceb6e473f31685f30d62db46fb9f96a"
+  dependencies:
+    bisect_ppx: "npm:^2.7.1"
+  peerDependencies:
+    rescript: ^12.0.0-alpha.7
+    rescript-bastet: "*"
+  checksum: 10c0/20351356989df9e9ff72fe21c5bd219a0a5f62c250c9c7e31130fd7227b66b5ca93cbf1066c9d78102bc15b0e521605b71fd34bb10805bf840311dc97ebdd8b9
   languageName: node
   linkType: hard
 
@@ -8415,9 +8437,13 @@ __metadata:
     "@glennsl/rescript-jest": "github:dsiu/rescript-jest#rescript-v12"
     "@swc/core": "npm:^1.10.4"
     "@swc/jest": "npm:^0.2.37"
+    bisect_ppx: "npm:^2.7.1"
     docsify-cli: "npm:~4.4.0"
     rescript: "npm:^12.0.0-alpha.7"
     rescript-bastet: "github:dsiu/rescript-bastet#rescript-v12"
+  peerDependencies:
+    rescript: ^12.0.0-alpha.7
+    rescript-bastet: "*"
   languageName: unknown
   linkType: soft
 
