@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="use `.res.mjs` instead of `.mjs`">
+    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="added back relude, relude-parse, rescript-bastet codes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/rescript.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/rescript.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src-WIP/Bastet/Bastet_Examples.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/Bastet/Bastet_Examples.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src-WIP/Bastet/Bastet_Play.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/Bastet/Bastet_Play.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src-WIP/Relude-Parse/Relude_Parse_Example.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/Relude-Parse/Relude_Parse_Example.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src-WIP/Relude-Parse/Relude_Parse_IPv4.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src-WIP/Relude-Parse/Relude_Parse_IPv4.res.tofix" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/Relude-Parse/Relude_Parse_IPv4.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src-WIP/Relude/Relude_Play.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/Relude/Relude_Play.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src-WIP/Relude/Relude_RWS_Example.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/Relude/Relude_RWS_Example.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src-WIP/Relude/Relude_Reader_Example.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/Relude/Relude_Reader_Example.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src-WIP/Relude/Relude_State_Example.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/Relude/Relude_State_Example.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src-WIP/Relude/Relude_Writer_Example.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/Relude/Relude_Writer_Example.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day6/AOC2023_Day6.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day6/AOC2023_Day6.res" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +25,7 @@
       <option value="directory" />
       <option value="repository" />
     </branch-grouping>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/projects/rescript-snippets" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/projects/advent-of-code" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -65,35 +53,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Jest.All Tests in advent-of-code.executor&quot;: &quot;Run&quot;,
-    &quot;Jest.All Tests in rescript-relude-parse.executor&quot;: &quot;Run&quot;,
-    &quot;Jest.All Tests in rescript-relude.executor&quot;: &quot;Run&quot;,
-    &quot;Jest.All Tests in rescript-snippets.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.Workspaces.CheckRemotesActivity&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.workspace.git.set.grouping.by.repo&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.jest.jest_package&quot;: &quot;/Users/dsiu/code/playground/workspace/node_modules/jest&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.22753906&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/IntelliJ IDEA 2025 EAP.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Jest.All Tests in advent-of-code.executor": "Run",
+    "Jest.All Tests in rescript-relude-parse.executor": "Run",
+    "Jest.All Tests in rescript-relude.executor": "Run",
+    "Jest.All Tests in rescript-snippets.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.Workspaces.CheckRemotesActivity": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.workspace.git.set.grouping.by.repo": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "rescript-v12",
+    "go.import.settings.migrated": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "/Users/dsiu/code/playground/workspace/node_modules/jest",
+    "nodejs_package_manager_path": "yarn",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.22753906",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "settings.reason",
+    "ts.external.directory.path": "/Applications/IntelliJ IDEA 2025 EAP.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/projects/rescript-snippets/src" />
@@ -401,7 +389,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737117317863</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="added back relude, relude-parse, rescript-bastet codes">
+      <option name="closed" value="true" />
+      <created>1737120185896</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1737120185896</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +425,8 @@
     <MESSAGE value="updated dependencies" />
     <MESSAGE value="ignore .res.mjs" />
     <MESSAGE value="use `.res.mjs` instead of `.mjs`" />
-    <option name="LAST_COMMIT_MESSAGE" value="use `.res.mjs` instead of `.mjs`" />
+    <MESSAGE value="added back relude, relude-parse, rescript-bastet codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added back relude, relude-parse, rescript-bastet codes" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
