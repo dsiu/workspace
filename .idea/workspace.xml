@@ -3,11 +3,22 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="workspace" />
+      <module name="rescript-snippets" />
+    </loaded-modules>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="package update">
+    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="WIP">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-extras" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-extras" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-extras/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-bag" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-graphology" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Dictionaries_As_Functions.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/Dictionaries_As_Functions.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Dictionaries_As_Functions.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/Dictionaries_As_Functions.res.mjs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +36,7 @@
       <option value="directory" />
       <option value="repository" />
     </branch-grouping>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/packages/rescript-extras" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/projects/rescript-snippets" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -66,7 +77,7 @@
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.workspace.git.set.grouping.by.repo&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;rescript-v12&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -155,6 +166,13 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="StructuralSearchPlugin">
+    <replaceConfiguration name="optionEqual($A$, $B$)" created="1737124688771" uuid="93abc0d9-5fb5-306e-aa38-cf4a023d9869" text="optionEqual($A$, $B$)" recursive="false" caseInsensitive="false" type="JavaScript" scope_type="NAMED" scope_descriptor="Open Files" reformatAccordingToStyle="true" shortenFQN="true" replacement="expect($A$)-toEqual($B$)" history="1">
+      <constraint name="__context__" within="" contains="" />
+      <constraint name="A" within="" contains="" />
+      <constraint name="B" within="" contains="" />
+    </replaceConfiguration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="" />
@@ -355,11 +373,38 @@
       <option name="project" value="LOCAL" />
       <updated>1737121832214</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="gitignore update">
+      <option name="closed" value="true" />
+      <created>1737123212245</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1737123212245</updated>
+    </task>
+    <task id="LOCAL-00026" summary="WIP">
+      <option name="closed" value="true" />
+      <created>1737127276670</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1737127276670</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnloadedModulesList">
+    <module name="advent-of-code" />
+    <module name="rescript-bag" />
+    <module name="rescript-bastet" />
+    <module name="rescript-extras" />
+    <module name="rescript-graphology" />
+    <module name="rescript-relude" />
+    <module name="rescript-relude-parse" />
+    <module name="rescript-seq" />
+    <module name="rescript-stdlib-fp" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -388,7 +433,9 @@
     <MESSAGE value="ignore rewatch build artifacts" />
     <MESSAGE value="update" />
     <MESSAGE value="package update" />
-    <option name="LAST_COMMIT_MESSAGE" value="package update" />
+    <MESSAGE value="gitignore update" />
+    <MESSAGE value="WIP" />
+    <option name="LAST_COMMIT_MESSAGE" value="WIP" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
