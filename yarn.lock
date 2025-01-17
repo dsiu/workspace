@@ -8374,7 +8374,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rescript-bastet@workspace:packages/rescript-bastet":
+"rescript-bastet@workspace:^, rescript-bastet@workspace:packages/rescript-bastet":
   version: 0.0.0-use.local
   resolution: "rescript-bastet@workspace:packages/rescript-bastet"
   dependencies:
@@ -8479,7 +8479,10 @@ __metadata:
     nodemon: "npm:^3.1.9"
     rationale: "npm:^0.2.0"
     rescript: "npm:^12.0.0-alpha.7"
+    rescript-bastet: "workspace:^"
     rescript-nodejs: "npm:^16.1.0"
+    rescript-relude: "workspace:^"
+    rescript-relude-parse: "workspace:^"
     rescript-test: "git+https://github.com/dsiu/rescript-test#rescript-v12"
   languageName: unknown
   linkType: soft

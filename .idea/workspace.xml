@@ -6,40 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="use `.res.mjs` instead of `.mjs`">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-bag" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-bastet" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bastet" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-extras" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-extras" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-extras/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras__Array.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras__Cmp.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras__CmpUtilities.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras__Literal.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras__NonEmptyArray.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras__Option.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras__Pattern.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras__Result.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras__SeqSamples.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras__Task.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras__Test.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras__Trampoline.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras__Union.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/src/Extras__Unknown.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-graphology" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-relude" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-relude-parse" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude-parse" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-seq" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-seq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-seq/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-seq/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-seq/src/Seq.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-seq/src/Seq__Option.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-seq/src/Seq__Result.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-seq/src/Seq__SeqSamples.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-seq/src/Seq__Task.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-seq/src/Seq__Test.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/rescript-snippets" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rescript.json" beforeDir="false" afterPath="$PROJECT_DIR$/rescript.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/rescript.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/rescript.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src-WIP/Bastet/Bastet_Examples.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/Bastet/Bastet_Examples.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src-WIP/Bastet/Bastet_Play.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/Bastet/Bastet_Play.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src-WIP/Relude-Parse/Relude_Parse_Example.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/Relude-Parse/Relude_Parse_Example.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src-WIP/Relude-Parse/Relude_Parse_IPv4.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src-WIP/Relude-Parse/Relude_Parse_IPv4.res.tofix" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/Relude-Parse/Relude_Parse_IPv4.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src-WIP/Relude/Relude_Play.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/Relude/Relude_Play.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src-WIP/Relude/Relude_RWS_Example.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/Relude/Relude_RWS_Example.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src-WIP/Relude/Relude_Reader_Example.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/Relude/Relude_Reader_Example.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src-WIP/Relude/Relude_State_Example.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/Relude/Relude_State_Example.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src-WIP/Relude/Relude_Writer_Example.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/Relude/Relude_Writer_Example.res" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +37,7 @@
       <option value="directory" />
       <option value="repository" />
     </branch-grouping>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/packages/rescript-seq" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/projects/rescript-snippets" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -86,37 +65,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Jest.All Tests in advent-of-code.executor": "Run",
-    "Jest.All Tests in rescript-relude-parse.executor": "Run",
-    "Jest.All Tests in rescript-relude.executor": "Run",
-    "Jest.All Tests in rescript-snippets.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.Workspaces.CheckRemotesActivity": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.workspace.git.set.grouping.by.repo": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "rescript-v12",
-    "go.import.settings.migrated": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "/Users/dsiu/code/playground/workspace/node_modules/jest",
-    "nodejs_package_manager_path": "yarn",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.22753906",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "http.proxy",
-    "ts.external.directory.path": "/Applications/IntelliJ IDEA 2025 EAP.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Jest.All Tests in advent-of-code.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.All Tests in rescript-relude-parse.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.All Tests in rescript-relude.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.All Tests in rescript-snippets.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.Workspaces.CheckRemotesActivity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.workspace.git.set.grouping.by.repo&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;/Users/dsiu/code/playground/workspace/node_modules/jest&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.22753906&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/IntelliJ IDEA 2025 EAP.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/projects/rescript-snippets/src" />
       <recent name="$PROJECT_DIR$/.idea" />
     </key>
   </component>
@@ -405,7 +385,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737117027432</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="ignore .res.mjs">
+      <option name="closed" value="true" />
+      <created>1737117265630</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1737117265630</updated>
+    </task>
+    <task id="LOCAL-00019" summary="use `.res.mjs` instead of `.mjs`">
+      <option name="closed" value="true" />
+      <created>1737117317863</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1737117317863</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,6 +427,7 @@
     <MESSAGE value="updated project files" />
     <MESSAGE value="updated yarn.lock" />
     <MESSAGE value="updated dependencies" />
+    <MESSAGE value="ignore .res.mjs" />
     <MESSAGE value="use `.res.mjs` instead of `.mjs`" />
     <option name="LAST_COMMIT_MESSAGE" value="use `.res.mjs` instead of `.mjs`" />
   </component>
