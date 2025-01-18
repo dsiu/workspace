@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="updated submodules">
+    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="updated yarn.lock for CI">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/Node.js.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/Node.js.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -490,7 +490,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737179361893</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="updated dependencies">
+      <option name="closed" value="true" />
+      <created>1737185152253</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1737185152253</updated>
+    </task>
+    <task id="LOCAL-00042" summary="updated yarn.lock for CI">
+      <option name="closed" value="true" />
+      <created>1737185233484</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1737185233484</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,7 +531,6 @@
     <MESSAGE value="fixed git submodule" />
     <MESSAGE value="updated project files" />
     <MESSAGE value="updated yarn.lock" />
-    <MESSAGE value="updated dependencies" />
     <MESSAGE value="ignore .res.mjs" />
     <MESSAGE value="use `.res.mjs` instead of `.mjs`" />
     <MESSAGE value="added back relude, relude-parse, rescript-bastet codes" />
@@ -530,11 +545,12 @@
     <MESSAGE value="updated github CI" />
     <MESSAGE value="removed some log" />
     <MESSAGE value="added github CI for workspace" />
-    <MESSAGE value="updated yarn.lock for CI" />
     <MESSAGE value="updated CI" />
     <MESSAGE value="updated CI to init submodules" />
     <MESSAGE value="updated submodules" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated submodules" />
+    <MESSAGE value="updated dependencies" />
+    <MESSAGE value="updated yarn.lock for CI" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated yarn.lock for CI" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
