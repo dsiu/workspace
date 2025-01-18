@@ -754,10 +754,10 @@ __metadata:
 
 "@dsiu/rescript-stdlib-fp@git+https://github.com/dsiu/rescript-stdlib-fp#rescript-v12":
   version: 0.0.1
-  resolution: "@dsiu/rescript-stdlib-fp@https://github.com/dsiu/rescript-stdlib-fp.git#commit=745cfa81c6082fdab2b94a675251198d9788493e"
+  resolution: "@dsiu/rescript-stdlib-fp@https://github.com/dsiu/rescript-stdlib-fp.git#commit=e9c73ad606c1de074e5a7efc09e1b1f766a9c92a"
   peerDependencies:
     rescript: ^12.0.0-alpha.7
-  checksum: 10c0/7265ecac3ad6686ef59ac3610f63cc6af4e17578e773066f6b0382da49cfa677f873ff8501ead67dbdde27e97739fc5daadc4e4cbf5dfc849dc93ca8eab544dd
+  checksum: 10c0/388b4c9ee8cd613dc0f684b3764d1a514718711acd9137277df4205c6899239871b175cfc8b390c9810ddc591e4743001f2a1c1bb14e6dcc2e05abce5272f7c5
   languageName: node
   linkType: hard
 
@@ -9007,6 +9007,9 @@ __metadata:
 "workspace@workspace:.":
   version: 0.0.0-use.local
   resolution: "workspace@workspace:."
+  dependencies:
+    jest: "npm:^29.7.0"
+    rescript: "npm:^12.0.0-alpha.7"
   languageName: unknown
   linkType: soft
 
