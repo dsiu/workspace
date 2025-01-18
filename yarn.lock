@@ -8401,21 +8401,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rescript-bastet@git+https://github.com/dsiu/rescript-bastet#rescript-v12":
+"rescript-bastet@git+https://github.com/dsiu/rescript-bastet#rescript-v12, rescript-bastet@github:dsiu/rescript-bastet#rescript-v12":
   version: 0.0.1
   resolution: "rescript-bastet@https://github.com/dsiu/rescript-bastet.git#commit=ae5dc89a70f08aac1905859b2ea8b1fc20a9653a"
   peerDependencies:
     rescript: ^12.0.0-alpha.7
   checksum: 10c0/12e502406594bf8ef4adc2fd6f2cb17306ceb70c0cce24c8752767b0ede457c86b93ba4bbfd0a6dfc6d84353b0c760874c83eb77029c8ee6ba2e417fd13efe4d
-  languageName: node
-  linkType: hard
-
-"rescript-bastet@github:dsiu/rescript-bastet#rescript-v12":
-  version: 0.0.1
-  resolution: "rescript-bastet@https://github.com/dsiu/rescript-bastet.git#commit=fab154b92a999fbb54424c28ad610641ca0782fe"
-  peerDependencies:
-    rescript: ^12.0.0-alpha.7
-  checksum: 10c0/b2989cc74e65ef6a1b6e1a9aa8c0dbf9c707fd27de85c90a30bd011bf5752de9271398e1ccad04fce01a19b2d46b49097e9651ca46e493175b58b78bfc5c7f22
   languageName: node
   linkType: hard
 
@@ -8476,7 +8467,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"rescript-relude@git+https://github.com/dsiu/rescript-relude#rescript-v12":
+"rescript-relude@git+https://github.com/dsiu/rescript-relude#rescript-v12, rescript-relude@github:dsiu/rescript-relude#rescript-v12":
   version: 0.66.1
   resolution: "rescript-relude@https://github.com/dsiu/rescript-relude.git#commit=a9a8b09ca050974101e1a55d791dccf48db69fdd"
   dependencies:
@@ -8485,18 +8476,6 @@ __metadata:
     rescript: ^12.0.0-alpha.7
     rescript-bastet: "*"
   checksum: 10c0/ee06fb1b19269aae39a90c29676f2545714806fcdf54a3dac4150019a786e1ba3f939eb5777da5fe205950c34ea52e0d0ebc9c1ac5f1f47a52d1ecccb677c1e3
-  languageName: node
-  linkType: hard
-
-"rescript-relude@github:dsiu/rescript-relude#rescript-v12":
-  version: 0.66.1
-  resolution: "rescript-relude@https://github.com/dsiu/rescript-relude.git#commit=2af2b139cceb6e473f31685f30d62db46fb9f96a"
-  dependencies:
-    bisect_ppx: "npm:^2.7.1"
-  peerDependencies:
-    rescript: ^12.0.0-alpha.7
-    rescript-bastet: "*"
-  checksum: 10c0/20351356989df9e9ff72fe21c5bd219a0a5f62c250c9c7e31130fd7227b66b5ca93cbf1066c9d78102bc15b0e521605b71fd34bb10805bf840311dc97ebdd8b9
   languageName: node
   linkType: hard
 
