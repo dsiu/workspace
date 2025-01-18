@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="updated yarn.lock for CI">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/Node.js.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/Node.js.yml" afterDir="false" />
+    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="updated CI to init submodules">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -459,7 +456,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737178069481</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="updated CI">
+      <option name="closed" value="true" />
+      <created>1737178942676</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1737178942676</updated>
+    </task>
+    <task id="LOCAL-00038" summary="updated CI to init submodules">
+      <option name="closed" value="true" />
+      <created>1737179167990</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1737179167990</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,7 +513,9 @@
     <MESSAGE value="removed some log" />
     <MESSAGE value="added github CI for workspace" />
     <MESSAGE value="updated yarn.lock for CI" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated yarn.lock for CI" />
+    <MESSAGE value="updated CI" />
+    <MESSAGE value="updated CI to init submodules" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated CI to init submodules" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
