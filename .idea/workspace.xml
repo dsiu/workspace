@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="project update">
+    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="updated github CI">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/Node.js.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/.github/workflows/blank.yml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/.github/workflows/node.js.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day17/AOC2020_Day17.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day17/AOC2020_Day17.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day9/AOC2023_Day9.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day9/AOC2023_Day9.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +34,7 @@
       <option value="directory" />
       <option value="repository" />
     </branch-grouping>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/packages/rescript-stdlib-fp" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -65,7 +75,7 @@
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.workspace.git.set.grouping.by.repo": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "rescript-v12",
+    "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -401,7 +411,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737174360827</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="updated github CI">
+      <option name="closed" value="true" />
+      <created>1737174764633</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1737174764633</updated>
+    </task>
+    <task id="LOCAL-00031" summary="updated github CI">
+      <option name="closed" value="true" />
+      <created>1737174771648</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1737174771648</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,7 +464,8 @@
     <MESSAGE value="WIP" />
     <MESSAGE value="fixed floating point number" />
     <MESSAGE value="project update" />
-    <option name="LAST_COMMIT_MESSAGE" value="project update" />
+    <MESSAGE value="updated github CI" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated github CI" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
