@@ -711,16 +711,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@dsiu/rescript-bag@git+https://github.com/dsiu/rescript-bag#rescript-v12":
-  version: 0.0.1
-  resolution: "@dsiu/rescript-bag@https://github.com/dsiu/rescript-bag.git#commit=bb477a615ee8c5c6a37671a5c2a3f0699ce08b1b"
-  peerDependencies:
-    rescript: ^12.0.0-alpha.7
-  checksum: 10c0/3534801c58fcf013f57da02b5db7e17950ea7432877b5b0e007d3e6fcdeea8f7747534dda77c300509e7273e3f0d3f28dfe2b4492dd8a1bb34731a6f2772c035
-  languageName: node
-  linkType: hard
-
-"@dsiu/rescript-bag@workspace:^, @dsiu/rescript-bag@workspace:packages/rescript-bag":
+"@dsiu/rescript-bag@workspace:*, @dsiu/rescript-bag@workspace:^, @dsiu/rescript-bag@workspace:packages/rescript-bag":
   version: 0.0.0-use.local
   resolution: "@dsiu/rescript-bag@workspace:packages/rescript-bag"
   dependencies:
@@ -752,16 +743,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@dsiu/rescript-stdlib-fp@git+https://github.com/dsiu/rescript-stdlib-fp#rescript-v12":
-  version: 0.0.1
-  resolution: "@dsiu/rescript-stdlib-fp@https://github.com/dsiu/rescript-stdlib-fp.git#commit=e9c73ad606c1de074e5a7efc09e1b1f766a9c92a"
-  peerDependencies:
-    rescript: ^12.0.0-alpha.7
-  checksum: 10c0/388b4c9ee8cd613dc0f684b3764d1a514718711acd9137277df4205c6899239871b175cfc8b390c9810ddc591e4743001f2a1c1bb14e6dcc2e05abce5272f7c5
-  languageName: node
-  linkType: hard
-
-"@dsiu/rescript-stdlib-fp@workspace:^, @dsiu/rescript-stdlib-fp@workspace:packages/rescript-stdlib-fp":
+"@dsiu/rescript-stdlib-fp@workspace:*, @dsiu/rescript-stdlib-fp@workspace:^, @dsiu/rescript-stdlib-fp@workspace:packages/rescript-stdlib-fp":
   version: 0.0.0-use.local
   resolution: "@dsiu/rescript-stdlib-fp@workspace:packages/rescript-stdlib-fp"
   dependencies:
@@ -1070,17 +1052,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jmagaram/rescript-extras@git+https://github.com/dsiu/rescript-extras#rescript-v12":
-  version: 4.1.0
-  resolution: "@jmagaram/rescript-extras@https://github.com/dsiu/rescript-extras.git#commit=13874937df37298e9a712af60acc0daf0923ccab"
-  dependencies:
-    rescript: "npm:^12.0.0-alpha.7"
-    rescript-schema: "npm:^9.0.1"
-  checksum: 10c0/3d2c71f3f08e0cc87898ca36b2111829fb95943948fd10b970be8f4251043b670ff86bb2502555562df104e4ed1b804f6841f5145b0bfdeeb056aee7fbf7f1c6
-  languageName: node
-  linkType: hard
-
-"@jmagaram/rescript-extras@workspace:^, @jmagaram/rescript-extras@workspace:packages/rescript-extras":
+"@jmagaram/rescript-extras@workspace:*, @jmagaram/rescript-extras@workspace:^, @jmagaram/rescript-extras@workspace:packages/rescript-extras":
   version: 0.0.0-use.local
   resolution: "@jmagaram/rescript-extras@workspace:packages/rescript-extras"
   dependencies:
@@ -1090,16 +1062,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@jmagaram/rescript-seq@git+https://github.com/dsiu/rescript-seq#rescript-v12":
-  version: 4.4.1
-  resolution: "@jmagaram/rescript-seq@https://github.com/dsiu/rescript-seq.git#commit=8cf4ca58f25f94c8c462381128b8418657353c08"
-  dependencies:
-    rescript: "npm:^12.0.0-alpha.7"
-  checksum: 10c0/ac514d2a92a328db67f04af67835de73cea36abd76c0e6b8796d4b89ea2a64b8baae60c6aa1c88bc53df37abe6056976f6753be063753cc409dd343ead272310
-  languageName: node
-  linkType: hard
-
-"@jmagaram/rescript-seq@workspace:^, @jmagaram/rescript-seq@workspace:packages/rescript-seq":
+"@jmagaram/rescript-seq@workspace:*, @jmagaram/rescript-seq@workspace:^, @jmagaram/rescript-seq@workspace:packages/rescript-seq":
   version: 0.0.0-use.local
   resolution: "@jmagaram/rescript-seq@workspace:packages/rescript-seq"
   dependencies:
@@ -7355,7 +7318,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rescript-bastet@git+https://github.com/dsiu/rescript-bastet#rescript-v12, rescript-bastet@github:dsiu/rescript-bastet#rescript-v12":
+"rescript-bastet@github:dsiu/rescript-bastet#rescript-v12":
   version: 0.0.1
   resolution: "rescript-bastet@https://github.com/dsiu/rescript-bastet.git#commit=ae5dc89a70f08aac1905859b2ea8b1fc20a9653a"
   peerDependencies:
@@ -7364,7 +7327,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rescript-bastet@workspace:packages/rescript-bastet":
+"rescript-bastet@workspace:*, rescript-bastet@workspace:packages/rescript-bastet":
   version: 0.0.0-use.local
   resolution: "rescript-bastet@workspace:packages/rescript-bastet"
   dependencies:
@@ -7393,18 +7356,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rescript-relude-parse@git+https://github.com/dsiu/rescript-relude-parse#rescript-v12":
-  version: 0.8.0
-  resolution: "rescript-relude-parse@https://github.com/dsiu/rescript-relude-parse.git#commit=e4ec4e1a3c192fbceb402b084911dd543f13fcd4"
-  peerDependencies:
-    rescript: ^12.0.0-alpha.7
-    rescript-bastet: "*"
-    rescript-relude: "*"
-  checksum: 10c0/5c5f7eb20e09dd53432ba724381affdcfc64753f964e10e122a09dd046d8f70b6f720b287d3f15c8d25d8e3ae552073245f734b10c15b8d13bd20f473fe02e8f
-  languageName: node
-  linkType: hard
-
-"rescript-relude-parse@workspace:^, rescript-relude-parse@workspace:packages/rescript-relude-parse":
+"rescript-relude-parse@workspace:*, rescript-relude-parse@workspace:^, rescript-relude-parse@workspace:packages/rescript-relude-parse":
   version: 0.0.0-use.local
   resolution: "rescript-relude-parse@workspace:packages/rescript-relude-parse"
   dependencies:
@@ -7421,7 +7373,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"rescript-relude@git+https://github.com/dsiu/rescript-relude#rescript-v12, rescript-relude@github:dsiu/rescript-relude#rescript-v12":
+"rescript-relude@github:dsiu/rescript-relude#rescript-v12":
   version: 0.66.1
   resolution: "rescript-relude@https://github.com/dsiu/rescript-relude.git#commit=c05f669cd6923f0de08c1e3761c6efed4948ebcb"
   dependencies:
@@ -7433,7 +7385,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rescript-relude@workspace:^, rescript-relude@workspace:packages/rescript-relude":
+"rescript-relude@workspace:*, rescript-relude@workspace:^, rescript-relude@workspace:packages/rescript-relude":
   version: 0.0.0-use.local
   resolution: "rescript-relude@workspace:packages/rescript-relude"
   dependencies:
@@ -7464,11 +7416,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "rescript-snippets@workspace:projects/rescript-snippets"
   dependencies:
-    "@dsiu/rescript-bag": "git+https://github.com/dsiu/rescript-bag#rescript-v12"
-    "@dsiu/rescript-stdlib-fp": "git+https://github.com/dsiu/rescript-stdlib-fp#rescript-v12"
+    "@dsiu/rescript-bag": "workspace:*"
+    "@dsiu/rescript-stdlib-fp": "workspace:*"
     "@glennsl/rescript-jest": "git+https://github.com/dsiu/rescript-jest#rescript-v12"
-    "@jmagaram/rescript-extras": "git+https://github.com/dsiu/rescript-extras#rescript-v12"
-    "@jmagaram/rescript-seq": "git+https://github.com/dsiu/rescript-seq#rescript-v12"
+    "@jmagaram/rescript-extras": "workspace:*"
+    "@jmagaram/rescript-seq": "workspace:*"
     "@mobily/rescript-date": "npm:^2.1.0"
     "@swc/core": "npm:^1.10.4"
     "@swc/jest": "npm:^0.2.37"
@@ -7481,10 +7433,10 @@ __metadata:
     nodemon: "npm:^3.1.9"
     rationale: "npm:^0.2.0"
     rescript: "npm:^12.0.0-alpha.7"
-    rescript-bastet: "git+https://github.com/dsiu/rescript-bastet#rescript-v12"
+    rescript-bastet: "workspace:*"
     rescript-nodejs: "npm:^16.1.0"
-    rescript-relude: "git+https://github.com/dsiu/rescript-relude#rescript-v12"
-    rescript-relude-parse: "git+https://github.com/dsiu/rescript-relude-parse#rescript-v12"
+    rescript-relude: "workspace:*"
+    rescript-relude-parse: "workspace:*"
     rescript-test: "git+https://github.com/dsiu/rescript-test#rescript-v12"
   languageName: unknown
   linkType: soft
