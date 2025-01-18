@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="removed rewatch">
+    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="2024 Day 9 - fixed unused variable">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-relude" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-relude/__tests__/Relude_List_test.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude/__tests__/Relude_List_test.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-relude/src/Relude_Bool.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude/src/Relude_Bool.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-relude/src/Relude_Globals.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude/src/Relude_Globals.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-relude/src/Relude_Ordering.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude/src/Relude_Ordering.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-relude/src/Relude_Unit.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude/src/Relude_Unit.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-relude/src/array/Relude_Array_Specializations.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude/src/array/Relude_Array_Specializations.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-relude/src/js/Relude_Js.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude/src/js/Relude_Js.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-relude/src/list/Relude_List_Specializations.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude/src/list/Relude_List_Specializations.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-relude/src/option/Relude_Option_Specializations.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude/src/option/Relude_Option_Specializations.res" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +34,7 @@
       <option value="directory" />
       <option value="repository" />
     </branch-grouping>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/projects/advent-of-code" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/packages/rescript-relude" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -53,35 +63,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Jest.All Tests in advent-of-code.executor": "Run",
-    "Jest.All Tests in rescript-relude-parse.executor": "Run",
-    "Jest.All Tests in rescript-relude.executor": "Run",
-    "Jest.All Tests in rescript-snippets.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.Workspaces.CheckRemotesActivity": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.workspace.git.set.grouping.by.repo": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "rescript-v12",
-    "go.import.settings.migrated": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "/Users/dsiu/code/playground/workspace/node_modules/jest",
-    "nodejs_package_manager_path": "yarn",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.22753906",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "settings.reason",
-    "ts.external.directory.path": "/Applications/IntelliJ IDEA 2025 EAP.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Jest.All Tests in advent-of-code.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.All Tests in rescript-relude-parse.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.All Tests in rescript-relude.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.All Tests in rescript-snippets.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.Workspaces.CheckRemotesActivity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.workspace.git.set.grouping.by.repo&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;rescript-v12&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;/Users/dsiu/code/playground/workspace/node_modules/jest&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.22753906&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.reason&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/IntelliJ IDEA 2025 EAP.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/projects/rescript-snippets/src" />
@@ -554,7 +564,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737190760418</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="2024 Day 9 - fixed unused variable">
+      <option name="closed" value="true" />
+      <created>1737190930811</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1737190930811</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,7 +592,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="updated to latest packages" />
     <MESSAGE value="should add `jest` at workspace level" />
     <MESSAGE value="fixed git submodule" />
     <MESSAGE value="updated project files" />
@@ -599,7 +616,8 @@
     <MESSAGE value="updated yarn.lock for CI" />
     <MESSAGE value="updated CI" />
     <MESSAGE value="removed rewatch" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed rewatch" />
+    <MESSAGE value="2024 Day 9 - fixed unused variable" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024 Day 9 - fixed unused variable" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
