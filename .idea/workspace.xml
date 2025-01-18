@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="updated yarn.lock for CI">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/Node.js.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/Node.js.yml" afterDir="false" />
+    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="updated CI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +26,7 @@
       <option value="directory" />
       <option value="repository" />
     </branch-grouping>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/projects/rescript-snippets" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -66,7 +68,7 @@
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.workspace.git.set.grouping.by.repo": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "go.import.settings.migrated": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -506,7 +508,31 @@
       <option name="project" value="LOCAL" />
       <updated>1737185233484</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="updated CI">
+      <option name="closed" value="true" />
+      <created>1737186380610</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1737186380610</updated>
+    </task>
+    <task id="LOCAL-00044" summary="updated CI">
+      <option name="closed" value="true" />
+      <created>1737186418245</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1737186418245</updated>
+    </task>
+    <task id="LOCAL-00045" summary="updated CI">
+      <option name="closed" value="true" />
+      <created>1737186715571</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1737186715571</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -545,12 +571,12 @@
     <MESSAGE value="updated github CI" />
     <MESSAGE value="removed some log" />
     <MESSAGE value="added github CI for workspace" />
-    <MESSAGE value="updated CI" />
     <MESSAGE value="updated CI to init submodules" />
     <MESSAGE value="updated submodules" />
     <MESSAGE value="updated dependencies" />
     <MESSAGE value="updated yarn.lock for CI" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated yarn.lock for CI" />
+    <MESSAGE value="updated CI" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated CI" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
