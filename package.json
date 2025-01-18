@@ -19,5 +19,9 @@
   "devDdependencies": {
     "jest": "^29.7.0",
     "rescript": "^12.0.0-alpha.7"
+  },
+  "dependencies": {
+    "jest": "^29.7.0",
+    "rescript": "^12.0.0-alpha.7"
   }
 }

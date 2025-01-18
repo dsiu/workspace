@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="updated CI to init submodules">
+    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="updated submodules">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,7 @@
     </branch-grouping>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -472,7 +474,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737179167990</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="updated CI to init submodules">
+      <option name="closed" value="true" />
+      <created>1737179198693</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1737179198693</updated>
+    </task>
+    <task id="LOCAL-00040" summary="updated submodules">
+      <option name="closed" value="true" />
+      <created>1737179361893</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1737179361893</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,7 +533,8 @@
     <MESSAGE value="updated yarn.lock for CI" />
     <MESSAGE value="updated CI" />
     <MESSAGE value="updated CI to init submodules" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated CI to init submodules" />
+    <MESSAGE value="updated submodules" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated submodules" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
