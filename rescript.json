@@ -7,31 +7,13 @@
       "in-source": true
     }
   ],
-  "bs-dev-dependencies": [
-  ],
   "bs-dependencies": [
     "advent-of-code",
-    "rescript-snippets",
-    "@dsiu/rescript-stdlib-fp",
-    "@dsiu/rescript-graphology",
-    "@dsiu/rescript-bag",
-    "@jmagaram/rescript-extras",
-    "@jmagaram/rescript-seq",
-    "rescript-bastet",
-    "rescript-relude",
-    "rescript-relude-parse"
+    "rescript-snippets"
   ],
   "pinned-dependencies": [
     "advent-of-code",
-    "rescript-snippets",
-    "@dsiu/rescript-stdlib-fp",
-    "@dsiu/rescript-graphology",
-    "@dsiu/rescript-bag",
-    "@jmagaram/rescript-extras",
-    "@jmagaram/rescript-seq",
-    "rescript-bastet",
-    "rescript-relude",
-    "rescript-relude-parse"
+    "rescript-snippets"
   ],
   "suffix": ".res.mjs"
 }
