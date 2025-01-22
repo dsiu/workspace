@@ -11,10 +11,20 @@
   "scripts": {
     "clean": "rescript clean",
     "build": "rescript",
-    "watch": "rescript build -w",
+    "watch": "yarn run-watch --watch",
+    "run-watch": "wireit",
     "test-advent-of-code": "yarn workspace advent-of-code run test",
     "test-rescript-snippets": "yarn workspace rescript-snippets run test",
     "test": "yarn test-advent-of-code && yarn test-rescript-snippets"
+  },
+  "wireit": {
+    "run-watch": {
+      "command": "NINJA_ANSI_FORCED=1 rescript build",
+      "files": [
+        "**/{src,__tests__}/**/*.res",
+        "!**/node_modules/**"
+      ]
+    }
   },
   "devDdependencies": {
     "jest": "^29.7.0",
@@ -23,5 +33,8 @@
   "dependencies": {
     "jest": "^29.7.0",
     "rescript": "^12.0.0-alpha.7"
+  },
+  "devDependencies": {
+    "wireit": "^0.14.9"
   }
 }

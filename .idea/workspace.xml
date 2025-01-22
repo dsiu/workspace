@@ -4,8 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="project file update">
-      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/.gitignore" afterDir="false" />
+    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="formatting update">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/reason.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/reason.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day8/AOC2022_Day8.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day8/AOC2022_Day8.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9_Run.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9_Run.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9_Run.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9_Run.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9_Test.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9_Test.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9_Test.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9_Test.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +45,7 @@
       <option value="directory" />
       <option value="repository" />
     </branch-grouping>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/projects/rescript-snippets" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -65,7 +80,9 @@
     "Jest.All Tests in rescript-relude-parse.executor": "Run",
     "Jest.All Tests in rescript-relude.executor": "Run",
     "Jest.All Tests in rescript-snippets.executor": "Run",
+    "Jest.All Tests in rescript-stdlib-fp.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.AOC2024_Day9_Run.res.mjs.executor": "Run",
     "Node.js.advent-of-code > AOC2024_Day9_Run.res.mjs.executor": "Run",
     "Node.js.rescript-snippets > Relude_Play2.res.mjs.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -74,7 +91,7 @@
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.workspace.git.set.grouping.by.repo": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -85,7 +102,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.22753906",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "awesome.console.config.AwesomeConsoleConfig",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "/Applications/IntelliJ IDEA 2025 EAP.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
@@ -96,7 +113,7 @@
       <recent name="$PROJECT_DIR$/.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.advent-of-code &gt; AOC2024_Day9_Run.res.mjs">
+  <component name="RunManager" selected="Jest.All Tests in rescript-stdlib-fp">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -148,23 +165,32 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="advent-of-code &gt; AOC2024_Day9_Run.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9_Run.res.mjs" working-dir="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9">
+    <configuration name="All Tests in rescript-stdlib-fp" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/packages/rescript-stdlib-fp" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="AOC2024_Day9_Run.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="AOC2024_Day9_Run.res.mjs" working-dir="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9">
       <method v="2" />
     </configuration>
     <configuration name="rescript-snippets &gt; Relude_Play2.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/rescript-snippets/src/Relude/Relude_Play2.res.mjs" working-dir="$PROJECT_DIR$/projects/rescript-snippets/src/Relude">
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Jest.All Tests in rescript-stdlib-fp" />
       <item itemvalue="Jest.All Tests in rescript-relude" />
       <item itemvalue="Jest.All Tests in rescript-relude-parse" />
       <item itemvalue="Jest.All Tests in rescript-snippets" />
       <item itemvalue="Jest.All Tests in advent-of-code" />
-      <item itemvalue="Node.js.advent-of-code &gt; AOC2024_Day9_Run.res.mjs" />
+      <item itemvalue="Node.js.AOC2024_Day9_Run.res.mjs" />
       <item itemvalue="Node.js.rescript-snippets &gt; Relude_Play2.res.mjs" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.advent-of-code &gt; AOC2024_Day9_Run.res.mjs" />
+        <item itemvalue="Node.js.AOC2024_Day9_Run.res.mjs" />
         <item itemvalue="Node.js.rescript-snippets &gt; Relude_Play2.res.mjs" />
       </list>
     </recent_temporary>
@@ -191,30 +217,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737005758738</updated>
-    </task>
-    <task id="LOCAL-00012" summary="use `.res.mjs` instead of `.mjs`">
-      <option name="closed" value="true" />
-      <created>1737116561688</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1737116561688</updated>
-    </task>
-    <task id="LOCAL-00013" summary="use `.res.mjs` instead of `.mjs`">
-      <option name="closed" value="true" />
-      <created>1737116600137</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1737116600137</updated>
-    </task>
-    <task id="LOCAL-00014" summary="use `.res.mjs` instead of `.mjs`">
-      <option name="closed" value="true" />
-      <created>1737116786599</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1737116786599</updated>
     </task>
     <task id="LOCAL-00015" summary="use `.res.mjs` instead of `.mjs`">
       <option name="closed" value="true" />
@@ -584,7 +586,31 @@
       <option name="project" value="LOCAL" />
       <updated>1737300627233</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="ignore /lib/ocaml">
+      <option name="closed" value="true" />
+      <created>1737300729698</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1737300729698</updated>
+    </task>
+    <task id="LOCAL-00062" summary="added takeWhile and dropWhile with tests">
+      <option name="closed" value="true" />
+      <created>1737519653466</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1737519653466</updated>
+    </task>
+    <task id="LOCAL-00063" summary="formatting update">
+      <option name="closed" value="true" />
+      <created>1737519823881</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1737519823881</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -604,9 +630,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="update" />
-    <MESSAGE value="gitignore update" />
-    <MESSAGE value="WIP" />
     <MESSAGE value="fixed floating point number" />
     <MESSAGE value="updated github CI" />
     <MESSAGE value="removed some log" />
@@ -629,7 +652,10 @@
     <MESSAGE value="added `span` and `break` to Arrayp" />
     <MESSAGE value="2024 Day 9 Part 2 WIP" />
     <MESSAGE value="project file update" />
-    <option name="LAST_COMMIT_MESSAGE" value="project file update" />
+    <MESSAGE value="ignore /lib/ocaml" />
+    <MESSAGE value="added takeWhile and dropWhile with tests" />
+    <MESSAGE value="formatting update" />
+    <option name="LAST_COMMIT_MESSAGE" value="formatting update" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
