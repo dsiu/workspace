@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="formatting update">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/reason.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/reason.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp" afterDir="false" />
+    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="Use `wireit` for watching and building ReScript sources and disable auto building in IntelliJ since it isn't predictable in what files it watches.">
+      <change beforePath="$PROJECT_DIR$/packages/rescript-relude/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day8/AOC2022_Day8.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day8/AOC2022_Day8.res" afterDir="false" />
@@ -19,8 +15,6 @@
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9_Run.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9_Run.res.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9_Test.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9_Test.res" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9_Test.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9_Test.res.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +39,7 @@
       <option value="directory" />
       <option value="repository" />
     </branch-grouping>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/packages/rescript-relude" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -91,7 +85,7 @@
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.workspace.git.set.grouping.by.repo": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "rescript-v12",
     "go.import.settings.migrated": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -217,14 +211,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737005758738</updated>
-    </task>
-    <task id="LOCAL-00015" summary="use `.res.mjs` instead of `.mjs`">
-      <option name="closed" value="true" />
-      <created>1737116940768</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1737116940768</updated>
     </task>
     <task id="LOCAL-00016" summary="use `.res.mjs` instead of `.mjs`">
       <option name="closed" value="true" />
@@ -610,7 +596,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737519823881</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Use `wireit` for watching and building ReScript sources and disable auto building in IntelliJ since it isn't predictable in what files it watches.">
+      <option name="closed" value="true" />
+      <created>1737520050972</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1737520050972</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -630,7 +624,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="fixed floating point number" />
     <MESSAGE value="updated github CI" />
     <MESSAGE value="removed some log" />
     <MESSAGE value="added github CI for workspace" />
@@ -655,7 +648,8 @@
     <MESSAGE value="ignore /lib/ocaml" />
     <MESSAGE value="added takeWhile and dropWhile with tests" />
     <MESSAGE value="formatting update" />
-    <option name="LAST_COMMIT_MESSAGE" value="formatting update" />
+    <MESSAGE value="Use `wireit` for watching and building ReScript sources and disable auto building in IntelliJ since it isn't predictable in what files it watches." />
+    <option name="LAST_COMMIT_MESSAGE" value="Use `wireit` for watching and building ReScript sources and disable auto building in IntelliJ since it isn't predictable in what files it watches." />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
