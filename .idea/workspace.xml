@@ -4,15 +4,717 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="package update">
-      <change afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10/AOC2024_Day10.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10/AOC2024_Day10_Data.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10/AOC2024_Day10_Data_Sample.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10/AOC2024_Day10_Run.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10/AOC2024_Day10_Test.res" afterDir="false" />
+    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="2024 Day 10 Part 1 - parsing done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-bag" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-bag/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bag/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-bag/src/bag.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-bag/src/lib/either.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-bag/src/lib/seq.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-bag/tests/test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-bastet" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bastet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-extras" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-extras" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-extras/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-graphology" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-graphology/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/src/Demo.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/src/Demo_AStar.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/src/Graphology.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/src/Graphology__GEXF.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/src/Graphology__Generators.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/src/Graphology__Graph.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/src/Graphology__GraphTypes.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/src/Graphology__Graph_EdgesIter.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/src/Graphology__Graph_NeighborsIter.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/src/Graphology__Graph_NodesIter.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/src/Graphology__Layout.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/src/Graphology__SVG.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/src/Graphology__ShortestPath.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/src/Graphology__SimplePath.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/src/Graphology__Traversal.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/src/Graphology__Utils.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-relude" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-relude-parse" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude-parse" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-relude-parse/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude-parse/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-relude/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-seq" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-seq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-seq/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-seq/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/__tests__/Array_Test.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/__tests__/Array_Test.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/__tests__/Array_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/__tests__/Bool_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/__tests__/Char_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/__tests__/Float_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/__tests__/Function_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/__tests__/Int_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/__tests__/JestStubs.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/__tests__/List_Test.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/__tests__/List_Test.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/__tests__/List_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/__tests__/Option_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/__tests__/Result_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/__tests__/String_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/__tests__/Tuple2_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/__tests__/Tuple3_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/__tests__/Tuple4_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Play.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Array.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Array_Ext.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__BigInt.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__BigInt_Ext.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Bool.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Char.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Float.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Function.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Function_Ext.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Int.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__List.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__List_Ext.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Math.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Option.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Option_Ext.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Ordering.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Ordering_Ext.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Result.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Result_Ext.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Set.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Set_Ext.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__String.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__String_Ext.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Tuple2.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Tuple3.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Tuple4.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Tablecloth/Internal.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Tablecloth/Tablecloth.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Tablecloth/TableclothArray.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Tablecloth/TableclothBool.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Tablecloth/TableclothBool.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Tablecloth/TableclothBool.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Tablecloth/TableclothChar.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Tablecloth/TableclothChar.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Tablecloth/TableclothChar.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Tablecloth/TableclothComparator.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Tablecloth/TableclothContainer.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Tablecloth/TableclothFloat.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Tablecloth/TableclothFun.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Tablecloth/TableclothInt.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Tablecloth/TableclothList.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Tablecloth/TableclothMap.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Tablecloth/TableclothOption.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Tablecloth/TableclothResult.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Tablecloth/TableclothSet.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Tablecloth/TableclothString.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Tablecloth/TableclothTuple2.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Tablecloth/TableclothTuple3.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Tablecloth/TableclothTuple4.res.mjs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/__tests__/Array2D_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/__tests__/ChineseRemainder_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/__tests__/Coordinate_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/__tests__/Interval_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/__tests__/Powerset_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/__tests__/Stack_Array_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/__tests__/Stack_Float_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/__tests__/Tree_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/interop/Jest2.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2018/Day1/AOC2018_Day1.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2018/Day1/AOC2018_Day1_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2018/Day1/AOC2018_Day1_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2018/Day2/AOC2018_Day2.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2018/Day2/AOC2018_Day2_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2018/Day2/AOC2018_Day2_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2018/Day3/AOC2018_Day3.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2018/Day3/AOC2018_Day3_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2018/Day3/AOC2018_Day3_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2018/Day4/AOC2018_Day4.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2018/Day4/AOC2018_Day4_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2018/Day4/AOC2018_Day4_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2018/Day4/AOC2018_Day4_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2018/Day5/AOC2018_Day5.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2018/Day5/AOC2018_Day5_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2018/Day5/AOC2018_Day5_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2018/Day5/AOC2018_Day5_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2018/Day5/AOC2018_Day5_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2018/Day6/AOC2018_Day6.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2018/Day6/AOC2018_Day6_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2018/Day6/AOC2018_Day6_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2018/Day6/AOC2018_Day6_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2018/Day6/AOC2018_Day6_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/Day1/AOC2019_Day1.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/Day1/AOC2019_Day1_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/Day1/AOC2019_Day1_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/Day1/AOC2019_Day1_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/Day1/AOC2019_Day1_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/Day2/AOC2019_Day2.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/Day2/AOC2019_Day2_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/Day2/AOC2019_Day2_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/Day2/AOC2019_Day2_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/Day2/AOC2019_Day2_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/Day3/AOC2019_Day3.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/Day3/AOC2019_Day3_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/Day3/AOC2019_Day3_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/Day3/AOC2019_Day3_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/Day3/AOC2019_Day3_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/Day4/AOC2019_Day4.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/Day4/AOC2019_Day4_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/Day4/AOC2019_Day4_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/Day4/AOC2019_Day4_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/Day4/AOC2019_Day4_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/Day5/AOC2019_Day5.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/Day5/AOC2019_Day5_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/Day5/AOC2019_Day5_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/Day5/AOC2019_Day5_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/Day5/AOC2019_Day5_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/DayX/AOC2019_DayX.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/DayX/AOC2019_DayX_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/DayX/AOC2019_DayX_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/DayX/AOC2019_DayX_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2019/DayX/AOC2019_DayX_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day1/AOC2020_Day1.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day1/AOC2020_Day1_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day1/AOC2020_Day1_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day1/AOC2020_Day1_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day1/AOC2020_Day1_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day10/AOC2020_Day10.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day10/AOC2020_Day10_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day10/AOC2020_Day10_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day10/AOC2020_Day10_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day10/AOC2020_Day10_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day11/AOC2020_Day11.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day11/AOC2020_Day11_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day11/AOC2020_Day11_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day11/AOC2020_Day11_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day11/AOC2020_Day11_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day12/AOC2020_Day12.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day12/AOC2020_Day12_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day12/AOC2020_Day12_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day12/AOC2020_Day12_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day12/AOC2020_Day12_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day13/AOC2020_Day13.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day13/AOC2020_Day13_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day13/AOC2020_Day13_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day13/AOC2020_Day13_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day13/AOC2020_Day13_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day14/AOC2020_Day14.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day14/AOC2020_Day14_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day14/AOC2020_Day14_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day14/AOC2020_Day14_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day14/AOC2020_Day14_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day15/AOC2020_Day15.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day15/AOC2020_Day15_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day15/AOC2020_Day15_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day15/AOC2020_Day15_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day15/AOC2020_Day15_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day16/AOC2020_Day16.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day16/AOC2020_Day16_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day16/AOC2020_Day16_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day16/AOC2020_Day16_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day16/AOC2020_Day16_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day17/AOC2020_Day17.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day17/AOC2020_Day17_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day17/AOC2020_Day17_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day17/AOC2020_Day17_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day17/AOC2020_Day17_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day2/AOC2020_Day2.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day2/AOC2020_Day2_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day2/AOC2020_Day2_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day2/AOC2020_Day2_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day2/AOC2020_Day2_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day3/AOC2020_Day3.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day3/AOC2020_Day3_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day3/AOC2020_Day3_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day3/AOC2020_Day3_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day3/AOC2020_Day3_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day4/AOC2020_Day4.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day4/AOC2020_Day4_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day4/AOC2020_Day4_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day4/AOC2020_Day4_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day4/AOC2020_Day4_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day5/AOC2020_Day5.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day5/AOC2020_Day5_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day5/AOC2020_Day5_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day5/AOC2020_Day5_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day5/AOC2020_Day5_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day6/AOC2020_Day6.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day6/AOC2020_Day6_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day6/AOC2020_Day6_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day6/AOC2020_Day6_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day6/AOC2020_Day6_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day7/AOC2020_Day7.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day7/AOC2020_Day7_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day7/AOC2020_Day7_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day7/AOC2020_Day7_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day7/AOC2020_Day7_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day8/AOC2020_Day8.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day8/AOC2020_Day8_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day8/AOC2020_Day8_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day8/AOC2020_Day8_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day8/AOC2020_Day8_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day9/AOC2020_Day9.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day9/AOC2020_Day9_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day9/AOC2020_Day9_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day9/AOC2020_Day9_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day9/AOC2020_Day9_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/DayX/AOC2020_DayX.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/DayX/AOC2020_DayX_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/DayX/AOC2020_DayX_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/DayX/AOC2020_DayX_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/DayX/AOC2020_DayX_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day1/AOC2021_Day1.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day1/AOC2021_Day1_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day1/AOC2021_Day1_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day1/AOC2021_Day1_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day1/AOC2021_Day1_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day10/AOC2021_Day10.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day10/AOC2021_Day10_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day10/AOC2021_Day10_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day10/AOC2021_Day10_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day10/AOC2021_Day10_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day11/AOC2021_Day11.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day11/AOC2021_Day11_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day11/AOC2021_Day11_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day11/AOC2021_Day11_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day11/AOC2021_Day11_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day12/AOC2021_Day12.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day12/AOC2021_Day12_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day12/AOC2021_Day12_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day12/AOC2021_Day12_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day12/AOC2021_Day12_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day13/AOC2021_Day13.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day13/AOC2021_Day13_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day13/AOC2021_Day13_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day13/AOC2021_Day13_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day13/AOC2021_Day13_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day14/AOC2021_Day14.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day14/AOC2021_Day14_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day14/AOC2021_Day14_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day14/AOC2021_Day14_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day14/AOC2021_Day14_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day15/AOC2021_Day15.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day15/AOC2021_Day15_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day15/AOC2021_Day15_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day15/AOC2021_Day15_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day15/AOC2021_Day15_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day17/AOC2021_Day17.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day17/AOC2021_Day17_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day17/AOC2021_Day17_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day17/AOC2021_Day17_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day17/AOC2021_Day17_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day19/AOC2021_Day19.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day19/AOC2021_Day19_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day19/AOC2021_Day19_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day19/AOC2021_Day19_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day19/AOC2021_Day19_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day2/AOC2021_Day2.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day2/AOC2021_Day2_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day2/AOC2021_Day2_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day2/AOC2021_Day2_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day2/AOC2021_Day2_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day20/AOC2021_Day20.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day20/AOC2021_Day20_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day20/AOC2021_Day20_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day20/AOC2021_Day20_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day20/AOC2021_Day20_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day3/AOC2021_Day3.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day3/AOC2021_Day3_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day3/AOC2021_Day3_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day3/AOC2021_Day3_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day3/AOC2021_Day3_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day4/AOC2021_Day4.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day4/AOC2021_Day4_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day4/AOC2021_Day4_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day4/AOC2021_Day4_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day4/AOC2021_Day4_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day5/AOC2021_Day5.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day5/AOC2021_Day5_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day5/AOC2021_Day5_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day5/AOC2021_Day5_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day5/AOC2021_Day5_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day6/AOC2021_Day6.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day6/AOC2021_Day6_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day6/AOC2021_Day6_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day6/AOC2021_Day6_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day6/AOC2021_Day6_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day7/AOC2021_Day7.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day7/AOC2021_Day7_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day7/AOC2021_Day7_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day7/AOC2021_Day7_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day7/AOC2021_Day7_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day8/AOC2021_Day8.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day8/AOC2021_Day8_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day8/AOC2021_Day8_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day8/AOC2021_Day8_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day8/AOC2021_Day8_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day9/AOC2021_Day9.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day9/AOC2021_Day9_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day9/AOC2021_Day9_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day9/AOC2021_Day9_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day9/AOC2021_Day9_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/DayX/AOC2021_DayX.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/DayX/AOC2021_DayX_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/DayX/AOC2021_DayX_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/DayX/AOC2021_DayX_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/DayX/AOC2021_DayX_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day1/AOC2022_Day1.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day1/AOC2022_Day1_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day1/AOC2022_Day1_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day1/AOC2022_Day1_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day1/AOC2022_Day1_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day10/AOC2022_Day10.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day10/AOC2022_Day10_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day10/AOC2022_Day10_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day10/AOC2022_Day10_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day10/AOC2022_Day10_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day11/AOC2022_Day11.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day11/AOC2022_Day11_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day11/AOC2022_Day11_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day11/AOC2022_Day11_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day11/AOC2022_Day11_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day2/AOC2022_Day2.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day2/AOC2022_Day2_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day2/AOC2022_Day2_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day2/AOC2022_Day2_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day2/AOC2022_Day2_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day3/AOC2022_Day3.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day3/AOC2022_Day3_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day3/AOC2022_Day3_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day3/AOC2022_Day3_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day3/AOC2022_Day3_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day4/AOC2022_Day4.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day4/AOC2022_Day4_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day4/AOC2022_Day4_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day4/AOC2022_Day4_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day4/AOC2022_Day4_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day5/AOC2022_Day5.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day5/AOC2022_Day5_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day5/AOC2022_Day5_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day5/AOC2022_Day5_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day5/AOC2022_Day5_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day6/AOC2022_Day6.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day6/AOC2022_Day6_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day6/AOC2022_Day6_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day6/AOC2022_Day6_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day6/AOC2022_Day6_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day8/AOC2022_Day8.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day8/AOC2022_Day8_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day8/AOC2022_Day8_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day8/AOC2022_Day8_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day8/AOC2022_Day8_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day9/AOC2022_Day9.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day9/AOC2022_Day9_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day9/AOC2022_Day9_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day9/AOC2022_Day9_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day9/AOC2022_Day9_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/DayX/AOC2022_DayX.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/DayX/AOC2022_DayX_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/DayX/AOC2022_DayX_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/DayX/AOC2022_DayX_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/DayX/AOC2022_DayX_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day1/AOC2023_Day1.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day1/AOC2023_Day1_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day1/AOC2023_Day1_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day1/AOC2023_Day1_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day1/AOC2023_Day1_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day10/AOC2023_Day10.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day10/AOC2023_Day10_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day10/AOC2023_Day10_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day10/AOC2023_Day10_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day10/AOC2023_Day10_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day11/AOC2023_Day11.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day11/AOC2023_Day11_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day11/AOC2023_Day11_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day11/AOC2023_Day11_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day11/AOC2023_Day11_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day13/AOC2023_Day13.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day13/AOC2023_Day13_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day13/AOC2023_Day13_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day13/AOC2023_Day13_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day13/AOC2023_Day13_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day14/AOC2023_Day14.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day14/AOC2023_Day14_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day14/AOC2023_Day14_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day14/AOC2023_Day14_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day14/AOC2023_Day14_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day15/AOC2023_Day15.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day15/AOC2023_Day15_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day15/AOC2023_Day15_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day15/AOC2023_Day15_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day15/AOC2023_Day15_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day16/AOC2023_Day16.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day16/AOC2023_Day16_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day16/AOC2023_Day16_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day16/AOC2023_Day16_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day16/AOC2023_Day16_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day17/AOC2023_Day17.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day17/AOC2023_Day17_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day17/AOC2023_Day17_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day17/AOC2023_Day17_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day17/AOC2023_Day17_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day2/AOC2023_Day2.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day2/AOC2023_Day2_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day2/AOC2023_Day2_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day2/AOC2023_Day2_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day2/AOC2023_Day2_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day3/AOC2023_Day3.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day3/AOC2023_Day3_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day3/AOC2023_Day3_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day3/AOC2023_Day3_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day3/AOC2023_Day3_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day4/AOC2023_Day4.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day4/AOC2023_Day4_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day4/AOC2023_Day4_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day4/AOC2023_Day4_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day4/AOC2023_Day4_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day5/AOC2023_Day5.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day5/AOC2023_Day5_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day5/AOC2023_Day5_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day5/AOC2023_Day5_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day5/AOC2023_Day5_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day6/AOC2023_Day6.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day6/AOC2023_Day6_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day6/AOC2023_Day6_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day6/AOC2023_Day6_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day6/AOC2023_Day6_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day7/AOC2023_Day7.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day7/AOC2023_Day7_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day7/AOC2023_Day7_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day7/AOC2023_Day7_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day7/AOC2023_Day7_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day8/AOC2023_Day8.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day8/AOC2023_Day8_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day8/AOC2023_Day8_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day8/AOC2023_Day8_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day8/AOC2023_Day8_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day9/AOC2023_Day9.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day9/AOC2023_Day9_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day9/AOC2023_Day9_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day9/AOC2023_Day9_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day9/AOC2023_Day9_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/DayX/AOC2023_DayX.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/DayX/AOC2023_DayX_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/DayX/AOC2023_DayX_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/DayX/AOC2023_DayX_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/DayX/AOC2023_DayX_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day1/AOC2024_Day1.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day1/AOC2024_Day1_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day1/AOC2024_Day1_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day1/AOC2024_Day1_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day1/AOC2024_Day1_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10/AOC2024_Day10.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10/AOC2024_Day10.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10/AOC2024_Day10.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10/AOC2024_Day10_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10/AOC2024_Day10_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10/AOC2024_Day10_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10/AOC2024_Day10_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day2/AOC2024_Day2.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day2/AOC2024_Day2_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day2/AOC2024_Day2_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day2/AOC2024_Day2_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day2/AOC2024_Day2_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day3/AOC2024_Day3.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day3/AOC2024_Day3_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day3/AOC2024_Day3_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day3/AOC2024_Day3_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day3/AOC2024_Day3_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day4/AOC2024_Day4.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day4/AOC2024_Day4_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day4/AOC2024_Day4_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day4/AOC2024_Day4_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day4/AOC2024_Day4_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day5/AOC2024_Day5.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day5/AOC2024_Day5_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day5/AOC2024_Day5_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day5/AOC2024_Day5_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day5/AOC2024_Day5_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day6/AOC2024_Day6.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day6/AOC2024_Day6_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day6/AOC2024_Day6_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day6/AOC2024_Day6_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day6/AOC2024_Day6_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day7/AOC2024_Day7.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day7/AOC2024_Day7_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day7/AOC2024_Day7_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day7/AOC2024_Day7_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day7/AOC2024_Day7_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day8/AOC2024_Day8.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day8/AOC2024_Day8_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day8/AOC2024_Day8_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day8/AOC2024_Day8_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day8/AOC2024_Day8_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9/AOC2024_Day9_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/DayX/AOC2024_DayX.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/DayX/AOC2024_DayX_Data.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/DayX/AOC2024_DayX_Data_Sample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/DayX/AOC2024_DayX_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/DayX/AOC2024_DayX_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Array2D.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/ChineseRemainder.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Coord_V2.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Coord_V3.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Coord_V4.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Coordinate.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Dijkstra.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/HashSetTuple.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Interval.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/JS_Debug.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/JS_Debug_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Linear.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Linear_New.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/MS.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/NonZero.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Play.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Powerset.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/PriorityQueue.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/PriorityQueue_Play.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/ResLogger.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/ResLogger_Run.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/ResultX.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Stack.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Stack_Array.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Tree.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Utils.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/bun_test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/__tests__/FizzBuzz_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/__tests__/MS_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/__tests__/Monad_Reader_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/interop/Jest2.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/interop/Test_Utils.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/ADT.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Async_Await.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Bastet/Bastet_Examples.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Bastet/Bastet_Play.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Cache.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Color_Bleeding.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/D3.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Destructuring.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Dictionaries_As_Functions.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Exception_Handler.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/FetchExample.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/FizzBuzz.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/GADT/GADT-Typesafe/gadt_typesafe.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/GADT/GADT_Detecting_UseCase_for.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/GADT/GADT_Examples.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/GADT/GADT_Primer.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/GADT/GADT_Primer_2.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Graph/DFS.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Interview_Ex/Unit_Converter.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Js_Interops.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/Js_Interops.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Js_Interops.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Js_Obj_Diff_Shape.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Json_Fetch.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Json_FileReading.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Lambda_Calculus.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Learning_Functional_Programming/Ch4_Functional_Data_Structures.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Learning_Functional_Programming/Ch5_More_On_Immutability.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/MS.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Map_CustomID.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Modules/First_Class_Module.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Modules/How_To_Use_First_Class_Module.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Modules/Module_Alias.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Modules/Module_FirstClass.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Modules/Module_Functor.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Modules/Module_Recursion.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Modules/Module_Sig_Abstract.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Monads/Monad_Marvels.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Monads/Monad_Reader.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Monads/Monad_Reader_Writer.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Monads/Monad_Rescript.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Monads/Monad_State.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Monads/Monad_State_2.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Monads/Monad_State_3.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Monads/Monad_You_Could_Have_Invented.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Monads/Monday_Morning_Haskell/MMH_Part1_Functors.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Monads/Play_Monad.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/More_OCaml/MO_Ch1_Fold.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/More_OCaml/MO_Ch2_Being_Lazy.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Node_Callback.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Node_Fs.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Node_Worker.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/OCaml_Programming/OP_Ch05_4_2_Abstract_Types.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/OCaml_Programming/OP_Ch05_6_Functional_Data_Structure/Map/OP_AssocListMap.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/OCaml_Programming/OP_Ch05_6_Functional_Data_Structure/Map/OP_Map.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/OCaml_Programming/OP_Ch05_6_Functional_Data_Structure/Map/OP_UniqAssocListMap.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/OCaml_Programming/OP_Ch05_6_Functional_Data_Structure/Queue/OP_BatchedQueue.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/OCaml_Programming/OP_Ch05_6_Functional_Data_Structure/Queue/OP_ListQueue.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/OCaml_Programming/OP_Ch05_6_Functional_Data_Structure/Queue/OP_Queue.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/OCaml_Programming/OP_Ch05_6_Functional_Data_Structure/Set/OP_ListSet.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/OCaml_Programming/OP_Ch05_6_Functional_Data_Structure/Set/OP_Set.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/OCaml_Programming/OP_Ch05_6_Functional_Data_Structure/Set/OP_UniqListSet.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/OCaml_Programming/OP_Ch05_6_Functional_Data_Structure/Stack/OP_ListStack.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/OCaml_Programming/OP_Ch05_6_Functional_Data_Structure/Stack/OP_Stack.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/OCaml_Programming/OP_Ch05_Modular_Programming/OP_CH05_11_Exercises.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/OCaml_Programming/OP_Ch05_Modular_Programming/OP_CH05_11_Modules_Reuse_Example.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/OCaml_Programming/OP_Ch05_Modular_Programming/OP_CH05_2_List_Stack.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/OCaml_Programming/OP_Ch05_Modular_Programming/OP_CH05_4_Encapsulation.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/OCaml_Programming/OP_Ch05_Modular_Programming/OP_CH05_7_Module_Type_Constraints.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/OCaml_Programming/OP_Ch05_Modular_Programming/algebra.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/OCaml_Programming/OP_Ch08_7_Monads/OP_Maybe_Monad.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/OOP_vs_TypeClasses.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Parameterized_Types_Debug.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Phantom_Type.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Playground.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Polymorphic_Bindings.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Polymorphic_Object.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Polymorphic_Type_Constraint.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Polymorphic_Variant.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Polymorphic_Variant_Type_Subset.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Pragmatic_Category_Theory/PCT_Part1.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Problems_in_OCaml/Lists_99.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Problems_in_OCaml/Lists_99_Test.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Railway.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/ReOptic.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Reader_Monad.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Real_World_OCaml/Ch10_Functors.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Real_World_OCaml/Ch9_GADTs_UseCases.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Record_As_Json.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Relude-Parse/Relude_Parse_Example.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Relude-Parse/Relude_Parse_IPv4.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Relude/Relude_Play.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Relude/Relude_Play2.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/Relude/Relude_Play2.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Relude/Relude_Play2.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Relude/Relude_RWS_Example.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Relude/Relude_Reader_Example.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Relude/Relude_State_Example.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Relude/Relude_Writer_Example.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Rescript_Promise_Examples.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Result_Examples.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/String_Type_Constraint.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Tablecloth_Playground.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Tail_Recursion_Moduleo_Cons.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Treating_List_as_Monads.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Tree_PrettyPrint.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Type.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Type_Classes/More_Type_Classes.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Type_Polymorphic_Variant.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Type_Record.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Type_Varient.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Unboxed.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Unicode.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Unused_Var.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Utils.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Webpack_Import.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Zipper/Zipper.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/fsharpforfunandprofit/designing_with_types/Designing_With_Types.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/fsharpforfunandprofit/designing_with_types/Single_Case_Union_Types.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/fsharpforfunandprofit/thinking_functionally/TF_Ch12_Stack_Calculator.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/fsharpforfunandprofit/thinking_functionally/TF_Ch12_Stack_Calculator.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/fsharpforfunandprofit/thinking_functionally/TF_Ch12_Stack_Calculator.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/fsharpforfunandprofit/thinking_functionally/TF_Ch3_Function_Values.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/fsharpforfunandprofit/thinking_functionally/TF_Ch4_How_Types_Work_with_Functions.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/fsharpforfunandprofit/thinking_functionally/TF_Ch6_Partial_Application.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/fsharpforfunandprofit/thinking_functionally/TF_Ch7_Function_Composition.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/fsharpforfunandprofit/understanding_parser_combinators/Ch1_Parser_Combinator_Intro.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/re-fp/REFP__State.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/safeReadFile_re.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +739,7 @@
       <option value="directory" />
       <option value="repository" />
     </branch-grouping>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/projects/advent-of-code" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/projects/rescript-snippets" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -84,7 +786,8 @@
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.workspace.git.set.grouping.by.repo": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "rescript-v12",
+    "Wallaby.js.Wallaby.executor": "Run",
+    "git-widget-placeholder": "master",
     "go.import.settings.migrated": "true",
     "last_opened_file_path": "/Users/dsiu/code/playground/workspace/projects/advent-of-code/src/2024/Day10",
     "node.js.detected.package.eslint": "true",
@@ -96,9 +799,14 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.22753906",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "configurable.group.editor",
     "ts.external.directory.path": "/Applications/IntelliJ IDEA 2025 EAP.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TEXT"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -110,7 +818,7 @@
       <recent name="$PROJECT_DIR$/.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.advent-of-code &gt; AOC2024_Day10_Run.res.mjs">
+  <component name="RunManager" selected="Wallaby.js.Wallaby">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -170,28 +878,32 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="AOC2024_Day9_Run.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="AOC2024_Day9_Run.res.mjs" working-dir="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9">
+    <configuration name="AOC2024_Day10_Run.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="AOC2024_Day10_Run.res.mjs" working-dir="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10">
       <method v="2" />
     </configuration>
-    <configuration name="advent-of-code &gt; AOC2024_Day10_Run.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10/AOC2024_Day10_Run.res.mjs" working-dir="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10">
+    <configuration name="AOC2024_Day9_Run.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="AOC2024_Day9_Run.res.mjs" working-dir="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day9">
       <method v="2" />
     </configuration>
     <configuration name="rescript-snippets &gt; Relude_Play2.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/rescript-snippets/src/Relude/Relude_Play2.res.mjs" working-dir="$PROJECT_DIR$/projects/rescript-snippets/src/Relude">
       <method v="2" />
     </configuration>
+    <configuration name="Wallaby" type="wallaby" factoryName="wallaby" configType="Automatic" configFolder="$PROJECT_DIR$/projects/advent-of-code" wsl="No" SmartStart="Yes">
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Jest.All Tests in rescript-stdlib-fp" />
-      <item itemvalue="Jest.All Tests in rescript-relude" />
-      <item itemvalue="Jest.All Tests in rescript-relude-parse" />
-      <item itemvalue="Jest.All Tests in rescript-snippets" />
       <item itemvalue="Jest.All Tests in advent-of-code" />
-      <item itemvalue="Node.js.advent-of-code &gt; AOC2024_Day10_Run.res.mjs" />
+      <item itemvalue="Jest.All Tests in rescript-relude-parse" />
+      <item itemvalue="Jest.All Tests in rescript-relude" />
+      <item itemvalue="Jest.All Tests in rescript-snippets" />
+      <item itemvalue="Jest.All Tests in rescript-stdlib-fp" />
       <item itemvalue="Node.js.AOC2024_Day9_Run.res.mjs" />
+      <item itemvalue="Node.js.AOC2024_Day10_Run.res.mjs" />
       <item itemvalue="Node.js.rescript-snippets &gt; Relude_Play2.res.mjs" />
+      <item itemvalue="Wallaby.js.Wallaby" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.advent-of-code &gt; AOC2024_Day10_Run.res.mjs" />
+        <item itemvalue="Node.js.AOC2024_Day10_Run.res.mjs" />
         <item itemvalue="Node.js.AOC2024_Day9_Run.res.mjs" />
         <item itemvalue="Node.js.rescript-snippets &gt; Relude_Play2.res.mjs" />
       </list>
@@ -200,7 +912,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-b81319f9767f-JavaScript-IU-251.17181.16" />
+        <option value="bundled-js-predefined-d6986cc7102b-4027fba43365-JavaScript-IU-251.18673.35" />
       </set>
     </attachedChunks>
   </component>
@@ -219,22 +931,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737005758738</updated>
-    </task>
-    <task id="LOCAL-00018" summary="ignore .res.mjs">
-      <option name="closed" value="true" />
-      <created>1737117265630</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1737117265630</updated>
-    </task>
-    <task id="LOCAL-00019" summary="use `.res.mjs` instead of `.mjs`">
-      <option name="closed" value="true" />
-      <created>1737117317863</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1737117317863</updated>
     </task>
     <task id="LOCAL-00020" summary="added back relude, relude-parse, rescript-bastet codes">
       <option name="closed" value="true" />
@@ -612,7 +1308,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737520136569</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="2024 Day 9: code formatting">
+      <option name="closed" value="true" />
+      <created>1737901614889</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1737901614890</updated>
+    </task>
+    <task id="LOCAL-00068" summary="2024 Day 10 Part 1 - parsing done">
+      <option name="closed" value="true" />
+      <created>1737901638856</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1737901638856</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -632,8 +1344,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="removed some log" />
-    <MESSAGE value="added github CI for workspace" />
     <MESSAGE value="updated CI to init submodules" />
     <MESSAGE value="updated submodules" />
     <MESSAGE value="updated dependencies" />
@@ -657,7 +1367,9 @@
     <MESSAGE value="Use `wireit` for watching and building ReScript sources and disable auto building in IntelliJ since it isn't predictable in what files it watches." />
     <MESSAGE value="ignore yarn build artifacts" />
     <MESSAGE value="package update" />
-    <option name="LAST_COMMIT_MESSAGE" value="package update" />
+    <MESSAGE value="2024 Day 9: code formatting" />
+    <MESSAGE value="2024 Day 10 Part 1 - parsing done" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024 Day 10 Part 1 - parsing done" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

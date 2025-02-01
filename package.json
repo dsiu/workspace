@@ -9,7 +9,7 @@
   },
   "packageManager": "yarn@4.6.0",
   "scripts": {
-    "clean": "rescript clean",
+    "clean": "rescript clean -with-deps",
     "build": "rescript",
     "watch": "yarn run-watch --watch",
     "run-watch": "wireit",
@@ -28,11 +28,11 @@
   },
   "devDdependencies": {
     "jest": "^29.7.0",
-    "rescript": "^12.0.0-alpha.7"
+    "rescript": "^12.0.0-alpha.8"
   },
   "dependencies": {
     "jest": "^29.7.0",
-    "rescript": "^12.0.0-alpha.7"
+    "rescript": "^12.0.0-alpha.8"
   },
   "devDependencies": {
     "wireit": "^0.14.9"
