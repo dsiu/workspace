@@ -720,9 +720,9 @@ __metadata:
     "@swc/core": "npm:^1.10.4"
     "@swc/jest": "npm:^0.2.37"
     jest: "npm:^29.7.0"
-    rescript: "npm:^12.0.0-alpha.8"
+    rescript: "npm:^12.0.0-alpha.9"
   peerDependencies:
-    rescript: ^12.0.0-alpha.8
+    rescript: ^12.0.0-alpha.9
   languageName: unknown
   linkType: soft
 
@@ -738,7 +738,7 @@ __metadata:
     graphology-simple-path: "npm:^0.2.0"
     graphology-svg: "npm:^0.1.3"
     graphology-traversal: "npm:^0.3.1"
-    rescript: "npm:^12.0.0-alpha.8"
+    rescript: "npm:^12.0.0-alpha.9"
     rescript-nodejs: "npm:^16.1.0"
   languageName: unknown
   linkType: soft
@@ -753,10 +753,10 @@ __metadata:
     "@swc/jest": "npm:^0.2.37"
     jest: "npm:^29.7.0"
     onchange: "npm:^7.1.0"
-    rescript: "npm:^12.0.0-alpha.8"
+    rescript: "npm:^12.0.0-alpha.9"
     tap-difflet: "npm:^0.7.2"
   peerDependencies:
-    rescript: ^12.0.0-alpha.8
+    rescript: ^12.0.0-alpha.9
   languageName: unknown
   linkType: soft
 
@@ -1057,7 +1057,7 @@ __metadata:
   resolution: "@jmagaram/rescript-extras@workspace:packages/rescript-extras"
   dependencies:
     nodemon: "npm:^3.1.9"
-    rescript: "npm:^12.0.0-alpha.8"
+    rescript: "npm:^12.0.0-alpha.9"
     rescript-schema: "npm:^9.0.1"
   languageName: unknown
   linkType: soft
@@ -1067,7 +1067,7 @@ __metadata:
   resolution: "@jmagaram/rescript-seq@workspace:packages/rescript-seq"
   dependencies:
     nodemon: "npm:^3.1.9"
-    rescript: "npm:^12.0.0-alpha.8"
+    rescript: "npm:^12.0.0-alpha.9"
   languageName: unknown
   linkType: soft
 
@@ -1580,7 +1580,7 @@ __metadata:
     jest: "npm:^29.7.0"
     ms: "npm:^2.1.3"
     nodemon: "npm:^3.1.9"
-    rescript: "npm:^12.0.0-alpha.8"
+    rescript: "npm:^12.0.0-alpha.9"
     rescript-nodejs: "npm:^16.1.0"
     rescript-relude: "workspace:^"
     rescript-relude-parse: "workspace:^"
@@ -7367,10 +7367,10 @@ __metadata:
   dependencies:
     bs-chai: "github:dsiu/bs-chai#rescript-v12"
     bs-jsverify: "github:dsiu/bs-jsverify#rescript-v12"
-    rescript: "npm:^12.0.0-alpha.8"
+    rescript: "npm:^12.0.0-alpha.9"
     rescript-mocha: "github:dsiu/rescript-mocha#rescript-v12"
   peerDependencies:
-    rescript: ^12.0.0-alpha.8
+    rescript: ^12.0.0-alpha.9
   languageName: unknown
   linkType: soft
 
@@ -7397,11 +7397,11 @@ __metadata:
     "@glennsl/rescript-jest": "github:dsiu/rescript-jest#rescript-v12"
     "@swc/core": "npm:^1.10.4"
     "@swc/jest": "npm:^0.2.37"
-    rescript: "npm:^12.0.0-alpha.8"
+    rescript: "npm:^12.0.0-alpha.9"
     rescript-bastet: "github:dsiu/rescript-bastet#rescript-v12"
     rescript-relude: "github:dsiu/rescript-relude#rescript-v12"
   peerDependencies:
-    rescript: ^12.0.0-alpha.8
+    rescript: ^12.0.0-alpha.9
     rescript-bastet: "*"
     rescript-relude: "*"
   languageName: unknown
@@ -7429,10 +7429,10 @@ __metadata:
     bisect_ppx: "npm:^2.7.1"
     docsify-cli: "npm:~4.4.0"
     jest: "npm:^29.7.0"
-    rescript: "npm:^12.0.0-alpha.8"
+    rescript: "npm:^12.0.0-alpha.9"
     rescript-bastet: "github:dsiu/rescript-bastet#rescript-v12"
   peerDependencies:
-    rescript: ^12.0.0-alpha.8
+    rescript: ^12.0.0-alpha.9
     rescript-bastet: "*"
   languageName: unknown
   linkType: soft
@@ -7466,7 +7466,7 @@ __metadata:
     ms: "npm:^2.1.3"
     nodemon: "npm:^3.1.9"
     rationale: "npm:^0.2.0"
-    rescript: "npm:^12.0.0-alpha.8"
+    rescript: "npm:^12.0.0-alpha.9"
     rescript-bastet: "workspace:^"
     rescript-nodejs: "npm:^16.1.0"
     rescript-relude: "workspace:^"
@@ -7489,16 +7489,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rescript@npm:^12.0.0-alpha.8":
-  version: 12.0.0-alpha.8
-  resolution: "rescript@npm:12.0.0-alpha.8"
+"rescript@npm:^12.0.0-alpha.9":
+  version: 12.0.0-alpha.9
+  resolution: "rescript@npm:12.0.0-alpha.9"
   bin:
     bsc: cli/bsc
     bstracing: lib/bstracing
     rescript: cli/rescript
     rescript-tools: cli/rescript-tools
     rewatch: cli/rewatch
-  checksum: 10c0/2453192eb3876ba3eb0f393c25c7af7ae9d5cc1d80396e52e747adfbf86626fa99303410173a4a501dc0793b1c509cb1fa81c1eba6a7f6c2bc48bfa01c52c193
+  checksum: 10c0/62bd2f0b0debbaf1cc549011ccafd34e6c1436efddbc029a9f01c5d3e3bcc27dc24fbb5f8a1646f0a71f7bcd89c1ca34190a86593bf02922cd1c5e9eac316120
   languageName: node
   linkType: hard
 
@@ -9010,7 +9010,7 @@ __metadata:
   resolution: "workspace@workspace:."
   dependencies:
     jest: "npm:^29.7.0"
-    rescript: "npm:^12.0.0-alpha.8"
+    rescript: "npm:^12.0.0-alpha.9"
     wireit: "npm:^0.14.9"
   languageName: unknown
   linkType: soft
