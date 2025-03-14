@@ -4,10 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="updated to rescript@v12.0.0-alpha.9">
+    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="added example code of using Railway for Option from discussion in ReScript forum">
+      <change afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/__tests__/Map_Ext_Test.res" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__JSONSerializable.res" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Map.res" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Map_Ext.res" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Serializable.res" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-relude" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-relude/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/__tests__/Array_Test.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/__tests__/Array_Test.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/rescript.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/rescript.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Array.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Array.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Array_Ext.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Array_Ext.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Array_Ext.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Array_Ext.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Array_Ext.resi" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Array_Ext.resi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/__tests__/AdjacencyList_Test.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/__tests__/AdjacencyList_Test.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10/AOC2024_Day10.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10/AOC2024_Day10.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10/AOC2024_Day10.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10/AOC2024_Day10.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/cytoscape.cys" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/cytoscape.cys" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/graph-bfs.gexf" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/graph-bfs.gexf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/graph-dfs.gexf" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/graph-dfs.gexf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +54,7 @@
       <option value="directory" />
       <option value="repository" />
     </branch-grouping>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/projects/rescript-snippets" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/packages/rescript-stdlib-fp" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -73,10 +95,13 @@
     "Node.js.AOC2024_Day9_Run.res.mjs.executor": "Run",
     "Node.js.advent-of-code > AOC2024_Day10_Run.res.mjs.executor": "Run",
     "Node.js.advent-of-code > AOC2024_Day9_Run.res.mjs.executor": "Run",
+    "Node.js.advent-of-code > Graph_Ext.res.mjs.executor": "Run",
+    "Node.js.advent-of-code > Map_Ext.res.mjs.executor": "Run",
     "Node.js.rescript-snippets > More_Type_Classes.res.mjs.executor": "Run",
     "Node.js.rescript-snippets > Relude_Parse_Example.res.mjs.executor": "Run",
     "Node.js.rescript-snippets > Relude_Play.res.mjs.executor": "Run",
     "Node.js.rescript-snippets > Relude_Play2.res.mjs.executor": "Run",
+    "Node.js.rescript-stdlib-fp > Stdlib__Map_Ext.res.mjs.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.Workspaces.CheckRemotesActivity": "true",
@@ -86,7 +111,7 @@
     "RunOnceActivity.workspace.git.set.grouping.by.repo": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Wallaby.js.Wallaby.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "rescript-v12",
     "go.import.settings.migrated": "true",
     "last_opened_file_path": "/Users/dsiu/code/playground/workspace/projects/advent-of-code/src/2024/Day10",
     "node.js.detected.package.eslint": "true",
@@ -94,11 +119,12 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs.jest.jest_package": "/Users/dsiu/code/playground/workspace/node_modules/jest",
+    "nodejs_interpreter_path": "/Users/dsiu/.nvm/versions/node/v22.13.1/bin/node",
     "nodejs_package_manager_path": "yarn",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.22753906",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "/Applications/IntelliJ IDEA 2025 EAP.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   },
@@ -113,11 +139,13 @@
       <recent name="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/" />
+      <recent name="$PROJECT_DIR$/projects/advent-of-code/src" />
       <recent name="$PROJECT_DIR$/projects/rescript-snippets/src" />
       <recent name="$PROJECT_DIR$/.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.rescript-snippets &gt; Relude_Play.res.mjs">
+  <component name="RunManager" selected="Jest.All Tests in rescript-stdlib-fp">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -141,6 +169,7 @@
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$/projects/advent-of-code" />
+      <jest-options value="--watch" />
       <envs />
       <scope-kind value="ALL" />
       <method v="2" />
@@ -180,16 +209,16 @@
     <configuration name="AOC2024_Day10_Run.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="AOC2024_Day10_Run.res.mjs" working-dir="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10">
       <method v="2" />
     </configuration>
-    <configuration name="rescript-snippets &gt; More_Type_Classes.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/rescript-snippets/src/Type_Classes/More_Type_Classes.res.mjs" working-dir="$PROJECT_DIR$/projects/rescript-snippets/src/Type_Classes">
+    <configuration name="advent-of-code &gt; Graph_Ext.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext.res.mjs" working-dir="$PROJECT_DIR$/projects/advent-of-code/src">
       <method v="2" />
     </configuration>
     <configuration name="rescript-snippets &gt; Relude_Parse_Example.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/rescript-snippets/src/Relude-Parse/Relude_Parse_Example.res.mjs" working-dir="$PROJECT_DIR$/projects/rescript-snippets/src/Relude-Parse">
       <method v="2" />
     </configuration>
-    <configuration name="rescript-snippets &gt; Relude_Play2.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/rescript-snippets/src/Relude/Relude_Play2.res.mjs" working-dir="$PROJECT_DIR$/projects/rescript-snippets/src/Relude">
+    <configuration name="rescript-snippets &gt; Relude_Play.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/rescript-snippets/src/Relude/Relude_Play.res.mjs" working-dir="$PROJECT_DIR$/projects/rescript-snippets/src/Relude">
       <method v="2" />
     </configuration>
-    <configuration name="rescript-snippets &gt; Relude_Play.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/rescript-snippets/src/Relude/Relude_Play.res.mjs" working-dir="$PROJECT_DIR$/projects/rescript-snippets/src/Relude">
+    <configuration name="rescript-stdlib-fp &gt; Stdlib__Map_Ext.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Map_Ext.res.mjs" working-dir="$PROJECT_DIR$/projects/advent-of-code/src">
       <method v="2" />
     </configuration>
     <configuration name="Wallaby" type="wallaby" factoryName="wallaby" configType="Automatic" configFolder="$PROJECT_DIR$/projects/advent-of-code" wsl="No" SmartStart="Yes">
@@ -201,27 +230,27 @@
       <item itemvalue="Jest.All Tests in rescript-relude" />
       <item itemvalue="Jest.All Tests in rescript-snippets" />
       <item itemvalue="Jest.All Tests in rescript-stdlib-fp" />
+      <item itemvalue="Node.js.rescript-stdlib-fp &gt; Stdlib__Map_Ext.res.mjs" />
+      <item itemvalue="Node.js.advent-of-code &gt; Graph_Ext.res.mjs" />
       <item itemvalue="Node.js.rescript-snippets &gt; Relude_Parse_Example.res.mjs" />
-      <item itemvalue="Node.js.rescript-snippets &gt; More_Type_Classes.res.mjs" />
       <item itemvalue="Node.js.rescript-snippets &gt; Relude_Play.res.mjs" />
       <item itemvalue="Node.js.AOC2024_Day10_Run.res.mjs" />
-      <item itemvalue="Node.js.rescript-snippets &gt; Relude_Play2.res.mjs" />
       <item itemvalue="Wallaby.js.Wallaby" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.rescript-stdlib-fp &gt; Stdlib__Map_Ext.res.mjs" />
+        <item itemvalue="Node.js.advent-of-code &gt; Graph_Ext.res.mjs" />
+        <item itemvalue="Node.js.AOC2024_Day10_Run.res.mjs" />
         <item itemvalue="Node.js.rescript-snippets &gt; Relude_Play.res.mjs" />
         <item itemvalue="Node.js.rescript-snippets &gt; Relude_Parse_Example.res.mjs" />
-        <item itemvalue="Node.js.AOC2024_Day10_Run.res.mjs" />
-        <item itemvalue="Node.js.rescript-snippets &gt; More_Type_Classes.res.mjs" />
-        <item itemvalue="Node.js.rescript-snippets &gt; Relude_Play2.res.mjs" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-45be767fe593-JavaScript-IU-251.23536.34" />
+        <option value="bundled-js-predefined-d6986cc7102b-45be767fe593-JavaScript-IU-251.23774.16" />
       </set>
     </attachedChunks>
   </component>
@@ -240,46 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737005758738</updated>
-    </task>
-    <task id="LOCAL-00022" summary="ignore rewatch build artifacts">
-      <option name="closed" value="true" />
-      <created>1737121779998</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1737121779998</updated>
-    </task>
-    <task id="LOCAL-00023" summary="update">
-      <option name="closed" value="true" />
-      <created>1737121820423</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1737121820423</updated>
-    </task>
-    <task id="LOCAL-00024" summary="package update">
-      <option name="closed" value="true" />
-      <created>1737121832214</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1737121832214</updated>
-    </task>
-    <task id="LOCAL-00025" summary="gitignore update">
-      <option name="closed" value="true" />
-      <created>1737123212245</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1737123212245</updated>
-    </task>
-    <task id="LOCAL-00026" summary="WIP">
-      <option name="closed" value="true" />
-      <created>1737127276670</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1737127276670</updated>
     </task>
     <task id="LOCAL-00027" summary="fixed floating point number">
       <option name="closed" value="true" />
@@ -633,7 +622,47 @@
       <option name="project" value="LOCAL" />
       <updated>1740751626945</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="updated to rescript@v12.0.0-alpha.9">
+      <option name="closed" value="true" />
+      <created>1740802965963</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1740802965964</updated>
+    </task>
+    <task id="LOCAL-00072" summary="updated to rescript@v12.0.0-alpha.9">
+      <option name="closed" value="true" />
+      <created>1740803061243</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1740803061243</updated>
+    </task>
+    <task id="LOCAL-00073" summary="refined AdjacencyList and added unit tests">
+      <option name="closed" value="true" />
+      <created>1741787021550</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1741787021550</updated>
+    </task>
+    <task id="LOCAL-00074" summary="added example code of using Railway for Option from discussion in ReScript forum">
+      <option name="closed" value="true" />
+      <created>1741787067611</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1741787067611</updated>
+    </task>
+    <task id="LOCAL-00075" summary="added example code of using Railway for Option from discussion in ReScript forum">
+      <option name="closed" value="true" />
+      <created>1741787098283</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1741787098283</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,8 +682,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="updated submodules" />
-    <MESSAGE value="updated dependencies" />
     <MESSAGE value="updated yarn.lock for CI" />
     <MESSAGE value="updated CI" />
     <MESSAGE value="removed rewatch" />
@@ -678,7 +705,9 @@
     <MESSAGE value="2024 Day 9: code formatting" />
     <MESSAGE value="2024 Day 10 Part 1 - parsing done" />
     <MESSAGE value="updated to rescript@v12.0.0-alpha.9" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated to rescript@v12.0.0-alpha.9" />
+    <MESSAGE value="refined AdjacencyList and added unit tests" />
+    <MESSAGE value="added example code of using Railway for Option from discussion in ReScript forum" />
+    <option name="LAST_COMMIT_MESSAGE" value="added example code of using Railway for Option from discussion in ReScript forum" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
