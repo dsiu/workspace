@@ -4,32 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="added example code of using Railway for Option from discussion in ReScript forum">
-      <change afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/__tests__/Map_Ext_Test.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__JSONSerializable.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Map.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Map_Ext.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Serializable.res" afterDir="false" />
+    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="implemented MakeWithPrimitives in Map_Ext and Set_Ext">
+      <change afterPath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList_Belt.res" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList_Belt.res.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/__tests__/Array_Test.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/__tests__/Array_Test.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/rescript.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/rescript.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Array.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Array.res.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Array_Ext.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Array_Ext.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Array_Ext.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Array_Ext.res.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Array_Ext.resi" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Array_Ext.resi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/StdlibFp.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/StdlibFp.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/StdlibFp.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/StdlibFp.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Map_Ext.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Map_Ext.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Serializable.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Serializable.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Serializable.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Serializable.res.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code/__tests__/AdjacencyList_Test.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/__tests__/AdjacencyList_Test.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/__tests__/AdjacencyList_Test.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/__tests__/AdjacencyList_Test.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day12/AOC2021_Day12.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day12/AOC2021_Day12.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day12/AOC2021_Day12.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day12/AOC2021_Day12.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day11/AOC2023_Day11.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day11/AOC2023_Day11.res.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10/AOC2024_Day10.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10/AOC2024_Day10.res" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10/AOC2024_Day10.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10/AOC2024_Day10.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day5/AOC2024_Day5.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day5/AOC2024_Day5.res.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res.mjs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext.res" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext.res.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/cytoscape.cys" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/cytoscape.cys" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/graph-bfs.gexf" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/graph-bfs.gexf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/graph-dfs.gexf" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/graph-dfs.gexf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
       <option value="directory" />
       <option value="repository" />
     </branch-grouping>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/packages/rescript-stdlib-fp" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/projects/advent-of-code" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -93,8 +93,10 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Node.js.AOC2024_Day10_Run.res.mjs.executor": "Run",
     "Node.js.AOC2024_Day9_Run.res.mjs.executor": "Run",
+    "Node.js.advent-of-code > AOC2021_Day12_Run.res.mjs.executor": "Run",
     "Node.js.advent-of-code > AOC2024_Day10_Run.res.mjs.executor": "Run",
     "Node.js.advent-of-code > AOC2024_Day9_Run.res.mjs.executor": "Run",
+    "Node.js.advent-of-code > AdjacencyList2.res.mjs.executor": "Run",
     "Node.js.advent-of-code > Graph_Ext.res.mjs.executor": "Run",
     "Node.js.advent-of-code > Map_Ext.res.mjs.executor": "Run",
     "Node.js.rescript-snippets > More_Type_Classes.res.mjs.executor": "Run",
@@ -145,7 +147,7 @@
       <recent name="$PROJECT_DIR$/.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.All Tests in rescript-stdlib-fp">
+  <component name="RunManager" selected="Node.js.advent-of-code &gt; AOC2021_Day12_Run.res.mjs">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -202,14 +204,15 @@
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$/packages/rescript-stdlib-fp" />
+      <jest-options value="--watch" />
       <envs />
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="AOC2024_Day10_Run.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="AOC2024_Day10_Run.res.mjs" working-dir="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10">
+    <configuration name="advent-of-code &gt; AOC2021_Day12_Run.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day12/AOC2021_Day12_Run.res.mjs" working-dir="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day12">
       <method v="2" />
     </configuration>
-    <configuration name="advent-of-code &gt; Graph_Ext.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext.res.mjs" working-dir="$PROJECT_DIR$/projects/advent-of-code/src">
+    <configuration name="advent-of-code &gt; AdjacencyList.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res.mjs" working-dir="$PROJECT_DIR$/projects/advent-of-code/src">
       <method v="2" />
     </configuration>
     <configuration name="rescript-snippets &gt; Relude_Parse_Example.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/rescript-snippets/src/Relude-Parse/Relude_Parse_Example.res.mjs" working-dir="$PROJECT_DIR$/projects/rescript-snippets/src/Relude-Parse">
@@ -230,18 +233,18 @@
       <item itemvalue="Jest.All Tests in rescript-relude" />
       <item itemvalue="Jest.All Tests in rescript-snippets" />
       <item itemvalue="Jest.All Tests in rescript-stdlib-fp" />
+      <item itemvalue="Node.js.advent-of-code &gt; AOC2021_Day12_Run.res.mjs" />
+      <item itemvalue="Node.js.advent-of-code &gt; AdjacencyList.res.mjs" />
       <item itemvalue="Node.js.rescript-stdlib-fp &gt; Stdlib__Map_Ext.res.mjs" />
-      <item itemvalue="Node.js.advent-of-code &gt; Graph_Ext.res.mjs" />
       <item itemvalue="Node.js.rescript-snippets &gt; Relude_Parse_Example.res.mjs" />
       <item itemvalue="Node.js.rescript-snippets &gt; Relude_Play.res.mjs" />
-      <item itemvalue="Node.js.AOC2024_Day10_Run.res.mjs" />
       <item itemvalue="Wallaby.js.Wallaby" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.advent-of-code &gt; AOC2021_Day12_Run.res.mjs" />
+        <item itemvalue="Node.js.advent-of-code &gt; AdjacencyList.res.mjs" />
         <item itemvalue="Node.js.rescript-stdlib-fp &gt; Stdlib__Map_Ext.res.mjs" />
-        <item itemvalue="Node.js.advent-of-code &gt; Graph_Ext.res.mjs" />
-        <item itemvalue="Node.js.AOC2024_Day10_Run.res.mjs" />
         <item itemvalue="Node.js.rescript-snippets &gt; Relude_Play.res.mjs" />
         <item itemvalue="Node.js.rescript-snippets &gt; Relude_Parse_Example.res.mjs" />
       </list>
@@ -250,7 +253,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-45be767fe593-JavaScript-IU-251.23774.16" />
+        <option value="bundled-js-predefined-d6986cc7102b-d159365566ee-JavaScript-IU-251.23774.109" />
       </set>
     </attachedChunks>
   </component>
@@ -269,46 +272,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737005758738</updated>
-    </task>
-    <task id="LOCAL-00027" summary="fixed floating point number">
-      <option name="closed" value="true" />
-      <created>1737129358288</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1737129358288</updated>
-    </task>
-    <task id="LOCAL-00028" summary="project update">
-      <option name="closed" value="true" />
-      <created>1737129365617</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1737129365617</updated>
-    </task>
-    <task id="LOCAL-00029" summary="project update">
-      <option name="closed" value="true" />
-      <created>1737174360827</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1737174360827</updated>
-    </task>
-    <task id="LOCAL-00030" summary="updated github CI">
-      <option name="closed" value="true" />
-      <created>1737174764633</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1737174764633</updated>
-    </task>
-    <task id="LOCAL-00031" summary="updated github CI">
-      <option name="closed" value="true" />
-      <created>1737174771648</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1737174771648</updated>
     </task>
     <task id="LOCAL-00032" summary="removed some log">
       <option name="closed" value="true" />
@@ -662,7 +625,47 @@
       <option name="project" value="LOCAL" />
       <updated>1741787098283</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="implemented Array.valuesIter to return Iterator of values of an array">
+      <option name="closed" value="true" />
+      <created>1741959284330</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1741959284331</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Implement fixed key type for Map. key types supported are Array, Tuple2, and Tuple3.">
+      <option name="closed" value="true" />
+      <created>1741959414792</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1741959414792</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Implement using values that are non-primitive for Set. value types supported are Array, Tuple2, and Tuple3.">
+      <option name="closed" value="true" />
+      <created>1742119357362</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1742119357362</updated>
+    </task>
+    <task id="LOCAL-00079" summary="updated package">
+      <option name="closed" value="true" />
+      <created>1742119377421</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1742119377421</updated>
+    </task>
+    <task id="LOCAL-00080" summary="implemented MakeWithPrimitives in Map_Ext and Set_Ext">
+      <option name="closed" value="true" />
+      <created>1742135164551</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1742135164551</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -682,11 +685,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="updated yarn.lock for CI" />
-    <MESSAGE value="updated CI" />
-    <MESSAGE value="removed rewatch" />
-    <MESSAGE value="2024 Day 9 - fixed unused variable" />
-    <MESSAGE value="rescript-relude: most of the modules should compile" />
     <MESSAGE value="2024 Day9 part 2 WIP" />
     <MESSAGE value="play with Relude" />
     <MESSAGE value="update packages" />
@@ -707,7 +705,12 @@
     <MESSAGE value="updated to rescript@v12.0.0-alpha.9" />
     <MESSAGE value="refined AdjacencyList and added unit tests" />
     <MESSAGE value="added example code of using Railway for Option from discussion in ReScript forum" />
-    <option name="LAST_COMMIT_MESSAGE" value="added example code of using Railway for Option from discussion in ReScript forum" />
+    <MESSAGE value="implemented Array.valuesIter to return Iterator of values of an array" />
+    <MESSAGE value="Implement fixed key type for Map. key types supported are Array, Tuple2, and Tuple3." />
+    <MESSAGE value="Implement using values that are non-primitive for Set. value types supported are Array, Tuple2, and Tuple3." />
+    <MESSAGE value="updated package" />
+    <MESSAGE value="implemented MakeWithPrimitives in Map_Ext and Set_Ext" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented MakeWithPrimitives in Map_Ext and Set_Ext" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
