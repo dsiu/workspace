@@ -4,30 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="implemented MakeWithPrimitives in Map_Ext and Set_Ext">
-      <change afterPath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList_Belt.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList_Belt.res.mjs" afterDir="false" />
+    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="Reimplemented AdjacencyList with Map_Ext and Set_Ext">
+      <change afterPath="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext_GraphologyImpl.res" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/StdlibFp.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/StdlibFp.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/StdlibFp.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/StdlibFp.res.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Map_Ext.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Map_Ext.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Serializable.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Serializable.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Serializable.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Serializable.res.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/__tests__/AdjacencyList_Test.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/__tests__/AdjacencyList_Test.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/__tests__/AdjacencyList_Test.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/__tests__/AdjacencyList_Test.res.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day12/AOC2021_Day12.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day12/AOC2021_Day12.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day12/AOC2021_Day12.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2021/Day12/AOC2021_Day12.res.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day11/AOC2023_Day11.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day11/AOC2023_Day11.res.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10/AOC2024_Day10.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10/AOC2024_Day10.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10/AOC2024_Day10.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10/AOC2024_Day10.res.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day5/AOC2024_Day5.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day5/AOC2024_Day5.res.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext.res" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext.res.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/cytoscape.cys" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/cytoscape.cys" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/graph-bfs.gexf" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/graph-bfs.gexf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/graph-dfs.gexf" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/graph-dfs.gexf" afterDir="false" />
     </list>
@@ -96,6 +82,7 @@
     "Node.js.advent-of-code > AOC2021_Day12_Run.res.mjs.executor": "Run",
     "Node.js.advent-of-code > AOC2024_Day10_Run.res.mjs.executor": "Run",
     "Node.js.advent-of-code > AOC2024_Day9_Run.res.mjs.executor": "Run",
+    "Node.js.advent-of-code > AdjacencyList.res.mjs.executor": "Run",
     "Node.js.advent-of-code > AdjacencyList2.res.mjs.executor": "Run",
     "Node.js.advent-of-code > Graph_Ext.res.mjs.executor": "Run",
     "Node.js.advent-of-code > Map_Ext.res.mjs.executor": "Run",
@@ -147,7 +134,7 @@
       <recent name="$PROJECT_DIR$/.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.advent-of-code &gt; AOC2021_Day12_Run.res.mjs">
+  <component name="RunManager" selected="Jest.All Tests in advent-of-code">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -215,7 +202,7 @@
     <configuration name="advent-of-code &gt; AdjacencyList.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res.mjs" working-dir="$PROJECT_DIR$/projects/advent-of-code/src">
       <method v="2" />
     </configuration>
-    <configuration name="rescript-snippets &gt; Relude_Parse_Example.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/rescript-snippets/src/Relude-Parse/Relude_Parse_Example.res.mjs" working-dir="$PROJECT_DIR$/projects/rescript-snippets/src/Relude-Parse">
+    <configuration name="advent-of-code &gt; Graph_Ext.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext.res.mjs" working-dir="$PROJECT_DIR$/projects/advent-of-code/src">
       <method v="2" />
     </configuration>
     <configuration name="rescript-snippets &gt; Relude_Play.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/rescript-snippets/src/Relude/Relude_Play.res.mjs" working-dir="$PROJECT_DIR$/projects/rescript-snippets/src/Relude">
@@ -233,20 +220,20 @@
       <item itemvalue="Jest.All Tests in rescript-relude" />
       <item itemvalue="Jest.All Tests in rescript-snippets" />
       <item itemvalue="Jest.All Tests in rescript-stdlib-fp" />
+      <item itemvalue="Node.js.advent-of-code &gt; Graph_Ext.res.mjs" />
       <item itemvalue="Node.js.advent-of-code &gt; AOC2021_Day12_Run.res.mjs" />
       <item itemvalue="Node.js.advent-of-code &gt; AdjacencyList.res.mjs" />
       <item itemvalue="Node.js.rescript-stdlib-fp &gt; Stdlib__Map_Ext.res.mjs" />
-      <item itemvalue="Node.js.rescript-snippets &gt; Relude_Parse_Example.res.mjs" />
       <item itemvalue="Node.js.rescript-snippets &gt; Relude_Play.res.mjs" />
       <item itemvalue="Wallaby.js.Wallaby" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.advent-of-code &gt; AOC2021_Day12_Run.res.mjs" />
+        <item itemvalue="Node.js.advent-of-code &gt; Graph_Ext.res.mjs" />
         <item itemvalue="Node.js.advent-of-code &gt; AdjacencyList.res.mjs" />
+        <item itemvalue="Node.js.advent-of-code &gt; AOC2021_Day12_Run.res.mjs" />
         <item itemvalue="Node.js.rescript-stdlib-fp &gt; Stdlib__Map_Ext.res.mjs" />
         <item itemvalue="Node.js.rescript-snippets &gt; Relude_Play.res.mjs" />
-        <item itemvalue="Node.js.rescript-snippets &gt; Relude_Parse_Example.res.mjs" />
       </list>
     </recent_temporary>
   </component>
@@ -272,14 +259,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737005758738</updated>
-    </task>
-    <task id="LOCAL-00032" summary="removed some log">
-      <option name="closed" value="true" />
-      <created>1737176718594</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1737176718594</updated>
     </task>
     <task id="LOCAL-00033" summary="removed some log">
       <option name="closed" value="true" />
@@ -665,7 +644,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742135164551</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Reimplemented AdjacencyList with Map_Ext and Set_Ext">
+      <option name="closed" value="true" />
+      <created>1742202986274</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1742202986274</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -685,7 +672,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="2024 Day9 part 2 WIP" />
     <MESSAGE value="play with Relude" />
     <MESSAGE value="update packages" />
     <MESSAGE value="removed yarn.lock so yarn workspace will work" />
@@ -710,7 +696,8 @@
     <MESSAGE value="Implement using values that are non-primitive for Set. value types supported are Array, Tuple2, and Tuple3." />
     <MESSAGE value="updated package" />
     <MESSAGE value="implemented MakeWithPrimitives in Map_Ext and Set_Ext" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented MakeWithPrimitives in Map_Ext and Set_Ext" />
+    <MESSAGE value="Reimplemented AdjacencyList with Map_Ext and Set_Ext" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reimplemented AdjacencyList with Map_Ext and Set_Ext" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
