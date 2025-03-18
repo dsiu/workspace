@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="Reimplemented AdjacencyList with Map_Ext and Set_Ext">
-      <change afterPath="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext_GraphologyImpl.res" afterDir="false" />
+    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="Reimplemented bfs and dfs with AdjacencyList">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Map_Ext.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Map_Ext.res" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext.res" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext.res.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/graph-bfs.gexf" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/graph-bfs.gexf" afterDir="false" />
@@ -85,6 +80,7 @@
     "Node.js.advent-of-code > AdjacencyList.res.mjs.executor": "Run",
     "Node.js.advent-of-code > AdjacencyList2.res.mjs.executor": "Run",
     "Node.js.advent-of-code > Graph_Ext.res.mjs.executor": "Run",
+    "Node.js.advent-of-code > Graph_Ext_GraphologyImpl.res.mjs.executor": "Run",
     "Node.js.advent-of-code > Map_Ext.res.mjs.executor": "Run",
     "Node.js.rescript-snippets > More_Type_Classes.res.mjs.executor": "Run",
     "Node.js.rescript-snippets > Relude_Parse_Example.res.mjs.executor": "Run",
@@ -134,7 +130,7 @@
       <recent name="$PROJECT_DIR$/.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.All Tests in advent-of-code">
+  <component name="RunManager" selected="Node.js.advent-of-code &gt; Graph_Ext.res.mjs">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -202,10 +198,10 @@
     <configuration name="advent-of-code &gt; AdjacencyList.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res.mjs" working-dir="$PROJECT_DIR$/projects/advent-of-code/src">
       <method v="2" />
     </configuration>
-    <configuration name="advent-of-code &gt; Graph_Ext.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext.res.mjs" working-dir="$PROJECT_DIR$/projects/advent-of-code/src">
+    <configuration name="advent-of-code &gt; Graph_Ext_GraphologyImpl.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext_GraphologyImpl.res.mjs" working-dir="$PROJECT_DIR$/projects/advent-of-code/src">
       <method v="2" />
     </configuration>
-    <configuration name="rescript-snippets &gt; Relude_Play.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/rescript-snippets/src/Relude/Relude_Play.res.mjs" working-dir="$PROJECT_DIR$/projects/rescript-snippets/src/Relude">
+    <configuration name="advent-of-code &gt; Graph_Ext.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext.res.mjs" working-dir="$PROJECT_DIR$/projects/advent-of-code/src">
       <method v="2" />
     </configuration>
     <configuration name="rescript-stdlib-fp &gt; Stdlib__Map_Ext.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Map_Ext.res.mjs" working-dir="$PROJECT_DIR$/projects/advent-of-code/src">
@@ -221,19 +217,19 @@
       <item itemvalue="Jest.All Tests in rescript-snippets" />
       <item itemvalue="Jest.All Tests in rescript-stdlib-fp" />
       <item itemvalue="Node.js.advent-of-code &gt; Graph_Ext.res.mjs" />
+      <item itemvalue="Node.js.advent-of-code &gt; Graph_Ext_GraphologyImpl.res.mjs" />
       <item itemvalue="Node.js.advent-of-code &gt; AOC2021_Day12_Run.res.mjs" />
       <item itemvalue="Node.js.advent-of-code &gt; AdjacencyList.res.mjs" />
       <item itemvalue="Node.js.rescript-stdlib-fp &gt; Stdlib__Map_Ext.res.mjs" />
-      <item itemvalue="Node.js.rescript-snippets &gt; Relude_Play.res.mjs" />
       <item itemvalue="Wallaby.js.Wallaby" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.advent-of-code &gt; Graph_Ext.res.mjs" />
+        <item itemvalue="Node.js.advent-of-code &gt; Graph_Ext_GraphologyImpl.res.mjs" />
         <item itemvalue="Node.js.advent-of-code &gt; AdjacencyList.res.mjs" />
         <item itemvalue="Node.js.advent-of-code &gt; AOC2021_Day12_Run.res.mjs" />
         <item itemvalue="Node.js.rescript-stdlib-fp &gt; Stdlib__Map_Ext.res.mjs" />
-        <item itemvalue="Node.js.rescript-snippets &gt; Relude_Play.res.mjs" />
       </list>
     </recent_temporary>
   </component>
@@ -259,14 +255,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737005758738</updated>
-    </task>
-    <task id="LOCAL-00033" summary="removed some log">
-      <option name="closed" value="true" />
-      <created>1737176729590</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1737176729590</updated>
     </task>
     <task id="LOCAL-00034" summary="added github CI for workspace">
       <option name="closed" value="true" />
@@ -652,7 +640,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742202986274</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Reimplemented bfs and dfs with AdjacencyList">
+      <option name="closed" value="true" />
+      <created>1742280420224</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1742280420224</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -672,7 +668,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="play with Relude" />
     <MESSAGE value="update packages" />
     <MESSAGE value="removed yarn.lock so yarn workspace will work" />
     <MESSAGE value="project update" />
@@ -697,7 +692,8 @@
     <MESSAGE value="updated package" />
     <MESSAGE value="implemented MakeWithPrimitives in Map_Ext and Set_Ext" />
     <MESSAGE value="Reimplemented AdjacencyList with Map_Ext and Set_Ext" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reimplemented AdjacencyList with Map_Ext and Set_Ext" />
+    <MESSAGE value="Reimplemented bfs and dfs with AdjacencyList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reimplemented bfs and dfs with AdjacencyList" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
