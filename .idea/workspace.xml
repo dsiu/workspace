@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="project files update">
-      <change afterPath="$PROJECT_DIR$/projects/advent-of-code/src/Dijkstre_Test_Tuple2.res" afterDir="false" />
+    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="project file update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/__tests__/AdjacencyList_Test.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/__tests__/AdjacencyList_Test.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/__tests__/AdjacencyList_Test.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/__tests__/AdjacencyList_Test.res.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Dijkstra.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/Dijkstra.res" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Dijkstra.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/Dijkstra.res.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Dijkstre_Test.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/Dijkstre_Test.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Dijkstre_Test.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/__tests__/Dijkstre_Test.res" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Dijkstre_Test.res.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Dijkstre_Test_Tuple2.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/Dijkstre_Test_Tuple2.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Dijkstre_Test_Tuple2.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/Dijkstre_Test_Tuple2.res.mjs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +78,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Node.js.AOC2024_Day10_Run.res.mjs.executor": "Run",
     "Node.js.AOC2024_Day9_Run.res.mjs.executor": "Run",
+    "Node.js.Dijkstra.res.mjs.executor": "Run",
     "Node.js.Dijkstre_Test.res.mjs.executor": "Run",
     "Node.js.Dijkstre_Test_Tuple2.res.mjs.executor": "Run",
     "Node.js.advent-of-code > AOC2021_Day12_Run.res.mjs.executor": "Run",
@@ -135,11 +136,11 @@
       <recent name="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/projects/advent-of-code/__tests__/" />
       <recent name="$PROJECT_DIR$/projects/advent-of-code/src-WIP/" />
       <recent name="$PROJECT_DIR$/projects/advent-of-code/src" />
       <recent name="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/" />
       <recent name="$PROJECT_DIR$/projects/rescript-snippets/src" />
-      <recent name="$PROJECT_DIR$/.idea" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.Dijkstre_Test_Tuple2.res.mjs">
@@ -239,8 +240,8 @@
       <list>
         <item itemvalue="Node.js.Dijkstre_Test_Tuple2.res.mjs" />
         <item itemvalue="Node.js.Dijkstre_Test.res.mjs" />
-        <item itemvalue="Node.js.advent-of-code &gt; Graph_Ext_Test.res.mjs" />
         <item itemvalue="Node.js.Dijkstra.res.mjs" />
+        <item itemvalue="Node.js.advent-of-code &gt; Graph_Ext_Test.res.mjs" />
         <item itemvalue="Node.js.advent-of-code &gt; PriorityQueue_Play.res.mjs" />
       </list>
     </recent_temporary>
@@ -267,22 +268,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737005758738</updated>
-    </task>
-    <task id="LOCAL-00040" summary="updated submodules">
-      <option name="closed" value="true" />
-      <created>1737179361893</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1737179361893</updated>
-    </task>
-    <task id="LOCAL-00041" summary="updated dependencies">
-      <option name="closed" value="true" />
-      <created>1737185152253</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1737185152253</updated>
     </task>
     <task id="LOCAL-00042" summary="updated yarn.lock for CI">
       <option name="closed" value="true" />
@@ -660,7 +645,23 @@
       <option name="project" value="LOCAL" />
       <updated>1742667224235</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="Dijkstra now works with Tuple2 or any AdjacencyList that has non-primitive Node">
+      <option name="closed" value="true" />
+      <created>1742710483401</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1742710483401</updated>
+    </task>
+    <task id="LOCAL-00090" summary="project file update">
+      <option name="closed" value="true" />
+      <created>1742710506158</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1742710506158</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -680,8 +681,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="project file update" />
-    <MESSAGE value="ignore /lib/ocaml" />
     <MESSAGE value="added takeWhile and dropWhile with tests" />
     <MESSAGE value="formatting update" />
     <MESSAGE value="Use `wireit` for watching and building ReScript sources and disable auto building in IntelliJ since it isn't predictable in what files it watches." />
@@ -705,7 +704,9 @@
     <MESSAGE value="default Int, Float, BigInt for Serializable" />
     <MESSAGE value="Dijkstra is working!" />
     <MESSAGE value="project files update" />
-    <option name="LAST_COMMIT_MESSAGE" value="project files update" />
+    <MESSAGE value="Dijkstra now works with Tuple2 or any AdjacencyList that has non-primitive Node" />
+    <MESSAGE value="project file update" />
+    <option name="LAST_COMMIT_MESSAGE" value="project file update" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
