@@ -52,6 +52,9 @@
 			"rescript-seq",
 			"rescript-bastet",
 			"rescript-bag",
-		]
+		],
+		"ocaml.sandbox": {
+			"kind": "global"
+		}
 	}
 }
