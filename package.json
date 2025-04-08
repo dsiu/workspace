@@ -7,7 +7,7 @@
       "projects/**"
     ]
   },
-  "packageManager": "yarn@4.7.0",
+  "packageManager": "yarn@4.8.1",
   "scripts": {
     "clean": "rescript clean -with-deps",
     "build": "rescript",

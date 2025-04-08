@@ -738,7 +738,7 @@ __metadata:
     graphology-simple-path: "npm:^0.2.0"
     graphology-svg: "npm:^0.1.3"
     graphology-traversal: "npm:^0.3.1"
-    rescript: "npm:^12.0.0-alpha.9"
+    rescript: "npm:^12.0.0-alpha.11"
     rescript-nodejs: "npm:^16.1.0"
   languageName: unknown
   linkType: soft
@@ -7524,7 +7524,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rescript@npm:^12.0.0-alpha.11, rescript@npm:^12.0.0-alpha.9":
+"rescript@npm:^12.0.0-alpha.11":
   version: 12.0.0-alpha.11
   resolution: "rescript@npm:12.0.0-alpha.11"
   bin:
