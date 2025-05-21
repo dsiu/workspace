@@ -7411,10 +7411,10 @@ __metadata:
 
 "rescript-bastet@github:dsiu/rescript-bastet#rescript-v12":
   version: 0.0.1
-  resolution: "rescript-bastet@https://github.com/dsiu/rescript-bastet.git#commit=c69281391ee32958892a5c278241afca8ed98b88"
+  resolution: "rescript-bastet@https://github.com/dsiu/rescript-bastet.git#commit=6f4536f3daa83ef5f0d1015f1f030d4253014aeb"
   peerDependencies:
     rescript: ^12.0.0-alpha.13
-  checksum: 10c0/35d14f6c1a748f63d0bbef9a3ed2ec1822a707b68db10904d794830ea6860f217f78c16d23fdf9342bc918e1464ce0d11809b53acd5aa62238a3164c47d9ac51
+  checksum: 10c0/31f642fab76c9a5cb7f4c02cac83269bf72c865e30d9e44f92e8bd5a15e78ce616308e1fa9927cf9f7ef0b2790d9dd8723f21da45c77c9bf0e42ae7b69848d0e
   languageName: node
   linkType: hard
 
