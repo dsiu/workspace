@@ -7,6 +7,62 @@
     <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="updated to rescript-v12.0.0-alpha.13">
       <change beforePath="$PROJECT_DIR$/.idea/LanguageServersSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LanguageServersSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/workspace.code-workspace" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/workspace.code-workspace" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-bag" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-bag/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bag/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-bastet" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bastet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-extras" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-extras" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-extras/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-graphology" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-graphology/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/src/Demo.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-graphology/src/Demo.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-relude" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-relude-parse" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude-parse" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-relude-parse/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude-parse/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-seq" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-seq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-seq/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-seq/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/__tests__/Map_Ext_Test.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/__tests__/Map_Ext_Test.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/__tests__/Set_Ext_Test.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/__tests__/Set_Ext_Test.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Array.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Array.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__BigInt.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__BigInt.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__List.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__List.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Map_Ext.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Map_Ext.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Option.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Option.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Result.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Result.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Serializable.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Serializable.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Set_Ext.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Set_Ext.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/__tests__/ChineseRemainder_Test.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/__tests__/ChineseRemainder_Test.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2018/Day4/AOC2018_Day4.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2018/Day4/AOC2018_Day4.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2018/Day4/AOC2018_Day4.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2018/Day4/AOC2018_Day4.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day13/AOC2020_Day13.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day13/AOC2020_Day13.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day13/AOC2020_Day13_Test.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day13/AOC2020_Day13_Test.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day14/AOC2020_Day14.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day14/AOC2020_Day14.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day14/AOC2020_Day14_Test.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2020/Day14/AOC2020_Day14_Test.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day11/AOC2023_Day11_Test.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day11/AOC2023_Day11_Test.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day14/AOC2023_Day14.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day14/AOC2023_Day14.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day5/AOC2023_Day5.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day5/AOC2023_Day5.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day5/AOC2023_Day5_Test.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day5/AOC2023_Day5_Test.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day6/AOC2023_Day6.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day6/AOC2023_Day6.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day8/AOC2023_Day8.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day8/AOC2023_Day8.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day8/AOC2023_Day8_Test.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2023/Day8/AOC2023_Day8_Test.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day6/AOC2024_Day6.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day6/AOC2024_Day6.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day8/AOC2024_Day8.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day8/AOC2024_Day8.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext.res.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/Dictionaries_As_Functions.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/Dictionaries_As_Functions.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/GADT/GADT_Primer.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/GADT/GADT_Primer.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/GADT/GADT_Primer.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/GADT/GADT_Primer_2.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/GADT/GADT_Primer_2.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/src/GADT/GADT_Primer_2.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +88,7 @@
       <option value="directory" />
       <option value="repository" />
     </branch-grouping>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/projects/advent-of-code" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/projects/rescript-snippets" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -104,21 +160,22 @@
     "RunOnceActivity.workspace.git.set.grouping.by.repo": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Wallaby.js.Wallaby.executor": "Run",
-    "git-widget-placeholder": "rescript-v12",
+    "git-widget-placeholder": "master",
     "go.import.settings.migrated": "true",
     "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/dsiu/code/playground/workspace/projects/advent-of-code/src/2024/Day10",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs.jest.jest_package": "/Users/dsiu/code/playground/workspace/node_modules/jest",
-    "nodejs_interpreter_path": "/Users/dsiu/.nvm/versions/node/v22.14.0/bin/node",
+    "nodejs_interpreter_path": "/Users/dsiu/.nvm/versions/node/v22.16.0/bin/node",
     "nodejs_package_manager_path": "yarn",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.22753906",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "LanguageServers",
+    "settings.editor.selected.configurable": "settings.reason",
     "ts.external.directory.path": "/Applications/IntelliJ IDEA 2025 EAP.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   },
@@ -143,7 +200,7 @@
       <recent name="$PROJECT_DIR$/projects/rescript-snippets/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.All Tests in rescript-snippets">
+  <component name="RunManager" selected="Jest.All Tests in rescript-relude-parse">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -229,19 +286,19 @@
       <item itemvalue="Jest.All Tests in rescript-relude" />
       <item itemvalue="Jest.All Tests in rescript-snippets" />
       <item itemvalue="Jest.All Tests in rescript-stdlib-fp" />
+      <item itemvalue="Node.js.Graph_Ext_Play_Tuple2.res.mjs" />
       <item itemvalue="Node.js.advent-of-code &gt; AOC2024_Day10_Run.res.mjs" />
-      <item itemvalue="Node.js.advent-of-code &gt; PriorityQueue_Play.res.mjs" />
       <item itemvalue="Node.js.advent-of-code &gt; AStar_Test.res.mjs" />
       <item itemvalue="Node.js.advent-of-code &gt; Graph_Ext_Play_String.res.mjs" />
-      <item itemvalue="Node.js.Graph_Ext_Play_Tuple2.res.mjs" />
+      <item itemvalue="Node.js.advent-of-code &gt; PriorityQueue_Play.res.mjs" />
       <item itemvalue="Wallaby.js.Wallaby" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.advent-of-code &gt; PriorityQueue_Play.res.mjs" />
-        <item itemvalue="Node.js.advent-of-code &gt; Graph_Ext_Play_String.res.mjs" />
-        <item itemvalue="Node.js.advent-of-code &gt; AStar_Test.res.mjs" />
         <item itemvalue="Node.js.advent-of-code &gt; AOC2024_Day10_Run.res.mjs" />
+        <item itemvalue="Node.js.advent-of-code &gt; Graph_Ext_Play_String.res.mjs" />
+        <item itemvalue="Node.js.advent-of-code &gt; PriorityQueue_Play.res.mjs" />
+        <item itemvalue="Node.js.advent-of-code &gt; AStar_Test.res.mjs" />
         <item itemvalue="Node.js.Graph_Ext_Play_Tuple2.res.mjs" />
       </list>
     </recent_temporary>
@@ -249,7 +306,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-43a09073042e-JavaScript-IU-252.13776.59" />
+        <option value="bundled-jdk-9823dce3aa75-64226f0f93ec-intellij.indexing.shared.core-IU-252.21735.32" />
+        <option value="bundled-js-predefined-d6986cc7102b-e0793c8bcbd6-JavaScript-IU-252.21735.32" />
       </set>
     </attachedChunks>
   </component>
@@ -268,14 +326,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737005758738</updated>
-    </task>
-    <task id="LOCAL-00063" summary="formatting update">
-      <option name="closed" value="true" />
-      <created>1737519823881</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1737519823881</updated>
     </task>
     <task id="LOCAL-00064" summary="Use `wireit` for watching and building ReScript sources and disable auto building in IntelliJ since it isn't predictable in what files it watches.">
       <option name="closed" value="true" />
@@ -661,7 +711,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747821856271</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="updated to rescript-v12.0.0-alpha.13">
+      <option name="closed" value="true" />
+      <created>1747822335387</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1747822335387</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
