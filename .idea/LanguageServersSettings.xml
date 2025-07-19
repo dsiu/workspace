@@ -15,6 +15,15 @@
           <value>
             <LanguageServerDefinitionSettings>
               <option name="errorReportingKind" value="as_notification" />
+              <option name="serverTrace" value="verbose" />
+            </LanguageServerDefinitionSettings>
+          </value>
+        </entry>
+        <entry key="e2b57364-0af8-4d90-8500-0b1bc0cb162c">
+          <value>
+            <LanguageServerDefinitionSettings>
+              <option name="debugPort" value="" />
+              <option name="errorReportingKind" value="as_notification" />
               <option name="serverTrace" value="off" />
             </LanguageServerDefinitionSettings>
           </value>

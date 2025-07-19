@@ -9,13 +9,14 @@
   },
   "packageManager": "yarn@4.9.2",
   "scripts": {
-    "clean": "rescript clean -with-deps",
+    "clean": "rescript clean",
     "build": "rescript",
     "watch": "yarn run-watch --watch",
     "run-watch": "wireit",
+    "test-rescript-stdlib-fp": "yarn workspace @dsiu/rescript-stdlib-fp run test",
     "test-advent-of-code": "yarn workspace advent-of-code run test",
     "test-rescript-snippets": "yarn workspace rescript-snippets run test",
-    "test": "yarn test-advent-of-code && yarn test-rescript-snippets"
+    "test": "yarn test-rescript-stdlib-fp && yarn test-advent-of-code && yarn test-rescript-snippets"
   },
   "wireit": {
     "run-watch": {
@@ -28,11 +29,11 @@
   },
   "devDdependencies": {
     "jest": "^29.7.0",
-    "rescript": "^12.0.0-alpha.14"
+    "rescript": "^12.0.0-beta.2"
   },
   "dependencies": {
     "jest": "^29.7.0",
-    "rescript": "^12.0.0-alpha.14"
+    "rescript": "^12.0.0-beta.2"
   },
   "devDependencies": {
     "wireit": "^0.14.9"
