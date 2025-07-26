@@ -7,7 +7,7 @@
       "in-source": true
     }
   ],
-  "bs-dependencies": [
+  "dependencies": [
     "advent-of-code",
     "rescript-snippets"
   ],
