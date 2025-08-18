@@ -4,35 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="use yarn for CI">
-      <change afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/Exercises/CoinsDenomination.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-bag" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-bag/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bag/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-bastet" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bastet" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-extras" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-extras" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-extras/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-graphology" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-graphology/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-relude" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-relude-parse" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude-parse" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-seq" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-seq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-seq/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-seq/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Map.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Map.res.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Set.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Set.res.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="updated to rescript-v12.0.0-beta.6" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +32,7 @@
       <option value="directory" />
       <option value="repository" />
     </branch-grouping>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/projects/rescript-snippets" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -133,7 +105,7 @@
     "RunOnceActivity.workspace.git.set.grouping.by.repo": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Wallaby.js.Wallaby.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
@@ -322,14 +294,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737005758738</updated>
-    </task>
-    <task id="LOCAL-00071" summary="updated to rescript@v12.0.0-alpha.9">
-      <option name="closed" value="true" />
-      <created>1740802965963</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1740802965964</updated>
     </task>
     <task id="LOCAL-00072" summary="updated to rescript@v12.0.0-alpha.9">
       <option name="closed" value="true" />
@@ -715,7 +679,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754747890960</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="updated to rescript-v12.0.0-beta.6">
+      <option name="closed" value="true" />
+      <created>1755499785322</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1755499785323</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -738,7 +710,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Dijkstra now works with Tuple2 or any AdjacencyList that has non-primitive Node" />
     <MESSAGE value="unit tests for AdjacencyList and Dijkstra" />
     <MESSAGE value="Graph_Ext bfs and dfs now work with non-primitive types" />
     <MESSAGE value="remove unused type" />
@@ -763,7 +734,8 @@
     <MESSAGE value="updated to rescript-v12.0.0-beta.4" />
     <MESSAGE value="updated to rescript-v12.0.0-beta.5" />
     <MESSAGE value="use yarn for CI" />
-    <option name="LAST_COMMIT_MESSAGE" value="use yarn for CI" />
+    <MESSAGE value="updated to rescript-v12.0.0-beta.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated to rescript-v12.0.0-beta.6" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
