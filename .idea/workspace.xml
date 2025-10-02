@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="updated to rescript-v12.0.0-beta.11">
+    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="updated to rescript-v12.0.0-beta.12">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day3/AOC2022_Day3.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2022/Day3/AOC2022_Day3.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +126,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.22753906&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Users/dsiu/Library/Application Support/JetBrains/IntelliJIdea2025.2/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -277,8 +277,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-2ddf22d912e6-2c9e1dafc39c-intellij.indexing.shared.core-IU-253.17525.95" />
-        <option value="bundled-js-predefined-d6986cc7102b-bcbf228cf9b6-JavaScript-IU-253.17525.95" />
+        <option value="bundled-jdk-2ddf22d912e6-8fa31bd1d1c0-intellij.indexing.shared.core-IU-253.22441.33" />
+        <option value="bundled-js-predefined-d6986cc7102b-256f9dae541f-JavaScript-IU-253.22441.33" />
       </set>
     </attachedChunks>
   </component>
@@ -297,14 +297,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737005758738</updated>
-    </task>
-    <task id="LOCAL-00077" summary="Implement fixed key type for Map. key types supported are Array, Tuple2, and Tuple3.">
-      <option name="closed" value="true" />
-      <created>1741959414792</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1741959414792</updated>
     </task>
     <task id="LOCAL-00078" summary="Implement using values that are non-primitive for Set. value types supported are Array, Tuple2, and Tuple3.">
       <option name="closed" value="true" />
@@ -690,7 +682,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757770039176</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="updated to rescript-v12.0.0-beta.12">
+      <option name="closed" value="true" />
+      <created>1758373972425</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1758373972425</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -713,7 +713,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="updated to rescript-v12.0.0-alpha.9" />
     <MESSAGE value="use Option instead of raising exception in Priority Queue" />
     <MESSAGE value="mute warning of using raise() in rescript-v12.0.0-alpha.10. should remove once all raise() calls migrated to throw()" />
     <MESSAGE value="implemented AStar with AdjacencyList" />
@@ -738,7 +737,8 @@
     <MESSAGE value="updated to rescript-v12.0.0-beta.7" />
     <MESSAGE value="updated to rescript-v12.0.0-beta.10" />
     <MESSAGE value="updated to rescript-v12.0.0-beta.11" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated to rescript-v12.0.0-beta.11" />
+    <MESSAGE value="updated to rescript-v12.0.0-beta.12" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated to rescript-v12.0.0-beta.12" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
