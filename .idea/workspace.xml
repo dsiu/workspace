@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="updated to rescript-v12.0.0-beta.12">
+    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="updated to rescript-v12.0.0-beta.13">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,8 +276,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-2ddf22d912e6-8fa31bd1d1c0-intellij.indexing.shared.core-IU-253.22441.33" />
-        <option value="bundled-js-predefined-d6986cc7102b-256f9dae541f-JavaScript-IU-253.22441.33" />
+        <option value="bundled-jdk-30f59d01ecdd-17a627ab277f-intellij.indexing.shared.core-IU-253.24325.38" />
+        <option value="bundled-js-predefined-d6986cc7102b-256f9dae541f-JavaScript-IU-253.24325.38" />
       </set>
     </attachedChunks>
   </component>
@@ -297,14 +296,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737005758738</updated>
-    </task>
-    <task id="LOCAL-00078" summary="Implement using values that are non-primitive for Set. value types supported are Array, Tuple2, and Tuple3.">
-      <option name="closed" value="true" />
-      <created>1742119357362</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1742119357362</updated>
     </task>
     <task id="LOCAL-00079" summary="updated package">
       <option name="closed" value="true" />
@@ -690,7 +681,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758373972425</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="updated to rescript-v12.0.0-beta.13">
+      <option name="closed" value="true" />
+      <created>1759407657042</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1759407657042</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -713,7 +712,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="use Option instead of raising exception in Priority Queue" />
     <MESSAGE value="mute warning of using raise() in rescript-v12.0.0-alpha.10. should remove once all raise() calls migrated to throw()" />
     <MESSAGE value="implemented AStar with AdjacencyList" />
     <MESSAGE value="Added tests for AStar" />
@@ -738,11 +736,11 @@
     <MESSAGE value="updated to rescript-v12.0.0-beta.10" />
     <MESSAGE value="updated to rescript-v12.0.0-beta.11" />
     <MESSAGE value="updated to rescript-v12.0.0-beta.12" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated to rescript-v12.0.0-beta.12" />
+    <MESSAGE value="updated to rescript-v12.0.0-beta.13" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated to rescript-v12.0.0-beta.13" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
-    <settings-migrated>true</settings-migrated>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
