@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="updated to rescript-v12.0.0-beta.13">
+    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="updated to rescript-v12.0.0-beta.14">
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/go.imports.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/rescript-snippets/src/Map_CustomKey.res" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +28,10 @@
   <component name="EditorConfigPreviewManager">
     <editorConfig file="$PROJECT_DIR$/.editorconfig" previewFile="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res" />
   </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="8209" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -34,7 +45,7 @@
       <option value="directory" />
       <option value="repository" />
     </branch-grouping>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/projects/advent-of-code" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/projects/rescript-snippets" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -92,6 +103,7 @@
     &quot;Node.js.advent-of-code &gt; Graph_Ext_Test.res.mjs.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.advent-of-code &gt; Map_Ext.res.mjs.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.advent-of-code &gt; PriorityQueue_Play.res.mjs.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.rescript-snippets &gt; Map_CustomKey.res.mjs.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.rescript-snippets &gt; More_Type_Classes.res.mjs.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.rescript-snippets &gt; Relude_Parse_Example.res.mjs.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.rescript-snippets &gt; Relude_Play.res.mjs.executor&quot;: &quot;Run&quot;,
@@ -107,7 +119,7 @@
     &quot;RunOnceActivity.workspace.git.set.grouping.by.repo&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Wallaby.js.Wallaby.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;rescript-v12&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -156,7 +168,7 @@
       <command value="yarn run watch" />
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.advent-of-code &gt; Graph_Ext_Play_String.res.mjs">
+  <component name="RunManager" selected="Node.js.rescript-snippets &gt; Map_CustomKey.res.mjs">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -218,13 +230,13 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="advent-of-code &gt; AStar_Test.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/advent-of-code/__tests__/AStar_Test.res.mjs" working-dir="$PROJECT_DIR$/projects/advent-of-code/src">
-      <method v="2" />
-    </configuration>
     <configuration name="advent-of-code &gt; Graph_Ext_Play_String.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext_Play_String.res.mjs" working-dir="$PROJECT_DIR$/projects/advent-of-code/src">
       <method v="2" />
     </configuration>
     <configuration name="advent-of-code &gt; PriorityQueue_Play.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/advent-of-code/src/PriorityQueue_Play.res.mjs" working-dir="$PROJECT_DIR$/projects/advent-of-code/src">
+      <method v="2" />
+    </configuration>
+    <configuration name="rescript-snippets &gt; Map_CustomKey.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/rescript-snippets/src/Map_CustomKey.res.mjs" working-dir="$PROJECT_DIR$/projects/rescript-snippets/src">
       <method v="2" />
     </configuration>
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -256,7 +268,7 @@
       <item itemvalue="Jest.All Tests in rescript-relude" />
       <item itemvalue="Jest.All Tests in rescript-snippets" />
       <item itemvalue="Jest.All Tests in rescript-stdlib-fp" />
-      <item itemvalue="Node.js.advent-of-code &gt; AStar_Test.res.mjs" />
+      <item itemvalue="Node.js.rescript-snippets &gt; Map_CustomKey.res.mjs" />
       <item itemvalue="Node.js.advent-of-code &gt; Graph_Ext_Play_String.res.mjs" />
       <item itemvalue="Node.js.advent-of-code &gt; PriorityQueue_Play.res.mjs" />
       <item itemvalue="npm.build" />
@@ -265,19 +277,19 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.rescript-snippets &gt; Map_CustomKey.res.mjs" />
         <item itemvalue="Node.js.advent-of-code &gt; Graph_Ext_Play_String.res.mjs" />
         <item itemvalue="npm.watch" />
         <item itemvalue="npm.build" />
         <item itemvalue="Node.js.advent-of-code &gt; PriorityQueue_Play.res.mjs" />
-        <item itemvalue="Node.js.advent-of-code &gt; AStar_Test.res.mjs" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-17a627ab277f-intellij.indexing.shared.core-IU-253.24325.38" />
-        <option value="bundled-js-predefined-d6986cc7102b-256f9dae541f-JavaScript-IU-253.24325.38" />
+        <option value="bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.25908.13" />
+        <option value="bundled-js-predefined-d6986cc7102b-256f9dae541f-JavaScript-IU-253.25908.13" />
       </set>
     </attachedChunks>
   </component>
@@ -296,22 +308,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737005758738</updated>
-    </task>
-    <task id="LOCAL-00079" summary="updated package">
-      <option name="closed" value="true" />
-      <created>1742119377421</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1742119377421</updated>
-    </task>
-    <task id="LOCAL-00080" summary="implemented MakeWithPrimitives in Map_Ext and Set_Ext">
-      <option name="closed" value="true" />
-      <created>1742135164551</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1742135164551</updated>
     </task>
     <task id="LOCAL-00081" summary="Reimplemented AdjacencyList with Map_Ext and Set_Ext">
       <option name="closed" value="true" />
@@ -689,7 +685,23 @@
       <option name="project" value="LOCAL" />
       <updated>1759407657042</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="updated to rescript-v12.0.0-beta.14">
+      <option name="closed" value="true" />
+      <created>1759510846384</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1759510846384</updated>
+    </task>
+    <task id="LOCAL-00129" summary="updated to rescript-v12.0.0-beta.14">
+      <option name="closed" value="true" />
+      <created>1759510931826</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1759510931826</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -712,7 +724,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="mute warning of using raise() in rescript-v12.0.0-alpha.10. should remove once all raise() calls migrated to throw()" />
     <MESSAGE value="implemented AStar with AdjacencyList" />
     <MESSAGE value="Added tests for AStar" />
     <MESSAGE value="Added more tests for AStar.&#10;Added Array2D -&gt; AdjacencyList function" />
@@ -737,7 +748,8 @@
     <MESSAGE value="updated to rescript-v12.0.0-beta.11" />
     <MESSAGE value="updated to rescript-v12.0.0-beta.12" />
     <MESSAGE value="updated to rescript-v12.0.0-beta.13" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated to rescript-v12.0.0-beta.13" />
+    <MESSAGE value="updated to rescript-v12.0.0-beta.14" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated to rescript-v12.0.0-beta.14" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
