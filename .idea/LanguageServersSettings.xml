@@ -15,7 +15,7 @@
           <value>
             <LanguageServerDefinitionSettings>
               <option name="errorReportingKind" value="in_log" />
-              <option name="serverTrace" value="off" />
+              <option name="serverTrace" value="verbose" />
             </LanguageServerDefinitionSettings>
           </value>
         </entry>

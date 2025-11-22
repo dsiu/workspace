@@ -7,7 +7,7 @@
       "projects/**"
     ]
   },
-  "packageManager": "yarn@4.10.3",
+  "packageManager": "yarn@4.11.0",
   "scripts": {
     "clean": "rescript clean",
     "build": "rescript --dev",
@@ -29,11 +29,11 @@
   },
   "devDdependencies": {
     "jest": "^27.3.1",
-    "rescript": "^12.0.0-rc.3"
+    "rescript": "^12.0.0-rc.5"
   },
   "dependencies": {
     "jest": "^27.3.1",
-    "rescript": "^12.0.0-rc.3"
+    "rescript": "^12.0.0-rc.5"
   },
   "devDependencies": {
     "wireit": "^0.14.9"
