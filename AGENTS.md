@@ -26,3 +26,4 @@ This is a ReScript monorepo using Yarn v4 workspaces. Follow these guidelines wh
 - Graphology APIs often return `Nullable`; convert via `Nullable.toOption`
 - Respect Cursor/Copilot rules if present in `.cursor/` or `.github/copilot-instructions.md`
 - Never use npm; use Yarn workspace commands only
+- Use Conventional Commits for all commit messages
