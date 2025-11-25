@@ -10,7 +10,7 @@
   "packageManager": "yarn@4.11.0",
   "scripts": {
     "clean": "rescript clean",
-    "build": "rescript --dev",
+    "build": "rescript",
     "watch": "yarn run-watch --watch",
     "run-watch": "wireit",
     "test-rescript-stdlib-fp": "yarn workspace @dsiu/rescript-stdlib-fp run test",

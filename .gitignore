@@ -29,3 +29,6 @@ package-lock.json
 
 # wireit cache
 .wireit
+/.claude/settings.local.json
+!/.clj-kondo/*
+/.clj-kondo/.cache/v1/lock
