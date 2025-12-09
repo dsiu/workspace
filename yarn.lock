@@ -1320,11 +1320,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@changesets/apply-release-plan@npm:^7.0.13":
-  version: 7.0.13
-  resolution: "@changesets/apply-release-plan@npm:7.0.13"
+"@changesets/apply-release-plan@npm:^7.0.14":
+  version: 7.0.14
+  resolution: "@changesets/apply-release-plan@npm:7.0.14"
   dependencies:
-    "@changesets/config": "npm:^3.1.1"
+    "@changesets/config": "npm:^3.1.2"
     "@changesets/get-version-range-type": "npm:^0.4.0"
     "@changesets/git": "npm:^3.0.4"
     "@changesets/should-skip-package": "npm:^0.1.2"
@@ -1337,7 +1337,7 @@ __metadata:
     prettier: "npm:^2.7.1"
     resolve-from: "npm:^5.0.0"
     semver: "npm:^7.5.3"
-  checksum: 10c0/940f13bc09816f534f912559471af77c29eb31fcfa10a255bdc772573def9fb3ee24e3db710ac1ebbd70a90b03b667d63e535a13c580a150f3730c3798827a01
+  checksum: 10c0/097c7ebcec758966b6728696498d59cfac23271aba2a56824ee307be1eefb2d0c6974aef1be4841e20b3458546ffacfd108c1afbf3acc512d6c3a4e30fa28622
   languageName: node
   linkType: hard
 
@@ -1365,24 +1365,24 @@ __metadata:
   linkType: hard
 
 "@changesets/cli@npm:^2.27.11":
-  version: 2.29.7
-  resolution: "@changesets/cli@npm:2.29.7"
+  version: 2.29.8
+  resolution: "@changesets/cli@npm:2.29.8"
   dependencies:
-    "@changesets/apply-release-plan": "npm:^7.0.13"
+    "@changesets/apply-release-plan": "npm:^7.0.14"
     "@changesets/assemble-release-plan": "npm:^6.0.9"
     "@changesets/changelog-git": "npm:^0.2.1"
-    "@changesets/config": "npm:^3.1.1"
+    "@changesets/config": "npm:^3.1.2"
     "@changesets/errors": "npm:^0.2.0"
     "@changesets/get-dependents-graph": "npm:^2.1.3"
-    "@changesets/get-release-plan": "npm:^4.0.13"
+    "@changesets/get-release-plan": "npm:^4.0.14"
     "@changesets/git": "npm:^3.0.4"
     "@changesets/logger": "npm:^0.1.1"
     "@changesets/pre": "npm:^2.0.2"
-    "@changesets/read": "npm:^0.6.5"
+    "@changesets/read": "npm:^0.6.6"
     "@changesets/should-skip-package": "npm:^0.1.2"
     "@changesets/types": "npm:^6.1.0"
     "@changesets/write": "npm:^0.4.0"
-    "@inquirer/external-editor": "npm:^1.0.0"
+    "@inquirer/external-editor": "npm:^1.0.2"
     "@manypkg/get-packages": "npm:^1.1.3"
     ansi-colors: "npm:^4.1.3"
     ci-info: "npm:^3.7.0"
@@ -1398,13 +1398,13 @@ __metadata:
     term-size: "npm:^2.1.0"
   bin:
     changeset: bin.js
-  checksum: 10c0/a868fd39ace25993714f8b80ebb08529e0aba5446266e18edee9e5fd34d529ef6f8fcb7f53fc5831ab99c5721762fe06198aade304799792f1f79b9d37600d04
+  checksum: 10c0/85c32814698403f1634b649d96b8b32f04fa7f2065e455df672c0b39e9a2dc3a05538b82496536ac00aabf7810dfa68ff8049fa4f618e50ed00a29ceb302a7b5
   languageName: node
   linkType: hard
 
-"@changesets/config@npm:^3.1.1":
-  version: 3.1.1
-  resolution: "@changesets/config@npm:3.1.1"
+"@changesets/config@npm:^3.1.2":
+  version: 3.1.2
+  resolution: "@changesets/config@npm:3.1.2"
   dependencies:
     "@changesets/errors": "npm:^0.2.0"
     "@changesets/get-dependents-graph": "npm:^2.1.3"
@@ -1413,7 +1413,7 @@ __metadata:
     "@manypkg/get-packages": "npm:^1.1.3"
     fs-extra: "npm:^7.0.1"
     micromatch: "npm:^4.0.8"
-  checksum: 10c0/e6e529ca9525d1550cc2155a01a477c5b923e084985cb5cb15b6efc06da543c2faf623dd67d305688ffa8a8fc9d48f1ba74ad6653ce230183e40f10ffaa0c2dc
+  checksum: 10c0/76065383cd5b7595f95ad7dc4aacfa74dd4ebb2ef956c30ea97e6f09b87b2e73b870676e7b294290b6cf9b1777983526bc8d3bb58dedd37dfa8a5ddbb02ebe1a
   languageName: node
   linkType: hard
 
@@ -1438,17 +1438,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@changesets/get-release-plan@npm:^4.0.13":
-  version: 4.0.13
-  resolution: "@changesets/get-release-plan@npm:4.0.13"
+"@changesets/get-release-plan@npm:^4.0.14":
+  version: 4.0.14
+  resolution: "@changesets/get-release-plan@npm:4.0.14"
   dependencies:
     "@changesets/assemble-release-plan": "npm:^6.0.9"
-    "@changesets/config": "npm:^3.1.1"
+    "@changesets/config": "npm:^3.1.2"
     "@changesets/pre": "npm:^2.0.2"
-    "@changesets/read": "npm:^0.6.5"
+    "@changesets/read": "npm:^0.6.6"
     "@changesets/types": "npm:^6.1.0"
     "@manypkg/get-packages": "npm:^1.1.3"
-  checksum: 10c0/908fea784ced29764e02065da6d3d0f1e6590d1c8ac77504efe5879ef183de7a01b2da0be210caa28fc10159125da10540f4bcb6917d371988e50c5b984edd07
+  checksum: 10c0/24a15056955fc3967e023f058fa6c1e7550f3aad5c299264307a09b6d312868715684595bdb45a79c3f25fc809a70582be39861f3ae958d392b89a234f65b670
   languageName: node
   linkType: hard
 
@@ -1481,13 +1481,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@changesets/parse@npm:^0.4.1":
-  version: 0.4.1
-  resolution: "@changesets/parse@npm:0.4.1"
+"@changesets/parse@npm:^0.4.2":
+  version: 0.4.2
+  resolution: "@changesets/parse@npm:0.4.2"
   dependencies:
     "@changesets/types": "npm:^6.1.0"
-    js-yaml: "npm:^3.13.1"
-  checksum: 10c0/8caf73b48addb1add246f0287f0dcbd47ca0444b33f251b6208dad36de9c21d2654f0ae0527e5bf14b075be23144b59f48a36e2d87850fb7c004050f07461fdc
+    js-yaml: "npm:^4.1.1"
+  checksum: 10c0/fdc1c99e01257e194a5ff59213993158deae9f84a66f5444a636645ff2655f67b6031589bab796a8c3ed653220d3c55fd62a6af2504a7c54bb541ac573119c5d
   languageName: node
   linkType: hard
 
@@ -1503,18 +1503,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@changesets/read@npm:^0.6.5":
-  version: 0.6.5
-  resolution: "@changesets/read@npm:0.6.5"
+"@changesets/read@npm:^0.6.6":
+  version: 0.6.6
+  resolution: "@changesets/read@npm:0.6.6"
   dependencies:
     "@changesets/git": "npm:^3.0.4"
     "@changesets/logger": "npm:^0.1.1"
-    "@changesets/parse": "npm:^0.4.1"
+    "@changesets/parse": "npm:^0.4.2"
     "@changesets/types": "npm:^6.1.0"
     fs-extra: "npm:^7.0.1"
     p-filter: "npm:^2.1.0"
     picocolors: "npm:^1.1.0"
-  checksum: 10c0/0f32c7eb8fd58db09f02236f3f45290d995f93ea73fbbe889d4c0407975bf6b9f43389def0af93c86f18adc202f91bc2a79d05da2d7dde7c6f9fe916afc692af
+  checksum: 10c0/a0a503061764bb391e00a37df1251c90356cf46519663dd517e58bc170c290f591abc1cff44569c88c87083360a36e2d756afcf7537b8725f4decfd915f838d3
   languageName: node
   linkType: hard
 
@@ -1609,9 +1609,9 @@ __metadata:
     "@glennsl/rescript-jest": "github:dsiu/rescript-jest#rescript-v12"
     babel-jest: "npm:^27.3.1"
     jest: "npm:^27.3.1"
-    rescript: "npm:^12.0.0-rc.5"
+    rescript: "npm:^12.0.0"
   peerDependencies:
-    rescript: ^12.0.0-rc.5
+    rescript: ^12.0.0
   languageName: unknown
   linkType: soft
 
@@ -1632,7 +1632,7 @@ __metadata:
     graphology-svg: "npm:^0.1.3"
     graphology-traversal: "npm:^0.3.1"
     jest: "npm:^27.3.1"
-    rescript: "npm:^12.0.0-rc.5"
+    rescript: "npm:^12.0.0"
     rescript-nodejs: "npm:^16.1.0"
   languageName: unknown
   linkType: soft
@@ -1648,10 +1648,10 @@ __metadata:
     babel-jest: "npm:^27.3.1"
     jest: "npm:^27.3.1"
     onchange: "npm:^7.1.0"
-    rescript: "npm:^12.0.0-rc.5"
+    rescript: "npm:^12.0.0"
     tap-difflet: "npm:^0.7.2"
   peerDependencies:
-    rescript: ^12.0.0-rc.5
+    rescript: ^12.0.0
   languageName: unknown
   linkType: soft
 
@@ -1665,7 +1665,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inquirer/external-editor@npm:^1.0.0":
+"@inquirer/external-editor@npm:^1.0.2":
   version: 1.0.3
   resolution: "@inquirer/external-editor@npm:1.0.3"
   dependencies:
@@ -1945,7 +1945,7 @@ __metadata:
   resolution: "@jmagaram/rescript-extras@workspace:packages/rescript-extras"
   dependencies:
     nodemon: "npm:^3.1.9"
-    rescript: "npm:^12.0.0-rc.5"
+    rescript: "npm:^12.0.0"
     rescript-schema: "npm:^9.0.1"
   languageName: unknown
   linkType: soft
@@ -1955,7 +1955,7 @@ __metadata:
   resolution: "@jmagaram/rescript-seq@workspace:packages/rescript-seq"
   dependencies:
     nodemon: "npm:^3.1.9"
-    rescript: "npm:^12.0.0-rc.5"
+    rescript: "npm:^12.0.0"
   languageName: unknown
   linkType: soft
 
@@ -2092,44 +2092,44 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rescript/darwin-arm64@npm:12.0.0-rc.5":
-  version: 12.0.0-rc.5
-  resolution: "@rescript/darwin-arm64@npm:12.0.0-rc.5"
+"@rescript/darwin-arm64@npm:12.0.0":
+  version: 12.0.0
+  resolution: "@rescript/darwin-arm64@npm:12.0.0"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@rescript/darwin-x64@npm:12.0.0-rc.5":
-  version: 12.0.0-rc.5
-  resolution: "@rescript/darwin-x64@npm:12.0.0-rc.5"
+"@rescript/darwin-x64@npm:12.0.0":
+  version: 12.0.0
+  resolution: "@rescript/darwin-x64@npm:12.0.0"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@rescript/linux-arm64@npm:12.0.0-rc.5":
-  version: 12.0.0-rc.5
-  resolution: "@rescript/linux-arm64@npm:12.0.0-rc.5"
+"@rescript/linux-arm64@npm:12.0.0":
+  version: 12.0.0
+  resolution: "@rescript/linux-arm64@npm:12.0.0"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"@rescript/linux-x64@npm:12.0.0-rc.5":
-  version: 12.0.0-rc.5
-  resolution: "@rescript/linux-x64@npm:12.0.0-rc.5"
+"@rescript/linux-x64@npm:12.0.0":
+  version: 12.0.0
+  resolution: "@rescript/linux-x64@npm:12.0.0"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
-"@rescript/runtime@npm:12.0.0-rc.5":
-  version: 12.0.0-rc.5
-  resolution: "@rescript/runtime@npm:12.0.0-rc.5"
-  checksum: 10c0/aff1b5d1969094912cb8d2c0c1f968ba25cfe5c49d5180d82588dcae1ab0866dca35b3166d5f5e03c6138a5be564e10865136e871cb699495be72b51fc8f2b0f
+"@rescript/runtime@npm:12.0.0":
+  version: 12.0.0
+  resolution: "@rescript/runtime@npm:12.0.0"
+  checksum: 10c0/32121f3a78154cf9ab8ae4939819b9807d4a70552d7c2594872f838456c63026eddca4d6b562220fe5431d56afa96e0e276f09e5d9028b15b03f2570a52f1d30
   languageName: node
   linkType: hard
 
-"@rescript/win32-x64@npm:12.0.0-rc.5":
-  version: 12.0.0-rc.5
-  resolution: "@rescript/win32-x64@npm:12.0.0-rc.5"
+"@rescript/win32-x64@npm:12.0.0":
+  version: 12.0.0
+  resolution: "@rescript/win32-x64@npm:12.0.0"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -2260,11 +2260,11 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 24.10.1
-  resolution: "@types/node@npm:24.10.1"
+  version: 24.10.2
+  resolution: "@types/node@npm:24.10.2"
   dependencies:
     undici-types: "npm:~7.16.0"
-  checksum: 10c0/d6bca7a78f550fbb376f236f92b405d676003a8a09a1b411f55920ef34286ee3ee51f566203920e835478784df52662b5b2af89159d9d319352e9ea21801c002
+  checksum: 10c0/560c894e1a9bf7468718ceca8cd520361fd0d3fcc0b020c2f028fc722b28b5b56aecd16736a9b753d52a14837c066cf23480a8582ead59adc63a7e4333bc976c
   languageName: node
   linkType: hard
 
@@ -2408,7 +2408,7 @@ __metadata:
     jest: "npm:^27.3.1"
     ms: "npm:^2.1.3"
     nodemon: "npm:^3.1.9"
-    rescript: "npm:^12.0.0-rc.5"
+    rescript: "npm:^12.0.0"
     rescript-nodejs: "npm:^16.1.0"
     rescript-relude: "workspace:^"
     rescript-relude-parse: "workspace:^"
@@ -2809,12 +2809,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"baseline-browser-mapping@npm:^2.8.25":
-  version: 2.8.30
-  resolution: "baseline-browser-mapping@npm:2.8.30"
+"baseline-browser-mapping@npm:^2.9.0":
+  version: 2.9.5
+  resolution: "baseline-browser-mapping@npm:2.9.5"
   bin:
     baseline-browser-mapping: dist/cli.js
-  checksum: 10c0/724e2a71dc18af1555953278544d60d3677ad1413d19b4c68f0b1d16cb075186035125cad38d93c1ccc2df8dc8520e6d47452b76b265898ad7ac480630f12cae
+  checksum: 10c0/581bd4f578a1b5ccd48ad0155f760c412803f02e97259deec99150b87c95766266b607b09aefa65da96dc5b925165706d675f10413630e767391e26a4f7afcdf
   languageName: node
   linkType: hard
 
@@ -2920,36 +2920,36 @@ __metadata:
   linkType: hard
 
 "browserslist@npm:^4.24.0, browserslist@npm:^4.28.0":
-  version: 4.28.0
-  resolution: "browserslist@npm:4.28.0"
+  version: 4.28.1
+  resolution: "browserslist@npm:4.28.1"
   dependencies:
-    baseline-browser-mapping: "npm:^2.8.25"
-    caniuse-lite: "npm:^1.0.30001754"
-    electron-to-chromium: "npm:^1.5.249"
+    baseline-browser-mapping: "npm:^2.9.0"
+    caniuse-lite: "npm:^1.0.30001759"
+    electron-to-chromium: "npm:^1.5.263"
     node-releases: "npm:^2.0.27"
-    update-browserslist-db: "npm:^1.1.4"
+    update-browserslist-db: "npm:^1.2.0"
   bin:
     browserslist: cli.js
-  checksum: 10c0/4284fd568f7d40a496963083860d488cb2a89fb055b6affd316bebc59441fec938e090b3e62c0ee065eb0bc88cd1bc145f4300a16c75f3f565621c5823715ae1
+  checksum: 10c0/545a5fa9d7234e3777a7177ec1e9134bb2ba60a69e6b95683f6982b1473aad347c77c1264ccf2ac5dea609a9731fbfbda6b85782bdca70f80f86e28a402504bd
   languageName: node
   linkType: hard
 
 "bs-chai@github:dsiu/bs-chai#rescript-v12":
   version: 1.0.1
-  resolution: "bs-chai@https://github.com/dsiu/bs-chai.git#commit=7163ff798681fc67e9cfc2a0aa549dc8e412a5f6"
+  resolution: "bs-chai@https://github.com/dsiu/bs-chai.git#commit=8a1437666e3964aa8df3548e339b3da0f52cd885"
   dependencies:
     chai: "npm:^4.1.2"
     mocha: "npm:^6.2.0"
-  checksum: 10c0/90db802da4c82b2434df268fb37a0f5d51f0fb81ffc94a686d72d7bc15af46615964f9d3b8dbf73ecb85db37a09a63ed197f4acea6d1807fca6f58bf743681ec
+  checksum: 10c0/5d26664aeb78842293f6057dfe8add8a4cfad49a386a8b676dd405b4d3c55e058455004f2b82c03a085cfc9e8c36cde6275c0d0cb660a8f0fcb3c242e36d232b
   languageName: node
   linkType: hard
 
 "bs-jsverify@github:dsiu/bs-jsverify#rescript-v12":
   version: 0.10.0
-  resolution: "bs-jsverify@https://github.com/dsiu/bs-jsverify.git#commit=1a3278c5070265ad4cd966a26129e415b881eb90"
+  resolution: "bs-jsverify@https://github.com/dsiu/bs-jsverify.git#commit=9b6841ddd56aebff1d4bff11d100b57f7f5f41c7"
   dependencies:
     jsverify: "npm:^0.8.4"
-  checksum: 10c0/d04a871154a0e8b6a24811175a4a9554211c51e48fb494b2c4da4356200a1b3b5be0b37c4361c12c22459c053229222a83681f0e2224c00ec7571c1723283711
+  checksum: 10c0/c776c2eb6a8f0e2a4b6ff74d8669242cd348578a071c19ddcc7b95d41d46bc3a83d72fe3b3acca5156f92b26c99bc99e4d007d30dd6898779a0cb13e45edad48
   languageName: node
   linkType: hard
 
@@ -3073,10 +3073,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001754":
-  version: 1.0.30001756
-  resolution: "caniuse-lite@npm:1.0.30001756"
-  checksum: 10c0/863df07bd8d5139371ce7d4e582f03fef38141726282dcd532421bbd95ea298c7f953a8e1a9790db89ca1816bd8ce3cce638a66361b769dd1f2dc8d4c721d546
+"caniuse-lite@npm:^1.0.30001759":
+  version: 1.0.30001760
+  resolution: "caniuse-lite@npm:1.0.30001760"
+  checksum: 10c0/cee26dff5c5b15ba073ab230200e43c0d4e88dc3bac0afe0c9ab963df70aaa876c3e513dde42a027f317136bf6e274818d77b073708b74c5807dfad33c029d3c
   languageName: node
   linkType: hard
 
@@ -4232,10 +4232,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron-to-chromium@npm:^1.5.249":
-  version: 1.5.259
-  resolution: "electron-to-chromium@npm:1.5.259"
-  checksum: 10c0/a6600ff20d513e1acce29cd04af5fcb338295ebe5a13fa9802009464d9c269a4a092218c8ea8c9b85017a1efd75606fe0cdf5f36216979f7c8462af7df2f530d
+"electron-to-chromium@npm:^1.5.263":
+  version: 1.5.267
+  resolution: "electron-to-chromium@npm:1.5.267"
+  checksum: 10c0/0732bdb891b657f2e43266a3db8cf86fff6cecdcc8d693a92beff214e136cb5c2ee7dc5945ed75fa1db16e16bad0c38695527a020d15f39e79084e0b2e447621
   languageName: node
   linkType: hard
 
@@ -5480,11 +5480,11 @@ __metadata:
   linkType: hard
 
 "human-id@npm:^4.1.1":
-  version: 4.1.2
-  resolution: "human-id@npm:4.1.2"
+  version: 4.1.3
+  resolution: "human-id@npm:4.1.3"
   bin:
     human-id: dist/cli.js
-  checksum: 10c0/81eb30b5eed3156086ae5d4f5ebf9a7c11bddc80bf635dc52319818f7d4010976d7defad828b5ee1b3fa7dbf7cecdc39154237e72673fbe0447440f80a62276c
+  checksum: 10c0/c0e6aacfa71adff6e9783fc209493a7f8de92da041bea32deb3a9cd1244a4d2b89f32d5e90130e8e22da4e6fe15b61cf4e533f114927384de1418460c92b5a7a
   languageName: node
   linkType: hard
 
@@ -6666,6 +6666,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"js-yaml@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "js-yaml@npm:4.1.1"
+  dependencies:
+    argparse: "npm:^2.0.1"
+  bin:
+    js-yaml: bin/js-yaml.js
+  checksum: 10c0/561c7d7088c40a9bb53cc75becbfb1df6ae49b34b5e6e5a81744b14ae8667ec564ad2527709d1a6e7d5e5fa6d483aa0f373a50ad98d42fde368ec4a190d4fae7
+  languageName: node
+  linkType: hard
+
 "jsdom@npm:^16.6.0":
   version: 16.7.0
   resolution: "jsdom@npm:16.7.0"
@@ -6992,9 +7003,9 @@ __metadata:
   linkType: hard
 
 "lru-cache@npm:^11.0.0, lru-cache@npm:^11.1.0, lru-cache@npm:^11.2.1":
-  version: 11.2.2
-  resolution: "lru-cache@npm:11.2.2"
-  checksum: 10c0/72d7831bbebc85e2bdefe01047ee5584db69d641c48d7a509e86f66f6ee111b30af7ec3bd68a967d47b69a4b1fa8bbf3872630bd06a63b6735e6f0a5f1c8e83d
+  version: 11.2.4
+  resolution: "lru-cache@npm:11.2.4"
+  checksum: 10c0/4a24f9b17537619f9144d7b8e42cd5a225efdfd7076ebe7b5e7dc02b860a818455201e67fbf000765233fe7e339d3c8229fc815e9b58ee6ede511e07608c19b2
   languageName: node
   linkType: hard
 
@@ -7592,9 +7603,9 @@ __metadata:
   linkType: hard
 
 "nwsapi@npm:^2.2.0":
-  version: 2.2.22
-  resolution: "nwsapi@npm:2.2.22"
-  checksum: 10c0/b6a0e5ea6754aacfdfe551c8c0f1b374eaf94d48b0a4e7eac666f879ecbc1892ef1d7c457e9b02eefad3fa1323ea1faebcba533eeab6582e24c9c503411bf879
+  version: 2.2.23
+  resolution: "nwsapi@npm:2.2.23"
+  checksum: 10c0/e44bfc9246baf659581206ed716d291a1905185247795fb8a302cb09315c943a31023b4ac4d026a5eaf32b2def51d77b3d0f9ebf4f3d35f70e105fcb6447c76e
   languageName: node
   linkType: hard
 
@@ -8185,9 +8196,9 @@ __metadata:
   linkType: hard
 
 "proc-log@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "proc-log@npm:6.0.0"
-  checksum: 10c0/40c5e2b4c55e395a3bd72e38cba9c26e58598a1f4844fa6a115716d5231a0919f46aa8e351147035d91583ad39a794593615078c948bc001fe3beb99276be776
+  version: 6.1.0
+  resolution: "proc-log@npm:6.1.0"
+  checksum: 10c0/4f178d4062733ead9d71a9b1ab24ebcecdfe2250916a5b1555f04fe2eda972a0ec76fbaa8df1ad9c02707add6749219d118a4fc46dc56bdfe4dde4b47d80bb82
   languageName: node
   linkType: hard
 
@@ -8547,10 +8558,10 @@ __metadata:
 
 "rescript-bastet@github:dsiu/rescript-bastet#rescript-v12":
   version: 0.0.1
-  resolution: "rescript-bastet@https://github.com/dsiu/rescript-bastet.git#commit=3d48f82594481a1dc2012da1f6d0e2c9430d9c3d"
+  resolution: "rescript-bastet@https://github.com/dsiu/rescript-bastet.git#commit=bacee2ef39a697be44856445079f48e21278d68c"
   peerDependencies:
-    rescript: ^12.0.0-rc.3
-  checksum: 10c0/441169ea0258858f3ac39b8a37fa0d3ae6555ba7b02175dac5c6ddaeefad2b985f7257edb277921d37817cb12325ae5c3934e6132d1dd5ee96efa8b3b7bc01f1
+    rescript: ^12.0.0
+  checksum: 10c0/576673886bdf21596833804eb9c32f705c52ebc45757b62cf98f32af1a3d1a140f83c8836fdef21bf0d7c7be2af96627b1404f58e5041fbbabf3fb1c578ae47f
   languageName: node
   linkType: hard
 
@@ -8560,10 +8571,10 @@ __metadata:
   dependencies:
     bs-chai: "github:dsiu/bs-chai#rescript-v12"
     bs-jsverify: "github:dsiu/bs-jsverify#rescript-v12"
-    rescript: "npm:^12.0.0-rc.5"
+    rescript: "npm:^12.0.0"
     rescript-mocha: "github:dsiu/rescript-mocha#rescript-v12"
   peerDependencies:
-    rescript: ^12.0.0-rc.5
+    rescript: ^12.0.0
   languageName: unknown
   linkType: soft
 
@@ -8592,11 +8603,11 @@ __metadata:
     "@glennsl/rescript-jest": "github:dsiu/rescript-jest#rescript-v12"
     babel-jest: "npm:^27.3.1"
     jest: "npm:^27.3.1"
-    rescript: "npm:12.0.0-rc.5"
+    rescript: "npm:^12.0.0"
     rescript-bastet: "github:dsiu/rescript-bastet#rescript-v12"
     rescript-relude: "github:dsiu/rescript-relude#rescript-v12"
   peerDependencies:
-    rescript: 12.0.0-rc.5
+    rescript: ^12.0.0
     rescript-bastet: "*"
     rescript-relude: "*"
   languageName: unknown
@@ -8604,13 +8615,13 @@ __metadata:
 
 "rescript-relude@github:dsiu/rescript-relude#rescript-v12":
   version: 0.66.1
-  resolution: "rescript-relude@https://github.com/dsiu/rescript-relude.git#commit=0f7c38579948396c0cb896176c1d9364f1220698"
+  resolution: "rescript-relude@https://github.com/dsiu/rescript-relude.git#commit=173c98bbeb0a682898c4e0d08a4c29387e599380"
   dependencies:
     bisect_ppx: "npm:^2.7.1"
   peerDependencies:
-    rescript: ^12.0.0-rc.5
+    rescript: ^12.0.0
     rescript-bastet: "*"
-  checksum: 10c0/b442a7474fc8476e6e8578e2f14eb530159cb53da3fa1b332f0a6a2e4e77b3fc95f0e312ecc842c0078d1d53d27594b6a8de6b0a6629837d5a2da0c3b34d9761
+  checksum: 10c0/f6097a2e98d4ae230118a6387b28b5ca8b4b06a39d038e25959656beeb83990a8382f98598789795734b5c02e9932c2621b2f04d80a5c52badc3954cb6a6457c
   languageName: node
   linkType: hard
 
@@ -8625,23 +8636,23 @@ __metadata:
     bisect_ppx: "npm:^2.7.1"
     docsify-cli: "npm:~4.4.0"
     jest: "npm:^27.3.1"
-    rescript: "npm:^12.0.0-rc.5"
+    rescript: "npm:^12.0.0"
     rescript-bastet: "github:dsiu/rescript-bastet#rescript-v12"
   peerDependencies:
-    rescript: ^12.0.0-rc.5
+    rescript: ^12.0.0
     rescript-bastet: "*"
   languageName: unknown
   linkType: soft
 
 "rescript-schema@npm:^9.0.1":
-  version: 9.3.0
-  resolution: "rescript-schema@npm:9.3.0"
+  version: 9.3.4
+  resolution: "rescript-schema@npm:9.3.4"
   peerDependencies:
     rescript: 11.x
   peerDependenciesMeta:
     rescript:
       optional: true
-  checksum: 10c0/8fed7e8581b3318c9ee9fee2ed895af0a687d0d37296c470300982e28c89ed6d9f742657dca96afd4acf7b2e00e2720802ed60067a50dd6ea3478c17c5ede996
+  checksum: 10c0/f913251c79ada86b179222304b4ceeb4e5490aef127df6dfa7bf79d234f0a66f2446a96cc822160a6a626c25673318e618f4719afdd9e29a71cd04e59aabcbed
   languageName: node
   linkType: hard
 
@@ -8666,7 +8677,7 @@ __metadata:
     ms: "npm:^2.1.3"
     nodemon: "npm:^3.1.9"
     rationale: "npm:^0.2.0"
-    rescript: "npm:^12.0.0-rc.5"
+    rescript: "npm:^12.0.0"
     rescript-bastet: "workspace:^"
     rescript-nodejs: "npm:^16.1.0"
     rescript-relude: "workspace:^"
@@ -8689,16 +8700,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rescript@npm:12.0.0-rc.5, rescript@npm:^12.0.0-rc.5":
-  version: 12.0.0-rc.5
-  resolution: "rescript@npm:12.0.0-rc.5"
+"rescript@npm:^12.0.0":
+  version: 12.0.0
+  resolution: "rescript@npm:12.0.0"
   dependencies:
-    "@rescript/darwin-arm64": "npm:12.0.0-rc.5"
-    "@rescript/darwin-x64": "npm:12.0.0-rc.5"
-    "@rescript/linux-arm64": "npm:12.0.0-rc.5"
-    "@rescript/linux-x64": "npm:12.0.0-rc.5"
-    "@rescript/runtime": "npm:12.0.0-rc.5"
-    "@rescript/win32-x64": "npm:12.0.0-rc.5"
+    "@rescript/darwin-arm64": "npm:12.0.0"
+    "@rescript/darwin-x64": "npm:12.0.0"
+    "@rescript/linux-arm64": "npm:12.0.0"
+    "@rescript/linux-x64": "npm:12.0.0"
+    "@rescript/runtime": "npm:12.0.0"
+    "@rescript/win32-x64": "npm:12.0.0"
   dependenciesMeta:
     "@rescript/darwin-arm64":
       optional: true
@@ -8716,7 +8727,7 @@ __metadata:
     rescript: cli/rescript.js
     rescript-legacy: cli/rescript-legacy.js
     rescript-tools: cli/rescript-tools.js
-  checksum: 10c0/39cb496077f3f3504ae2b18837fcc38ea4d5de1e351fe6e0d915728403ea229391ab2a82ea72c29e8632eb1790ac60833ccce564c03f4c0293b8c00b14749e58
+  checksum: 10c0/8fc92a806d86825fe593cc2c23accc39c95236b4885f9c6d9874fc1b375dd6dd07f8a99ef4c8bbbb273a6f44d47439b5cb4a62577a57ab9ecb0c7ad15021846c
   languageName: node
   linkType: hard
 
@@ -10012,9 +10023,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"update-browserslist-db@npm:^1.1.4":
-  version: 1.1.4
-  resolution: "update-browserslist-db@npm:1.1.4"
+"update-browserslist-db@npm:^1.2.0":
+  version: 1.2.2
+  resolution: "update-browserslist-db@npm:1.2.2"
   dependencies:
     escalade: "npm:^3.2.0"
     picocolors: "npm:^1.1.1"
@@ -10022,7 +10033,7 @@ __metadata:
     browserslist: ">= 4.21.0"
   bin:
     update-browserslist-db: cli.js
-  checksum: 10c0/db0c9aaecf1258a6acda5e937fc27a7996ccca7a7580a1b4aa8bba6a9b0e283e5e65c49ebbd74ec29288ef083f1b88d4da13e3d4d326c1e5fc55bf72d7390702
+  checksum: 10c0/39c3ea08b397ffc8dc3a1c517f5c6ed5cc4179b5e185383dab9bf745879623c12062a2e6bf4f9427cc59389c7bfa0010e86858b923c1e349e32fdddd9b043bb2
   languageName: node
   linkType: hard
 
@@ -10374,7 +10385,7 @@ __metadata:
   resolution: "workspace@workspace:."
   dependencies:
     jest: "npm:^27.3.1"
-    rescript: "npm:^12.0.0-rc.5"
+    rescript: "npm:^12.0.0"
     wireit: "npm:^0.14.9"
   languageName: unknown
   linkType: soft
