@@ -11,7 +11,7 @@
   "scripts": {
     "clean": "rescript clean",
     "build": "rescript",
-    "watch": "yarn run-watch --watch",
+    "watch": "rescript watch",
     "run-watch": "wireit",
     "test-rescript-stdlib-fp": "yarn workspace @dsiu/rescript-stdlib-fp run test",
     "test-advent-of-code": "yarn workspace advent-of-code run test",
