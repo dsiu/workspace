@@ -29,11 +29,11 @@
   },
   "devDdependencies": {
     "jest": "^27.3.1",
-    "rescript": "^12.0.0"
+    "rescript": "^12.0.1"
   },
   "dependencies": {
     "jest": "^27.3.1",
-    "rescript": "^12.0.0"
+    "rescript": "^12.0.1"
   },
   "devDependencies": {
     "wireit": "^0.14.9"

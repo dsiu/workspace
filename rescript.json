@@ -11,9 +11,5 @@
     "advent-of-code",
     "rescript-snippets"
   ],
-  "pinned-dependencies": [
-    "advent-of-code",
-    "rescript-snippets"
-  ],
   "suffix": ".res.mjs"
 }
