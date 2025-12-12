@@ -4,24 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="refactor: improve edge path handling and update edge IDs in graph files">
+    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="updated to rescript-v12.0.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AGENTS.md" beforeDir="false" afterPath="$PROJECT_DIR$/AGENTS.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/rescript-bag" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bag" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/rescript-bag/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bag/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/rescript-bastet" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bastet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-extras" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-extras" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-extras/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/rescript-graphology" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-graphology" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-graphology/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/rescript-relude" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/rescript-relude-parse" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude-parse" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-relude/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-relude-parse/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude-parse/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-seq" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-seq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-seq/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-seq/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/rescript.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/rescript.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/rescript-snippets" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/rescript.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/rescript.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rescript.json" beforeDir="false" afterPath="$PROJECT_DIR$/rescript.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +45,7 @@
     <editorConfig file="$PROJECT_DIR$/.editorconfig" previewFile="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="8617" />
+    <option name="cachedIndexableFilesCount" value="8783" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -55,7 +61,7 @@
       <option value="directory" />
       <option value="repository" />
     </branch-grouping>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/packages/rescript-relude" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/packages/rescript-stdlib-fp" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -150,7 +156,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.22753906",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "ml.llm.LLMTrustedDomainsConfigurableProvider",
+    "settings.editor.selected.configurable": "inlay.hints",
     "ts.external.directory.path": "/Users/dsiu/Library/Application Support/JetBrains/IntelliJIdea2025.2/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   },
@@ -306,14 +312,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737005758738</updated>
-    </task>
-    <task id="LOCAL-00087" summary="Dijkstra is working!">
-      <option name="closed" value="true" />
-      <created>1742667201573</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1742667201573</updated>
     </task>
     <task id="LOCAL-00088" summary="project files update">
       <option name="closed" value="true" />
@@ -699,7 +697,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764047040249</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="updated to rescript-v12.0.0">
+      <option name="closed" value="true" />
+      <created>1765262623008</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1765262623008</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -722,7 +728,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="fixed BigInt logical ops (introduced in rescript-v12.0.0-alpha.11)" />
     <MESSAGE value="Graph_Ext no longer depends on AdjacencyList" />
     <MESSAGE value="project file update" />
     <MESSAGE value="2024 Day 10 - Part 1 DONE" />
@@ -747,7 +752,8 @@
     <MESSAGE value="updated to rescript@v12.0.0-rc.3.&#10;swc/core is broken so use babel-jest instead" />
     <MESSAGE value="updated to rescript@v12.0.0-rc.5" />
     <MESSAGE value="refactor: improve edge path handling and update edge IDs in graph files" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: improve edge path handling and update edge IDs in graph files" />
+    <MESSAGE value="updated to rescript-v12.0.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated to rescript-v12.0.0" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
