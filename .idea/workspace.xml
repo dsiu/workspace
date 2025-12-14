@@ -4,20 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="chore: update to rescript v12.0.1 and use official rescript-jest package&#10;This commit includes:&#10;- Upgrading ReScript from v12.0.0 to v12.0.1&#10;- Switching from the GitHub fork to the official npm package for @glennsl/rescript-jest (v0.13.1)&#10;- Removing the pinned-dependencies field from rescript.json">
+    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="refactor: clean up unused code and improve module imports">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/Node.js.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/Node.js.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-bastet" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bastet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-relude" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/rescript-relude-parse" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude-parse" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Bool.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Bool.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Bool.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Bool.res.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Option_Ext.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Option_Ext.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Result.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Result.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Result.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Result.res.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Result_Ext.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Result_Ext.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Result_Ext.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Stdlib__Result_Ext.res.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Tablecloth/TableclothBool.res" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Tablecloth/TableclothBool.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Tablecloth/TableclothBool.resi" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/src/Tablecloth/TableclothBool.resi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/.github/workflows/node.js.yml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/.github/workflows/node.js.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/.github/workflows/Node.js.yml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/.github/workflows/Node.js.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/.github/workflows/Node.js.yml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/.github/workflows/Node.js.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +37,7 @@
     <editorConfig file="$PROJECT_DIR$/.editorconfig" previewFile="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="8821" />
+    <option name="cachedIndexableFilesCount" value="8909" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -55,7 +53,7 @@
       <option value="directory" />
       <option value="repository" />
     </branch-grouping>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/packages/rescript-stdlib-fp" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -73,6 +71,10 @@
 }</component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -121,6 +123,7 @@
     "Node.js.rescript-snippets > Relude_Play.res.mjs.executor": "Run",
     "Node.js.rescript-snippets > Relude_Play2.res.mjs.executor": "Run",
     "Node.js.rescript-stdlib-fp > Stdlib__Map_Ext.res.mjs.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -132,7 +135,7 @@
     "RunOnceActivity.workspace.git.set.grouping.by.repo": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Wallaby.js.Wallaby.executor": "Run",
-    "git-widget-placeholder": "rescript-v12",
+    "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
@@ -150,7 +153,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.22753906",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "inlay.hints",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "ts.external.directory.path": "/Users/dsiu/Library/Application Support/JetBrains/IntelliJIdea2025.2/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   },
@@ -286,8 +289,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.28294.334" />
-        <option value="bundled-js-predefined-d6986cc7102b-c7e53b3be11b-JavaScript-IU-253.28294.334" />
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.50" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.50" />
       </set>
     </attachedChunks>
   </component>
@@ -306,14 +309,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737005758738</updated>
-    </task>
-    <task id="LOCAL-00089" summary="Dijkstra now works with Tuple2 or any AdjacencyList that has non-primitive Node">
-      <option name="closed" value="true" />
-      <created>1742710483401</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1742710483401</updated>
     </task>
     <task id="LOCAL-00090" summary="project file update">
       <option name="closed" value="true" />
@@ -699,7 +694,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765535678961</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="refactor: clean up unused code and improve module imports">
+      <option name="closed" value="true" />
+      <created>1765541037833</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1765541037833</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -722,7 +725,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="project file update" />
     <MESSAGE value="2024 Day 10 - Part 1 DONE" />
     <MESSAGE value="updated to rescript-v12.0.0-alpha.12" />
     <MESSAGE value="updated to rescript-v12.0.0-alpha.13" />
@@ -747,7 +749,8 @@
     <MESSAGE value="refactor: improve edge path handling and update edge IDs in graph files" />
     <MESSAGE value="updated to rescript-v12.0.0" />
     <MESSAGE value="chore: update to rescript v12.0.1 and use official rescript-jest package&#10;This commit includes:&#10;- Upgrading ReScript from v12.0.0 to v12.0.1&#10;- Switching from the GitHub fork to the official npm package for @glennsl/rescript-jest (v0.13.1)&#10;- Removing the pinned-dependencies field from rescript.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: update to rescript v12.0.1 and use official rescript-jest package&#10;This commit includes:&#10;- Upgrading ReScript from v12.0.0 to v12.0.1&#10;- Switching from the GitHub fork to the official npm package for @glennsl/rescript-jest (v0.13.1)&#10;- Removing the pinned-dependencies field from rescript.json" />
+    <MESSAGE value="refactor: clean up unused code and improve module imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: clean up unused code and improve module imports" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
