@@ -1,31 +1,19 @@
 {
   "name": "workspace",
   "private": true,
-  "workspaces": {
-    "packages": [
-      "packages/**",
-      "projects/**"
-    ]
-  },
+  "workspaces": [
+    "packages/**",
+    "projects/**"
+  ],
   "packageManager": "yarn@4.12.0",
   "scripts": {
     "clean": "rescript clean",
     "build": "rescript",
     "watch": "rescript watch",
-    "run-watch": "wireit",
     "test-rescript-stdlib-fp": "yarn workspace @dsiu/rescript-stdlib-fp run test",
     "test-advent-of-code": "yarn workspace advent-of-code run test",
     "test-rescript-snippets": "yarn workspace rescript-snippets run test",
     "test": "yarn test-rescript-stdlib-fp && yarn test-advent-of-code && yarn test-rescript-snippets"
-  },
-  "wireit": {
-    "run-watch": {
-      "command": "NINJA_ANSI_FORCED=1 rescript build",
-      "files": [
-        "**/{src,__tests__}/**/*.res",
-        "!**/node_modules/**"
-      ]
-    }
   },
   "devDdependencies": {
     "jest": "^27.3.1",
@@ -34,8 +22,5 @@
   "dependencies": {
     "jest": "^27.3.1",
     "rescript": "^12.0.1"
-  },
-  "devDependencies": {
-    "wireit": "^0.14.9"
   }
 }
