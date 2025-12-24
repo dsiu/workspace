@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="updated .gitignore">
+    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="chore: update workspace.xml for AOC 2025 and clean up task entries">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-graphology" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/src/Demo.res.mjs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +29,7 @@
     <editorConfig file="$PROJECT_DIR$/.editorconfig" previewFile="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="9032" />
+    <option name="cachedIndexableFilesCount" value="9080" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -48,7 +45,7 @@
       <option value="directory" />
       <option value="repository" />
     </branch-grouping>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/projects/advent-of-code" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -81,89 +78,89 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Jest.All Tests in advent-of-code.executor&quot;: &quot;Run&quot;,
-    &quot;Jest.All Tests in rescript-relude-parse.executor&quot;: &quot;Run&quot;,
-    &quot;Jest.All Tests in rescript-relude.executor&quot;: &quot;Run&quot;,
-    &quot;Jest.All Tests in rescript-snippets.executor&quot;: &quot;Run&quot;,
-    &quot;Jest.All Tests in rescript-stdlib-fp.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Node.js.AOC2024_Day10_Run.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.AOC2024_Day9_Run.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.AOC2025_Day1_Run.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.Dijkstra.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.Dijkstre_Test.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.Dijkstre_Test_Tuple2.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.advent-of-code &gt; AOC2021_Day12_Run.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.advent-of-code &gt; AOC2024_Day10_Run.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.advent-of-code &gt; AOC2024_Day9_Run.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.advent-of-code &gt; AOC2025_Day1_Run.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.advent-of-code &gt; AStar_Test.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.advent-of-code &gt; AdjacencyList.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.advent-of-code &gt; AdjacencyList2.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.advent-of-code &gt; Dijkstra.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.advent-of-code &gt; Dijkstre_Test.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.advent-of-code &gt; Dijkstre_Test_Tuple2.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.advent-of-code &gt; Graph_Ext.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.advent-of-code &gt; Graph_Ext_GraphologyImpl.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.advent-of-code &gt; Graph_Ext_Play_String.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.advent-of-code &gt; Graph_Ext_Play_Tuple2.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.advent-of-code &gt; Graph_Ext_Test.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.advent-of-code &gt; Map_Ext.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.advent-of-code &gt; PriorityQueue_Play.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.rescript-graphology &gt; Demo.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.rescript-graphology &gt; Demo_AStar.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.rescript-snippets &gt; Map_CustomKey.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.rescript-snippets &gt; More_Type_Classes.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.rescript-snippets &gt; Relude_Parse_Example.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.rescript-snippets &gt; Relude_Play.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.rescript-snippets &gt; Relude_Play2.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.rescript-stdlib-fp &gt; Stdlib__Map_Ext.res.mjs.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.Workspaces.CheckRemotesActivity&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.restore.workspace.module&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.workspace.git.set.grouping.by.repo&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Wallaby.js.Wallaby.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/dsiu/code/playground/workspace/projects/advent-of-code/src/2025/Day1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.jest.jest_package&quot;: &quot;/Users/dsiu/code/playground/workspace/node_modules/jest&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;/Users/dsiu/.nvm/versions/node/v22.16.0/bin/node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;npm.build.executor&quot;: &quot;Run&quot;,
-    &quot;npm.run.executor&quot;: &quot;Run&quot;,
-    &quot;npm.watch.executor&quot;: &quot;Run&quot;,
-    &quot;nx.console.mcp.server.install.notification.hide&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.22753906&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.completions.CompletionsConfigurable&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/dsiu/Library/Application Support/JetBrains/IntelliJIdea2025.2/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Jest.All Tests in advent-of-code.executor": "Run",
+    "Jest.All Tests in rescript-relude-parse.executor": "Run",
+    "Jest.All Tests in rescript-relude.executor": "Run",
+    "Jest.All Tests in rescript-snippets.executor": "Run",
+    "Jest.All Tests in rescript-stdlib-fp.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.AOC2024_Day10_Run.res.mjs.executor": "Run",
+    "Node.js.AOC2024_Day9_Run.res.mjs.executor": "Run",
+    "Node.js.AOC2025_Day1_Run.res.mjs.executor": "Run",
+    "Node.js.Dijkstra.res.mjs.executor": "Run",
+    "Node.js.Dijkstre_Test.res.mjs.executor": "Run",
+    "Node.js.Dijkstre_Test_Tuple2.res.mjs.executor": "Run",
+    "Node.js.advent-of-code > AOC2021_Day12_Run.res.mjs.executor": "Run",
+    "Node.js.advent-of-code > AOC2024_Day10_Run.res.mjs.executor": "Run",
+    "Node.js.advent-of-code > AOC2024_Day9_Run.res.mjs.executor": "Run",
+    "Node.js.advent-of-code > AOC2025_Day1_Run.res.mjs.executor": "Run",
+    "Node.js.advent-of-code > AStar_Test.res.mjs.executor": "Run",
+    "Node.js.advent-of-code > AdjacencyList.res.mjs.executor": "Run",
+    "Node.js.advent-of-code > AdjacencyList2.res.mjs.executor": "Run",
+    "Node.js.advent-of-code > Dijkstra.res.mjs.executor": "Run",
+    "Node.js.advent-of-code > Dijkstre_Test.res.mjs.executor": "Run",
+    "Node.js.advent-of-code > Dijkstre_Test_Tuple2.res.mjs.executor": "Run",
+    "Node.js.advent-of-code > Graph_Ext.res.mjs.executor": "Run",
+    "Node.js.advent-of-code > Graph_Ext_GraphologyImpl.res.mjs.executor": "Run",
+    "Node.js.advent-of-code > Graph_Ext_Play_String.res.mjs.executor": "Run",
+    "Node.js.advent-of-code > Graph_Ext_Play_Tuple2.res.mjs.executor": "Run",
+    "Node.js.advent-of-code > Graph_Ext_Test.res.mjs.executor": "Run",
+    "Node.js.advent-of-code > Map_Ext.res.mjs.executor": "Run",
+    "Node.js.advent-of-code > PriorityQueue_Play.res.mjs.executor": "Run",
+    "Node.js.rescript-graphology > Demo.res.mjs.executor": "Run",
+    "Node.js.rescript-graphology > Demo_AStar.res.mjs.executor": "Run",
+    "Node.js.rescript-snippets > Map_CustomKey.res.mjs.executor": "Run",
+    "Node.js.rescript-snippets > More_Type_Classes.res.mjs.executor": "Run",
+    "Node.js.rescript-snippets > Relude_Parse_Example.res.mjs.executor": "Run",
+    "Node.js.rescript-snippets > Relude_Play.res.mjs.executor": "Run",
+    "Node.js.rescript-snippets > Relude_Play2.res.mjs.executor": "Run",
+    "Node.js.rescript-stdlib-fp > Stdlib__Map_Ext.res.mjs.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.Workspaces.CheckRemotesActivity": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.restore.workspace.module": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "RunOnceActivity.workspace.git.set.grouping.by.repo": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Wallaby.js.Wallaby.executor": "Run",
+    "git-widget-placeholder": "rescript-v12",
+    "go.import.settings.migrated": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/dsiu/code/playground/workspace/projects/advent-of-code/src/2025/Day1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "/Users/dsiu/code/playground/workspace/node_modules/jest",
+    "nodejs_interpreter_path": "/Users/dsiu/.nvm/versions/node/v22.16.0/bin/node",
+    "nodejs_package_manager_path": "yarn",
+    "npm.build.executor": "Run",
+    "npm.run.executor": "Run",
+    "npm.watch.executor": "Run",
+    "nx.console.mcp.server.install.notification.hide": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.22753906",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.completions.CompletionsConfigurable",
+    "ts.external.directory.path": "/Users/dsiu/Library/Application Support/JetBrains/IntelliJIdea2025.2/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JavaScript&quot;,
-      &quot;Shell Script&quot;,
-      &quot;Rescript&quot;,
-      &quot;TEXT&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JavaScript",
+      "Shell Script",
+      "Rescript",
+      "TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/projects/advent-of-code/src/2025/Day1" />
@@ -326,30 +323,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737005758738</updated>
-    </task>
-    <task id="LOCAL-00097" summary="mute warning of using raise() in rescript-v12.0.0-alpha.10. should remove once all raise() calls migrated to throw()">
-      <option name="closed" value="true" />
-      <created>1743223497412</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1743223497412</updated>
-    </task>
-    <task id="LOCAL-00098" summary="implemented AStar with AdjacencyList">
-      <option name="closed" value="true" />
-      <created>1743223533550</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1743223533550</updated>
-    </task>
-    <task id="LOCAL-00099" summary="Added tests for AStar">
-      <option name="closed" value="true" />
-      <created>1743232076570</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1743232076570</updated>
     </task>
     <task id="LOCAL-00100" summary="Added more tests for AStar.&#10;Added Array2D -&gt; AdjacencyList function">
       <option name="closed" value="true" />
@@ -719,7 +692,31 @@
       <option name="project" value="LOCAL" />
       <updated>1766575899180</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="no longer needs wireit">
+      <option name="closed" value="true" />
+      <created>1766576018581</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1766576018581</updated>
+    </task>
+    <task id="LOCAL-00147" summary="updated rescript-graphology">
+      <option name="closed" value="true" />
+      <created>1766576229261</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1766576229261</updated>
+    </task>
+    <task id="LOCAL-00148" summary="chore: update workspace.xml for AOC 2025 and clean up task entries">
+      <option name="closed" value="true" />
+      <created>1766576293266</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1766576293266</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -746,9 +743,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="updated to rescript-v12.0.0-beta.5" />
-    <MESSAGE value="use yarn for CI" />
-    <MESSAGE value="updated to rescript-v12.0.0-beta.6" />
     <MESSAGE value="update" />
     <MESSAGE value="updated to rescript-v12.0.0-beta.7" />
     <MESSAGE value="updated to rescript-v12.0.0-beta.10" />
@@ -771,7 +765,10 @@
     <MESSAGE value="AOC 2025 Day 1 done" />
     <MESSAGE value="AOC 2025 compiled files" />
     <MESSAGE value="updated .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated .gitignore" />
+    <MESSAGE value="no longer needs wireit" />
+    <MESSAGE value="updated rescript-graphology" />
+    <MESSAGE value="chore: update workspace.xml for AOC 2025 and clean up task entries" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: update workspace.xml for AOC 2025 and clean up task entries" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
