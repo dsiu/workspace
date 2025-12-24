@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="chore: update rescript-graphology hash">
+    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="updated .gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-graphology" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/src/Demo.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +32,7 @@
     <editorConfig file="$PROJECT_DIR$/.editorconfig" previewFile="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="8997" />
+    <option name="cachedIndexableFilesCount" value="9032" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -86,12 +91,14 @@
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Node.js.AOC2024_Day10_Run.res.mjs.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.AOC2024_Day9_Run.res.mjs.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.AOC2025_Day1_Run.res.mjs.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.Dijkstra.res.mjs.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.Dijkstre_Test.res.mjs.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.Dijkstre_Test_Tuple2.res.mjs.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.advent-of-code &gt; AOC2021_Day12_Run.res.mjs.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.advent-of-code &gt; AOC2024_Day10_Run.res.mjs.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.advent-of-code &gt; AOC2024_Day9_Run.res.mjs.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.advent-of-code &gt; AOC2025_Day1_Run.res.mjs.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.advent-of-code &gt; AStar_Test.res.mjs.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.advent-of-code &gt; AdjacencyList.res.mjs.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.advent-of-code &gt; AdjacencyList2.res.mjs.executor&quot;: &quot;Run&quot;,
@@ -129,7 +136,7 @@
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/dsiu/code/playground/workspace/projects/advent-of-code/src/AdjacencyList.res&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dsiu/code/playground/workspace/projects/advent-of-code/src/2025/Day1&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -138,12 +145,13 @@
     &quot;nodejs_interpreter_path&quot;: &quot;/Users/dsiu/.nvm/versions/node/v22.16.0/bin/node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
     &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.run.executor&quot;: &quot;Run&quot;,
     &quot;npm.watch.executor&quot;: &quot;Run&quot;,
     &quot;nx.console.mcp.server.install.notification.hide&quot;: &quot;true&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.22753906&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.completions.CompletionsConfigurable&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Users/dsiu/Library/Application Support/JetBrains/IntelliJIdea2025.2/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -158,6 +166,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/projects/advent-of-code/src/2025/Day1" />
+      <recent name="$PROJECT_DIR$/projects/advent-of-code/src/2025/DayX" />
       <recent name="$PROJECT_DIR$/projects/advent-of-code/src/2024/Day10" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -174,7 +184,7 @@
       <command value="yarn run watch" />
     </option>
   </component>
-  <component name="RunManager" selected="Jest.All Tests in advent-of-code">
+  <component name="RunManager" selected="npm.watch">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -236,7 +246,10 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="advent-of-code &gt; Graph_Ext_GraphologyImpl.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext_GraphologyImpl.res.mjs" working-dir="$PROJECT_DIR$/projects/advent-of-code/src">
+    <configuration name="AOC2025_Day1_Run.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="AOC2025_Day1_Run.res.mjs" working-dir="$PROJECT_DIR$/projects/advent-of-code/src/2025/Day1">
+      <EXTENSION ID="com.intellij.javascript.debugger.execution.StartBrowserRunConfigurationExtension">
+        <browser with-js-debugger="true" />
+      </EXTENSION>
       <method v="2" />
     </configuration>
     <configuration name="advent-of-code &gt; Graph_Ext_Play_String.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/advent-of-code/src/Graph_Ext_Play_String.res.mjs" working-dir="$PROJECT_DIR$/projects/advent-of-code/src">
@@ -251,6 +264,19 @@
     <configuration name="rescript-snippets &gt; Map_CustomKey.res.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/projects/rescript-snippets/src/Map_CustomKey.res.mjs" working-dir="$PROJECT_DIR$/projects/rescript-snippets/src">
       <method v="2" />
     </configuration>
+    <configuration name="watch" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <EXTENSION ID="com.intellij.javascript.debugger.execution.StartBrowserRunConfigurationExtension">
+        <browser with-js-debugger="true" />
+      </EXTENSION>
+      <method v="2" />
+    </configuration>
     <configuration name="Wallaby" type="wallaby" factoryName="wallaby" configType="Automatic" configFolder="$PROJECT_DIR$/projects/advent-of-code" wsl="No" SmartStart="Yes">
       <method v="2" />
     </configuration>
@@ -260,11 +286,12 @@
       <item itemvalue="Jest.All Tests in rescript-relude" />
       <item itemvalue="Jest.All Tests in rescript-snippets" />
       <item itemvalue="Jest.All Tests in rescript-stdlib-fp" />
-      <item itemvalue="Node.js.advent-of-code &gt; Graph_Ext_GraphologyImpl.res.mjs" />
-      <item itemvalue="Node.js.rescript-graphology &gt; Demo.res.mjs" />
-      <item itemvalue="Node.js.rescript-graphology &gt; Demo_AStar.res.mjs" />
+      <item itemvalue="Node.js.AOC2025_Day1_Run.res.mjs" />
       <item itemvalue="Node.js.advent-of-code &gt; Graph_Ext_Play_String.res.mjs" />
+      <item itemvalue="Node.js.rescript-graphology &gt; Demo_AStar.res.mjs" />
+      <item itemvalue="Node.js.rescript-graphology &gt; Demo.res.mjs" />
       <item itemvalue="Node.js.rescript-snippets &gt; Map_CustomKey.res.mjs" />
+      <item itemvalue="npm.watch" />
     </list>
     <recent_temporary>
       <list>
@@ -272,15 +299,15 @@
         <item itemvalue="Node.js.rescript-graphology &gt; Demo.res.mjs" />
         <item itemvalue="Node.js.rescript-graphology &gt; Demo_AStar.res.mjs" />
         <item itemvalue="Node.js.advent-of-code &gt; Graph_Ext_Play_String.res.mjs" />
-        <item itemvalue="Node.js.advent-of-code &gt; Graph_Ext_GraphologyImpl.res.mjs" />
+        <item itemvalue="Node.js.AOC2025_Day1_Run.res.mjs" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.50" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.50" />
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.138" />
       </set>
     </attachedChunks>
   </component>
@@ -299,46 +326,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737005758738</updated>
-    </task>
-    <task id="LOCAL-00092" summary="Graph_Ext bfs and dfs now work with non-primitive types">
-      <option name="closed" value="true" />
-      <created>1742725293410</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1742725293410</updated>
-    </task>
-    <task id="LOCAL-00093" summary="remove unused type">
-      <option name="closed" value="true" />
-      <created>1742725900870</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1742725900870</updated>
-    </task>
-    <task id="LOCAL-00094" summary="remove unused type">
-      <option name="closed" value="true" />
-      <created>1742725975461</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1742725975461</updated>
-    </task>
-    <task id="LOCAL-00095" summary="updated to rescript-v12.0.0-alpha.9">
-      <option name="closed" value="true" />
-      <created>1742922484600</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1742922484600</updated>
-    </task>
-    <task id="LOCAL-00096" summary="use Option instead of raising exception in Priority Queue">
-      <option name="closed" value="true" />
-      <created>1743223425088</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1743223425088</updated>
     </task>
     <task id="LOCAL-00097" summary="mute warning of using raise() in rescript-v12.0.0-alpha.10. should remove once all raise() calls migrated to throw()">
       <option name="closed" value="true" />
@@ -692,7 +679,47 @@
       <option name="project" value="LOCAL" />
       <updated>1765723412885</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="chore: update workspace.xml to reflect recent changes and clean up task entries">
+      <option name="closed" value="true" />
+      <created>1765725097620</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1765725097620</updated>
+    </task>
+    <task id="LOCAL-00142" summary="AOC 2025 start">
+      <option name="closed" value="true" />
+      <created>1766575557380</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1766575557380</updated>
+    </task>
+    <task id="LOCAL-00143" summary="AOC 2025 Day 1 done">
+      <option name="closed" value="true" />
+      <created>1766575571273</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1766575571273</updated>
+    </task>
+    <task id="LOCAL-00144" summary="AOC 2025 compiled files">
+      <option name="closed" value="true" />
+      <created>1766575885671</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1766575885671</updated>
+    </task>
+    <task id="LOCAL-00145" summary="updated .gitignore">
+      <option name="closed" value="true" />
+      <created>1766575899180</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1766575899180</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -719,11 +746,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="updated to rescript-v12.0.0-alpha.13" />
-    <MESSAGE value="updated to rescript-v12.0.0-alpha.14" />
-    <MESSAGE value="updated to rescript-v12.0.0-beta.2" />
-    <MESSAGE value="updated to rescript-v12.0.0-beta.3" />
-    <MESSAGE value="updated to rescript-v12.0.0-beta.4" />
     <MESSAGE value="updated to rescript-v12.0.0-beta.5" />
     <MESSAGE value="use yarn for CI" />
     <MESSAGE value="updated to rescript-v12.0.0-beta.6" />
@@ -744,7 +766,12 @@
     <MESSAGE value="refactor: clean up unused code and improve module imports" />
     <MESSAGE value="chore: update Node.js workflow to support Node.js 24.x and upgrade action versions" />
     <MESSAGE value="chore: update rescript-graphology hash" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: update rescript-graphology hash" />
+    <MESSAGE value="chore: update workspace.xml to reflect recent changes and clean up task entries" />
+    <MESSAGE value="AOC 2025 start" />
+    <MESSAGE value="AOC 2025 Day 1 done" />
+    <MESSAGE value="AOC 2025 compiled files" />
+    <MESSAGE value="updated .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated .gitignore" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
