@@ -4,40 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="chore: update rescript and rescript-jest dependencies to latest versions">
-      <change afterPath="$PROJECT_DIR$/bunfig.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2025/Day2/AOC2025_Day2.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2025/Day2/AOC2025_Day2_Data.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2025/Day2/AOC2025_Day2_Data_Sample.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2025/Day2/AOC2025_Day2_Run.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2025/Day2/AOC2025_Day2_Test.res" afterDir="false" />
+    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="WIP: implement solution for AOC 2025 Day 2 with parsing and validation logic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-bag" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-bag/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bag/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AGENTS.md" beforeDir="false" afterPath="$PROJECT_DIR$/AGENTS.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/rescript-bastet" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bastet" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-bastet/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bastet/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-extras" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-extras" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-extras/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-extras/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-bastet/AGENTS.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bastet/AGENTS.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/rescript-graphology" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-graphology" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-graphology/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/src/Demo.res.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/AGENTS.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-graphology/AGENTS.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/rescript-relude" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-relude-parse" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude-parse" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-seq" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-seq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-seq/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-seq/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-stdlib-fp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-stdlib-fp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-relude/AGENTS.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude/AGENTS.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/CLAUDE.md" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/CLAUDE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/__tests__/AdjacencyList_Test.res.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/__tests__/Interval_Test.res.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Utils.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/Utils.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/Utils.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/Utils.res.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/rescript-snippets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/rescript-snippets/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/AGENTS.md" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/AGENTS.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +36,7 @@
     <editorConfig file="$PROJECT_DIR$/.editorconfig" previewFile="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="9110" />
+    <option name="cachedIndexableFilesCount" value="9169" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -352,30 +329,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737005758738</updated>
-    </task>
-    <task id="LOCAL-00101" summary="updated to rescript-v12.0.0-alpha.11">
-      <option name="closed" value="true" />
-      <created>1743595676485</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1743595676485</updated>
-    </task>
-    <task id="LOCAL-00102" summary="AStar doesn't need to depend on AdjacencyList.">
-      <option name="closed" value="true" />
-      <created>1743595812302</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1743595812302</updated>
-    </task>
-    <task id="LOCAL-00103" summary="updated to rescript-v12.0.0-alpha.11">
-      <option name="closed" value="true" />
-      <created>1744116408702</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1744116408703</updated>
     </task>
     <task id="LOCAL-00104" summary="updated to rescript-v12.0.0-alpha.11">
       <option name="closed" value="true" />
@@ -745,7 +698,31 @@
       <option name="project" value="LOCAL" />
       <updated>1766576790000</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="chore: update rescript and rescript-jest dependencies to latest versions">
+      <option name="closed" value="true" />
+      <created>1768039602610</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1768039602610</updated>
+    </task>
+    <task id="LOCAL-00151" summary="docs: enhance project documentation with ReScript guidelines and structure">
+      <option name="closed" value="true" />
+      <created>1768039663837</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1768039663837</updated>
+    </task>
+    <task id="LOCAL-00152" summary="WIP: implement solution for AOC 2025 Day 2 with parsing and validation logic">
+      <option name="closed" value="true" />
+      <created>1768039694936</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1768039694936</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -772,9 +749,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="updated to rescript-v12.0.0-beta.10" />
-    <MESSAGE value="updated to rescript-v12.0.0-beta.11" />
-    <MESSAGE value="updated to rescript-v12.0.0-beta.12" />
     <MESSAGE value="updated to rescript-v12.0.0-beta.13" />
     <MESSAGE value="updated to rescript-v12.0.0-beta.14" />
     <MESSAGE value="updated to rescript-v12.0.0-rc.2" />
@@ -797,7 +771,10 @@
     <MESSAGE value="chore: update workspace.xml for AOC 2025 and clean up task entries" />
     <MESSAGE value="chore: update .gitignore and workspace.xml for AOC 2025" />
     <MESSAGE value="chore: update rescript and rescript-jest dependencies to latest versions" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: update rescript and rescript-jest dependencies to latest versions" />
+    <MESSAGE value="test: add comprehensive tests for AdjacencyList and Interval modules" />
+    <MESSAGE value="docs: enhance project documentation with ReScript guidelines and structure" />
+    <MESSAGE value="WIP: implement solution for AOC 2025 Day 2 with parsing and validation logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="WIP: implement solution for AOC 2025 Day 2 with parsing and validation logic" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
