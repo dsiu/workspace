@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="docs: enhance AGENTS.md with updated ReScript guidelines and best practices">
+    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="docs: update AGENTS.md with ReScript LSP integration guidelines">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AGENTS.md" beforeDir="false" afterPath="$PROJECT_DIR$/AGENTS.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/rescript-bastet" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bastet" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-bastet/AGENTS.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bastet/AGENTS.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/rescript-graphology" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-graphology" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/yarn.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/rescript-relude" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-relude/AGENTS.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude/AGENTS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/AGENTS.md" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/AGENTS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-relude-parse" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude-parse" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -329,14 +324,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737005758738</updated>
-    </task>
-    <task id="LOCAL-00105" summary="fixed BigInt logical ops (introduced in rescript-v12.0.0-alpha.11)">
-      <option name="closed" value="true" />
-      <created>1744116617763</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1744116617763</updated>
     </task>
     <task id="LOCAL-00106" summary="Graph_Ext no longer depends on AdjacencyList">
       <option name="closed" value="true" />
@@ -722,7 +709,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768206154564</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="docs: update AGENTS.md with ReScript LSP integration guidelines">
+      <option name="closed" value="true" />
+      <created>1768393688280</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1768393688280</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -749,7 +744,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="updated to rescript-v12.0.0-beta.14" />
     <MESSAGE value="updated to rescript-v12.0.0-rc.2" />
     <MESSAGE value="complete Map_Ext and Set_Ext implementation that covers all ReScript-v12 Stdlib Map and Set along with unit tests" />
     <MESSAGE value="updated to rescript@v12.0.0-rc.3.&#10;swc/core is broken so use babel-jest instead" />
@@ -774,7 +768,8 @@
     <MESSAGE value="docs: enhance project documentation with ReScript guidelines and structure" />
     <MESSAGE value="WIP: implement solution for AOC 2025 Day 2 with parsing and validation logic" />
     <MESSAGE value="docs: enhance AGENTS.md with updated ReScript guidelines and best practices" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs: enhance AGENTS.md with updated ReScript guidelines and best practices" />
+    <MESSAGE value="docs: update AGENTS.md with ReScript LSP integration guidelines" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: update AGENTS.md with ReScript LSP integration guidelines" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
