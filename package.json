@@ -15,7 +15,7 @@
     "test-rescript-snippets": "yarn workspace rescript-snippets run test",
     "test": "yarn test-rescript-stdlib-fp && yarn test-advent-of-code && yarn test-rescript-snippets"
   },
-  "devDdependencies": {
+  "devDependencies": {
     "jest": "^27.3.1",
     "rescript": "^12.1.0"
   },
