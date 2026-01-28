@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="chore: update rescript dependencies to version 12.1.0">
+    <list default="true" id="87533dc2-08b5-4d01-8709-57a997968b86" name="Changes" comment="chore: update package.json and yarn.lock for dependency adjustments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-bastet" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-bastet" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rescript-relude" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-relude" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rescript-graphology" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rescript-graphology/src/Demo.res.mjs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/advent-of-code" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2025/Day2/AOC2025_Day2.res" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2025/Day2/AOC2025_Day2.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/advent-of-code/src/2025/Day2/AOC2025_Day2.res.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/projects/advent-of-code/src/2025/Day2/AOC2025_Day2.res.mjs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +38,7 @@
     <editorConfig file="$PROJECT_DIR$/.editorconfig" previewFile="$PROJECT_DIR$/projects/advent-of-code/src/AdjacencyList.res" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="9272" />
+    <option name="cachedIndexableFilesCount" value="9330" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -160,7 +158,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.22753906&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Users/dsiu/Library/Application Support/JetBrains/IntelliJIdea2025.2/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -333,14 +331,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737005758738</updated>
-    </task>
-    <task id="LOCAL-00107" summary="project file update">
-      <option name="closed" value="true" />
-      <created>1744117003104</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1744117003104</updated>
     </task>
     <task id="LOCAL-00108" summary="update">
       <option name="closed" value="true" />
@@ -726,7 +716,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768394901443</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="chore: update package.json and yarn.lock for dependency adjustments">
+      <option name="closed" value="true" />
+      <created>1769059522986</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1769059522987</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -753,7 +751,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="complete Map_Ext and Set_Ext implementation that covers all ReScript-v12 Stdlib Map and Set along with unit tests" />
     <MESSAGE value="updated to rescript@v12.0.0-rc.3.&#10;swc/core is broken so use babel-jest instead" />
     <MESSAGE value="updated to rescript@v12.0.0-rc.5" />
     <MESSAGE value="refactor: improve edge path handling and update edge IDs in graph files" />
@@ -778,7 +775,8 @@
     <MESSAGE value="docs: enhance AGENTS.md with updated ReScript guidelines and best practices" />
     <MESSAGE value="docs: update AGENTS.md with ReScript LSP integration guidelines" />
     <MESSAGE value="chore: update rescript dependencies to version 12.1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: update rescript dependencies to version 12.1.0" />
+    <MESSAGE value="chore: update package.json and yarn.lock for dependency adjustments" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: update package.json and yarn.lock for dependency adjustments" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
