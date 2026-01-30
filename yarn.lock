@@ -1645,6 +1645,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@dsiu/rescript-mocha@npm:^0.11.0":
+  version: 0.11.0
+  resolution: "@dsiu/rescript-mocha@npm:0.11.0"
+  dependencies:
+    mocha: "npm:^10.4.0"
+  checksum: 10c0/3ef653abdcc2db7c000013b509349954da8c118e7ef3d22dfdfea4fb63ea220432b7ab44323c54905a596f48aedc8bf8c2f241d567919a4556d599307744bafc
+  languageName: node
+  linkType: hard
+
 "@dsiu/rescript-stdlib-fp@workspace:^, @dsiu/rescript-stdlib-fp@workspace:packages/rescript-stdlib-fp":
   version: 0.0.0-use.local
   resolution: "@dsiu/rescript-stdlib-fp@workspace:packages/rescript-stdlib-fp"
@@ -2267,11 +2276,11 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 25.0.10
-  resolution: "@types/node@npm:25.0.10"
+  version: 25.1.0
+  resolution: "@types/node@npm:25.1.0"
   dependencies:
     undici-types: "npm:~7.16.0"
-  checksum: 10c0/9edc3c812b487c32c76eebac7c87acae1f69515a0bc3f6b545806d513eb9e918c3217bf751dc93da39f60e06bf1b0caa92258ef3a6dd6457124b2e761e54f61f
+  checksum: 10c0/5f393a127dc9565e2e152514a271455d580c7095afc51302e73ffe8aac3526b64ebacc3c10dd40c93cef81a95436ef2c6a8b522930df567a3f6b189c0eef649a
   languageName: node
   linkType: hard
 
@@ -2822,11 +2831,11 @@ __metadata:
   linkType: hard
 
 "baseline-browser-mapping@npm:^2.9.0":
-  version: 2.9.18
-  resolution: "baseline-browser-mapping@npm:2.9.18"
+  version: 2.9.19
+  resolution: "baseline-browser-mapping@npm:2.9.19"
   bin:
     baseline-browser-mapping: dist/cli.js
-  checksum: 10c0/869bdbb2784f8b1bc49b52d54ea48bf9ea6da8309195e3a0b3f4625197b8187a9b557b1d02f1b6b6dd51f163840a87db259e2b791eed35f0c5fddf3110c4cf28
+  checksum: 10c0/569928db78bcd081953d7db79e4243a59a579a34b4ae1806b9b42d3b7f84e5bc40e6e82ae4fa06e7bef8291bf747b33b3f9ef5d3c6e1e420cb129d9295536129
   languageName: node
   linkType: hard
 
@@ -2939,20 +2948,20 @@ __metadata:
 
 "bs-chai@github:dsiu/bs-chai#rescript-v12":
   version: 1.0.1
-  resolution: "bs-chai@https://github.com/dsiu/bs-chai.git#commit=4a746c7e1e095d8e6fd9d5c3f94d9e2f4d1a60a9"
+  resolution: "bs-chai@https://github.com/dsiu/bs-chai.git#commit=572b0a1ad0de22f7b8520be2e1090cf1c293d2a8"
   dependencies:
     chai: "npm:^4.1.2"
     mocha: "npm:^6.2.0"
-  checksum: 10c0/c1538c135d53d229ef00edbcbe186804c6a6b9c5523b56455a13b9a7cedbfee7109e6a713f858b5028c28273e4ca29d5d4b2b2eb9282f723f826903dbf3d86e0
+  checksum: 10c0/0209805a49cb5f4220c6910395958b00dd3ef2f22ed288db177f5b21cc2f6861ce14a724c65c81396d997eb309edceaf8da2d7c4716a2fad2fb919221e39224f
   languageName: node
   linkType: hard
 
 "bs-jsverify@github:dsiu/bs-jsverify#rescript-v12":
   version: 0.10.0
-  resolution: "bs-jsverify@https://github.com/dsiu/bs-jsverify.git#commit=2940acd86cd9c91ad7745291d0635ca58f97de3a"
+  resolution: "bs-jsverify@https://github.com/dsiu/bs-jsverify.git#commit=9eb602349d4fce3bf64b72bcde7ac4f4ac5287de"
   dependencies:
     jsverify: "npm:^0.8.4"
-  checksum: 10c0/3678de61166dd0e69a48f4f2887e0c9ab987809de24a1661c0728d6e435014d76bb600e6c5b6702e6a1241b135261d380ed33ce9e3f201d95db4115b3db0c148
+  checksum: 10c0/38480683d68acc2045cd42d93ac859d1217f87ce91034e4ff67d252649cb24de9f51c65ee8eb69b3ad21c6ff1642fb8915431968eaf55a485778738ca91733aa
   languageName: node
   linkType: hard
 
@@ -4286,9 +4295,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.263":
-  version: 1.5.279
-  resolution: "electron-to-chromium@npm:1.5.279"
-  checksum: 10c0/3b7df7ca35c25a1e97c82c43a0be5523e83c8ffe627156ba9f5a816f64daa2b18b192afbf17fd541169b0b716c0f9e0b90535b97022662cbc700fb5b3e8de9b5
+  version: 1.5.283
+  resolution: "electron-to-chromium@npm:1.5.283"
+  checksum: 10c0/2ff8670d94ec49d2b12ae5d8ffb0208dde498d8a112ebb8016aac90171c7ee0860c7d8f78269afd3a3b7cba6dece3c49dd350cd240cc0f9a73a804699746798e
   languageName: node
   linkType: hard
 
@@ -8748,10 +8757,10 @@ __metadata:
 
 "rescript-bastet@github:dsiu/rescript-bastet#rescript-v12":
   version: 0.0.1
-  resolution: "rescript-bastet@https://github.com/dsiu/rescript-bastet.git#commit=8d3b91776b8899dec751895116f7badd3765b824"
+  resolution: "rescript-bastet@https://github.com/dsiu/rescript-bastet.git#commit=a1e2cd62c24a15dcb2302f74413f6eaa5e5637d1"
   peerDependencies:
     rescript: ^12.2.0-rc.1
-  checksum: 10c0/b280f34db66e411abae776f3a8977bf5faf82cbfb0970364fa6a3ae544b67127cb3519d9d4a784e2af6c1b164afdc7bc88f1f07f8a6695b56854a3c857c94afa
+  checksum: 10c0/67edb84e0656c32f59cbb514ec9a37c77150b8880e598a712ccb497c4e99fa292f7befc43432ad41a276276100cea73299533b2b3d148e30046c16ece4ace95f
   languageName: node
   linkType: hard
 
@@ -8759,26 +8768,17 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "rescript-bastet@workspace:packages/rescript-bastet"
   dependencies:
+    "@dsiu/rescript-mocha": "npm:^0.11.0"
     bs-chai: "github:dsiu/bs-chai#rescript-v12"
     bs-jsverify: "github:dsiu/bs-jsverify#rescript-v12"
     c8: "npm:^10.1.3"
     c8-as-nyc: "npm:^1.1.11"
     nyc: "npm:^17.1.0"
     rescript: "npm:^12.2.0-rc.1"
-    rescript-mocha: "github:dsiu/rescript-mocha#rescript-v12"
   peerDependencies:
     rescript: ^12.2.0-rc.1
   languageName: unknown
   linkType: soft
-
-"rescript-mocha@github:dsiu/rescript-mocha#rescript-v12":
-  version: 0.10.0
-  resolution: "rescript-mocha@https://github.com/dsiu/rescript-mocha.git#commit=54e89f65534a62d7697cdc754c242afeed4aeb06"
-  dependencies:
-    mocha: "npm:^10.4.0"
-  checksum: 10c0/b8d507d1a234a77ebc6700a7c1d739b571e3ea0e2eeac9f509a110fd37f49d822d75e6a6accb22b9f655738cd1c5faaa6ac6c75342758a2047746e795e3c006b
-  languageName: node
-  linkType: hard
 
 "rescript-nodejs@npm:^16.1.0":
   version: 16.1.0
