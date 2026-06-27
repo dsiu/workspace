@@ -31,6 +31,6 @@ jobs:
     - run: cd packages/rescript-bastet && yarn install && yarn build
     - run: cd packages/rescript-graphology && yarn install && yarn build
     - run: yarn build
-    - run: yarn workspace @jmagaram/rescript-extras run res:build
-    - run: yarn workspace @jmagaram/rescript-seq run res:build
+    - run: yarn workspace @jmagaram/rescript-extras run res:clean && yarn workspace @jmagaram/rescript-extras run res:build
+    - run: yarn workspace @jmagaram/rescript-seq run res:clean && yarn workspace @jmagaram/rescript-seq run res:build
     - run: yarn test
