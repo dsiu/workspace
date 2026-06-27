@@ -5,7 +5,7 @@
 [submodule "packages/rescript-graphology"]
 	path = packages/rescript-graphology
 	url = https://github.com/dsiu/rescript-graphology
-	branch = rescript-v12
+	branch = main
 [submodule "projects/advent-of-code"]
 	path = projects/advent-of-code
 	url = https://github.com/dsiu/advent-of-code

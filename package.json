@@ -10,10 +10,17 @@
     "clean": "rescript clean",
     "build": "rescript",
     "watch": "rescript watch",
+    "test-rescript-bag": "yarn workspace @dsiu/rescript-bag run test",
+    "test-rescript-bastet": "cd packages/rescript-bastet && yarn test",
+    "test-rescript-extras": "yarn workspace @jmagaram/rescript-extras run test",
+    "test-rescript-seq": "yarn workspace @jmagaram/rescript-seq run test",
+    "test-rescript-graphology": "cd packages/rescript-graphology && yarn test",
+    "test-rescript-relude": "cd packages/rescript-relude && yarn test",
+    "test-rescript-relude-parse": "cd packages/rescript-relude-parse && yarn test",
     "test-rescript-stdlib-fp": "yarn workspace @dsiu/rescript-stdlib-fp run test",
     "test-advent-of-code": "yarn workspace advent-of-code run test",
     "test-rescript-snippets": "yarn workspace rescript-snippets run test",
-    "test": "yarn test-rescript-stdlib-fp && yarn test-advent-of-code && yarn test-rescript-snippets"
+    "test": "yarn test-rescript-bag && yarn test-rescript-bastet && yarn test-rescript-extras && yarn test-rescript-seq && yarn test-rescript-graphology && yarn test-rescript-relude && yarn test-rescript-relude-parse && yarn test-rescript-stdlib-fp && yarn test-advent-of-code && yarn test-rescript-snippets"
   },
   "devDependencies": {
     "jest": "^27.3.1",
